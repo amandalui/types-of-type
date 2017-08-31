@@ -185,6 +185,22 @@ nav .item {
   max-width: 700px;
   margin: 0 auto; }
 
+.header-section-title {
+  position: absolute;
+  margin: 20px 0 0 -4%;
+  left: 0;
+  font-weight: 700;
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+
 .header-section-number {
   font-size: 20px;
   font-weight: 600;

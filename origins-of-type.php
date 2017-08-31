@@ -13,11 +13,13 @@
   <!-- HEADER -->
   <div class="header-wrap clear">
       <div class="header-container">
+        <div class="header-section-title caps">
+          The Basics
+        </div>
         <div class="header-content">
           <span class="header-section-number">1&ndash;1</span>
           <h1>Origins of Type</h1>
           <p class="header-section-desc">A history of lines to letters: The Hangul alphabet (Korean alphabet) and the Latin alphabet (English alphabet).</p>
-          </div>
         </div>
       </div>
   </div>
