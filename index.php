@@ -22,7 +22,7 @@
         <p>See typography in a new light by comparing Korean and English.</p>
     </div>
     <br />
-    <p><a class="button caps" href="/origin-of-type.php">Let's get to it</a></p>
+    <p><a class="button caps" href="/origins-of-type.php">Let's get to it</a></p>
     <br />
     <div class="spacer"></div>
     <p class="caps caption"><img src="images/index/a-to-z.png"><br />No Korean language knowledge needed.</p>
