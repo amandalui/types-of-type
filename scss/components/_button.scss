@@ -1,0 +1,12 @@
+.button {
+  font-weight: 700;
+  background: $dark;
+  color: $light;
+  padding: 10px 20px;
+  @extend %rounded;
+
+  &:hover {
+    @extend %transition;
+    background: $gray;
+  }
+}

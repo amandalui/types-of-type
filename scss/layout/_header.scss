@@ -1,0 +1,38 @@
+.header-wrap {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+}
+
+.header-container {
+  position: relative;
+  z-index: 2;
+  background: $light;
+  width: 80%;
+  padding: 50px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.7);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.7);
+}
+
+.header-content {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.header-section-title {
+  
+}
+
+.header-section-number {
+  @include text(20px, $weight: 600);
+  border-bottom: 3px solid $dark;
+}
+
+.header-section-desc {
+  font-family: $serif;
+  font-size: $medium-type;
+}

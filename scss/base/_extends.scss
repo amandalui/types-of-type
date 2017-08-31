@@ -1,0 +1,16 @@
+// Transition
+
+%transition {
+    transition: 0.2s linear;
+    -moz-transition: 0.2s linear;    /* FF3.7+ */
+    -o-transition: 0.2s linear;      /* Opera 10.5 */
+    -webkit-transition: 0.2s linear; /* Saf3.2+, Chrome */
+}
+
+%rounded {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+}

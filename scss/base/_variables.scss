@@ -1,0 +1,40 @@
+// Typefaces
+
+$sansserif      : 'Work Sans', Verdana, sans-serif;
+$serif          : 'Bitter', Georgia, serif;
+$krsansserif    : 'Noto Sans', AppleGothic, Dotum, sans-serif;
+$krserif        : 'Nanum Myeongjo', AppleMyungjo, Batang;
+
+// Type Sizes (Non headers)
+
+$medium-type     : 23px;
+
+// Colors
+
+$gray       : #777;
+$dark       : #333;
+$darker     : #111;
+
+$light      : #fff;
+
+$lightpink  : #fcdfeb;
+
+$yellow     : #ffce00;
+$darkyellow : #ffad00;
+
+$lightblue  : #93d6de;
+$blue       : #45c0c9;
+$darkblue   : #047272;
+
+$green      : #45c274;
+$darkgreen  : #0a6024;
+
+// Media Query Breakpoints
+
+$medium   : '(max-width: 768px)';
+$mid      : '(max-width: 1200px)';
+
+
+// Images
+
+$img-path   : '../images';
