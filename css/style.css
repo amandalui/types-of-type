@@ -148,6 +148,8 @@ nav a:link {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px; }
+nav a:visited {
+  color: #fff; }
 nav .item {
   flex-grow: 1; }
 

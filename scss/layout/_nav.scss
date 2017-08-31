@@ -19,8 +19,12 @@ nav {
     letter-spacing: 2px;
   }
 
-    & .item {
-      flex-grow: 1;
-    }
+  & a:visited {
+    color: #fff;
+  }
+
+  & .item {
+    flex-grow: 1;
+  }
     
 }
