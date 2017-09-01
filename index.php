@@ -24,9 +24,17 @@
     <br />
     <p><a class="button caps" href="/origins-of-type.php">Let's get to it</a></p>
     <br />
-    <div class="spacer"></div>
+    <div class="spacer--small"></div>
     <p class="caps caption"><img src="images/index/a-to-z.png"><br />No Korean language knowledge needed.</p>
   </div>
+    
+  <div class="spacer--medium"></div>
+    
+  <!-- CONTENTS / MENU -->
+  <?php include('includes/menu.php'); ?>
+
+    
+  <div class="spacer--medium clear"></div>
     
   <!-- FOOTER -->
   <?php include('includes/footer.php'); ?>

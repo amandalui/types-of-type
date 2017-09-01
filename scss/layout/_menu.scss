@@ -1,0 +1,47 @@
+.menu {
+  color: $light;
+  max-width: 960px;
+}
+
+.menu__item {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 600;
+    
+    &:hover {
+      opacity: 0.6; 
+      filter: alpha(opacity=60);
+      @extend %transition;
+    }
+    
+    img {
+      width: 100%;
+      height: auto;
+      padding: 40px 0 10px 0;
+    }
+    
+   a {
+    &:link {
+        color: $light;
+        text-decoration: none;
+    }
+    &:visited {
+        color: $light;
+    }
+    &:hover {
+        color: $gray;
+    }
+    &:active {
+        color: $gray;
+    }	   
+    }
+}
+
+.menu__title {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+    
+  @media #{$small} {
+    font-size: 14px;
+  }
+}
