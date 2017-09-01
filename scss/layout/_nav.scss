@@ -13,7 +13,6 @@ nav {
 nav {
 
   & a:link {
-    font-weight: 600;
     color: $light;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -22,9 +21,10 @@ nav {
   & a:visited {
     color: $light;
   }
-
-  & .item {
-    flex-grow: 1;
-  }
     
+}
+
+.nav__logo {
+  max-width: 190px;
+  height: auto;
 }

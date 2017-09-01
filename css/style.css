@@ -104,6 +104,10 @@ h3 {
   width: 50%;
   float: left; }
 
+.column--one-third {
+  width: 33.333%;
+  float: left; }
+
 .column--three-fourths {
   width: 75%;
   float: left; }
@@ -248,7 +252,7 @@ footer {
   .menu__item img {
     width: 100%;
     height: auto;
-    padding: 40px 0 10px 0; }
+    padding: 50px 0 10px 0; }
   .menu__item a:link {
     color: #fff;
     text-decoration: none; }
@@ -277,13 +281,14 @@ nav {
   padding: 20px 2% 0 2%; }
 
 nav a:link {
-  font-weight: 600;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px; }
 nav a:visited {
   color: #fff; }
-nav .item {
-  flex-grow: 1; }
+
+.nav__logo {
+  max-width: 190px;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */
