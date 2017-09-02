@@ -75,14 +75,14 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-weight: 700; }
+  font-weight: 600; }
   @media (max-width: 768px) {
     h2 {
       font-size: 20px; } }
 
 h3 {
   font-size: 20px;
-  font-weight: 700; }
+  font-weight: 600; }
   @media (max-width: 768px) {
     h3 {
       font-size: 16px; } }
@@ -116,6 +116,14 @@ h3 {
   width: 25%;
   float: left; }
 
+.flex--center {
+  display: flex;
+  align-items: center; }
+
+/*---Rules------------------------------------*/
+.rule {
+  border-bottom: 2px solid #fff; }
+
 .lightpink {
   background-color: #fcdfeb; }
 
@@ -130,6 +138,9 @@ h3 {
 
 .blue {
   background-color: #45c0c9; }
+
+.mediumblue {
+  background-color: #0babaf; }
 
 .darkblue {
   background-color: #047272; }
@@ -153,6 +164,9 @@ h3 {
   clear: both;
   padding-bottom: 50px; }
 
+.img--100 img {
+  width: 100%; }
+
 .spacer--small {
   padding: 30px 0; }
 
@@ -161,6 +175,26 @@ h3 {
 
 .spacer--large {
   padding: 90px 0; }
+
+/*---Text Colors------------------------------------*/
+.text--blue {
+  color: #047272; }
+
+.text--lightpink {
+  color: #fcdfeb; }
+
+.text--yellow {
+  color: #ffce00; }
+
+/*---Typeface------------------------------------*/
+.serif {
+  font-family: "Bitter", Georgia, serif; }
+
+.kr-sans {
+  font-family: "Noto Sans", AppleGothic, Dotum, sans-serif; }
+
+.kr-serif {
+  font-family: "Nanum Myeongjo", AppleMyungjo, Batang; }
 
 /*---Footer------------------------------------*/
 footer {
@@ -264,7 +298,6 @@ footer {
     color: #777; }
 
 .menu__title {
-  font-size: 20px;
   letter-spacing: 0.02em; }
   @media (max-width: 768px) {
     .menu__title {

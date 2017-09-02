@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-  @include text(30px, $weight: 700);
+  @include text(30px, $weight: 600);
     
   @media #{$small} {
     font-size: 20px;
@@ -79,7 +79,7 @@ h2 {
 
     
 h3 {
-  @include text(20px, $weight: 700);
+  @include text(20px, $weight: 600);
     
   @media #{$small} {
     font-size: 16px;
@@ -123,4 +123,15 @@ h3 {
 .column--one-fourth {
   width: 25%;
   float: left;
+}
+
+.flex--center {
+  display: flex;
+  align-items: center;
+}
+
+/*---Rules------------------------------------*/
+
+.rule {
+  border-bottom: 2px solid $light;
 }
