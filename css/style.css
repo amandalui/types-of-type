@@ -1,4 +1,4 @@
-.button:hover, .menu__item:hover, .side-nav a:hover {
+.button:hover, .m1r:hover, .menu__item:hover, .side-nav a:hover {
   transition: 0.2s linear;
   -moz-transition: 0.2s linear;
   /* FF3.7+ */
@@ -112,6 +112,34 @@ h3 {
 .column--half {
   width: 50%;
   float: left; }
+  @media (max-width: 768px) {
+    .column--half {
+      width: 100%; } }
+
+.column--half-static {
+  width: 50%;
+  float: left; }
+
+.column--half-br-static {
+  width: 48%;
+  float: left; }
+
+.column--half-br:first-of-type {
+  border-right: 2px solid #fff; }
+
+.column--half-br {
+  width: 49.5%;
+  float: left; }
+  @media (max-width: 768px) {
+    .column--half-br {
+      width: 100%;
+      padding-top: 60px; } }
+
+@media (max-width: 768px) {
+  .column--half-br:first-of-type {
+    border-right: 0px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 0 0 60px 0; } }
 
 .column--one-third {
   width: 33.333%;
@@ -122,6 +150,17 @@ h3 {
 
 .column--one-third-static {
   width: 33.333%;
+  float: left; }
+
+.column--two-thirds {
+  width: 66.666%;
+  float: left; }
+  @media (max-width: 768px) {
+    .column--two-thirds {
+      width: 100%; } }
+
+.column--two-thirds-static {
+  width: 66.666%;
   float: left; }
 
 .column--three-fourths {
@@ -139,6 +178,83 @@ h3 {
 /*---Rules------------------------------------*/
 .rule {
   border-bottom: 2px solid #fff; }
+
+/*---Flex------------------------------------*/
+.flex-h-center {
+  display: flex;
+  align-items: center; }
+
+/* White Container */
+.arrow-container-white {
+  margin: 0 20px;
+  position: relative;
+  width: 80%;
+  height: auto;
+  background-color: #fff; }
+
+.white-tri-right.left-top:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  right: auto;
+  top: 0px;
+  bottom: auto;
+  border: 22px solid;
+  border-color: #fff transparent transparent transparent; }
+
+.white-tri-right.right-top:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 0px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #fff transparent transparent transparent; }
+
+/* Yellow Container */
+.arrow-container-yellow {
+  margin: 0 20px;
+  position: relative;
+  width: 80%;
+  height: auto;
+  background-color: #ffce00; }
+
+.yellow-tri-right.left-top:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  right: auto;
+  top: 0px;
+  bottom: auto;
+  border: 22px solid;
+  border-color: #ffce00 transparent transparent transparent; }
+
+.yellow-tri-right.right-top:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 0px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #ffce00 transparent transparent transparent; }
+
+.abbrev-text-box {
+  font-size: 3em;
+  font-weight: 600; }
+
+.arrow-container-contents p {
+  -webkit-margin-before: 0em !important;
+  -webkit-margin-after: 0em !important; }
 
 .lightpink {
   background-color: #fcdfeb; }
@@ -179,6 +295,91 @@ h3 {
 .clear {
   clear: both;
   padding-bottom: 50px; }
+
+.center-align {
+  margin-right: auto;
+  margin-left: auto; }
+
+.w5 {
+  width: var(--width-5); }
+
+.w6 {
+  width: var(--width-6); }
+
+.dib {
+  display: inline-block; }
+
+.cf {
+  zoom: 1; }
+
+.cf:before, .cf:after {
+  content: ' ';
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+.pointer {
+  cursor: pointer; }
+
+.m1r {
+  margin: 0 10px 0 10px;
+  background: #ffad00;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 2;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  /* future proofing */
+  -khtml-border-radius: 50px;
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75);
+  box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75); }
+  @media (max-width: 1200px) {
+    .m1r {
+      width: 50px;
+      height: 50px;
+      font-size: 25px; } }
+
+.m1r:hover {
+  background: #fff; }
+
+.br {
+  border-right: solid #fff;
+  border-right-width: 2px; }
+
+.faces-display {
+  font-size: 100px; }
+
+.f1 {
+  font-size: 3rem; }
+
+.f2 {
+  font-size: 2.25rem; }
+
+.f3 {
+  font-size: 1.5rem; }
+
+.f4 {
+  font-size: 1.25rem; }
+
+.f5 {
+  font-size: 1rem; }
+
+.f6 {
+  font-size: .875rem; }
+
+.f7 {
+  font-size: .75rem; }
+
+.bg-black {
+  background-color: black; }
+
+.white {
+  background-color: #fff; }
 
 .img--100 img {
   width: 100%; }
@@ -228,12 +429,16 @@ h3 {
 .text--yellow {
   color: #ffce00; }
 
+.text--darkgreen {
+  color: #0a6024; }
+
 /*---Typeface------------------------------------*/
 .serif {
   font-family: "Bitter", Georgia, serif; }
 
 .kr-sans {
-  font-family: "Noto Sans", AppleGothic, Dotum, sans-serif; }
+  font-family: "source-han-sans-korean", "Noto Sans", AppleGothic, Dotum, sans-serif;
+  font-weight: 500; }
 
 .kr-serif {
   font-family: "Nanum Myeongjo", AppleMyungjo, Batang;
@@ -300,7 +505,7 @@ footer {
 .header-section-title {
   position: absolute;
   margin: 20px 0 0 -4%;
-  left: 0;
+  left: 0px;
   font-weight: 700; }
   @media (max-width: 1200px) {
     .header-section-title {
@@ -308,6 +513,18 @@ footer {
   @media (max-width: 768px) {
     .header-section-title {
       margin: 50px 0 0 -6%; } }
+
+.header-section-title-conno {
+  position: absolute;
+  margin: 37px 0 0 -6%;
+  left: 0px;
+  font-weight: 700; }
+  @media (max-width: 1200px) {
+    .header-section-title-conno {
+      margin: 37px 0 0 -6.8%; } }
+  @media (max-width: 768px) {
+    .header-section-title-conno {
+      margin: 65px 0 0 -8.4%; } }
 
 .header-section-number {
   font-size: 20px;
@@ -386,18 +603,20 @@ nav a:visited {
 
 .side-nav-left {
   height: 150px;
+  width: 250px;
   position: fixed;
   bottom: 0px;
-  left: -15px; }
+  left: -90px; }
   @media (max-width: 768px) {
     .side-nav-left {
       display: none; } }
 
 .side-nav-right {
   height: 150px;
+  width: 250px;
   position: fixed;
   bottom: 0px;
-  right: -30px; }
+  right: -90px; }
   @media (max-width: 768px) {
     .side-nav-right {
       display: none; } }

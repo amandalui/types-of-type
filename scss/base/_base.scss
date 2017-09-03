@@ -119,7 +119,42 @@ h3 {
   width: 50%;
   float: left;
     
+  @media #{$small} {
+    width: 100%;
+  }
+}
+
+.column--half-static {
+  width: 50%;
+  float: left;
+}
+
+.column--half-br-static {
+  width: 48%;
+  float: left;
+}
+
+.column--half-br:first-of-type {
+  border-right: 2px solid $light;
+}
+
+.column--half-br {
+  width: 49.5%;
+  float: left;
     
+  @media #{$small} {
+    width: 100%;
+    padding-top: 60px;
+  }
+}
+
+.column--half-br:first-of-type {
+    
+  @media #{$small} {
+    border-right: 0px solid $light;
+    border-bottom: 2px solid #fff;
+    padding: 0 0 60px 0;
+  }
 }
 
 .column--one-third {
@@ -133,6 +168,20 @@ h3 {
 
 .column--one-third-static {
   width: 33.333%;
+  float: left;
+}
+
+.column--two-thirds {
+  width: 66.666%;
+  float: left;
+    
+  @media #{$small} {
+    width: 100%;
+  }
+}
+
+.column--two-thirds-static {
+  width: 66.666%;
   float: left;
 }
 
@@ -155,4 +204,12 @@ h3 {
 
 .rule {
   border-bottom: 2px solid $light;
+}
+
+
+/*---Flex------------------------------------*/
+
+.flex-h-center {
+  display: flex;
+  align-items: center;
 }

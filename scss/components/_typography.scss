@@ -12,6 +12,10 @@
   color: $yellow;
 }
 
+.text--darkgreen {
+  color: $darkgreen;
+}
+
 /*---Typeface------------------------------------*/
 
 .serif {
@@ -20,6 +24,7 @@
 
 .kr-sans {
   font-family: $krsansserif;
+  font-weight: 500;
 }
 
 .kr-serif {
