@@ -6,6 +6,8 @@
   <meta http-equiv="cache-control" content="max-age=3600" />
   <meta name="viewport" content="initial-scale=1">
 
-    <link rel="SHORTCUT ICON" href="images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Sans:400,700|Work+Sans:300,400,600,700" rel="stylesheet">
+  <link rel="SHORTCUT ICON" href="images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Sans:400,700|Work+Sans:300,400,600,700" rel="stylesheet">
+
+  <script src="https://unpkg.com/vue"></script>
