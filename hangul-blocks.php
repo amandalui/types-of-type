@@ -79,8 +79,11 @@
     <div class="column--single text--blue">
         <div class="column--single">
             <h2 class="center caps">Character Blocks</h2>
-            <h3 class="serif center">Consonant, vowel(s), consonant</h3>
-            <div class="serif center--left spacer--small">
+            <div class="serif center--left caption">
+                <img class="img--middle img--icon" src="images/tap-icon.svg" alt="TAP"> Tap each character block to see how they come together
+            </div>
+            <div class="clear spacer--small"></div>
+            <div class="serif center--left caption clear">
                 <div class="column--one-third">
                     <img class="img--middle" src="images/hangul-blocks/key--consonant-first.png" alt="First Consonant"> First Consonant <span class="kr-serif">(초성)</span> 
                 </div>
@@ -91,8 +94,12 @@
                     <img class="img--middle" src="images/hangul-blocks/key--consonant-second.png" alt="Vowel(s)"> Last Consonant <span class="kr-serif">(종성)</span>
                 </div>
             </div>
+
             <div class="spacer--small clear"></div>
             <div class="column--one-third-static center img--140px">
+                <div class="block-pa">
+                    <img src="images/hangul-blocks/pa-0.svg" alt="p-a">
+                </div>
                 <div class="block-pa">
                     <img src="images/hangul-blocks/pa-1.svg" alt="p-a">
                 </div>
@@ -107,21 +114,22 @@
                 </div>
             </div>
             <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/so-1.svg" alt="s-o">
+                <img src="images/hangul-blocks/so-0.svg" alt="s-o">
             </div>
             <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/hwa-1.svg" alt="h-w-a">
+                <img src="images/hangul-blocks/hwa-0.svg" alt="h-w-a">
             </div>
             <br /><div class="spacer--small clear"></div>
             <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/pal-1.svg" alt="p-a-l">
+                <img src="images/hangul-blocks/pal-0.svg" alt="p-a-l">
             </div>
             <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/son-1.svg" alt="s-o-n">
+                <img src="images/hangul-blocks/son-0.svg" alt="s-o-n">
             </div>
             <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/won-1.svg" alt="w-o-n">
+                <img src="images/hangul-blocks/won-0.svg" alt="w-o-n">
             </div>
+            <br />
         </div>
     </div>
     <div class="clear"></div>

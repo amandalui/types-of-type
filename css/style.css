@@ -190,6 +190,16 @@ h3 {
   width: 100%;
   max-width: 140px; }
 
+.img--icon {
+  width: 20px;
+  height: auto; }
+
+.spacer--tiny {
+  padding: 15px 0; }
+  @media (max-width: 768px) {
+    .spacer--tiny {
+      padding: 5px 0; } }
+
 .spacer--small {
   padding: 30px 0; }
   @media (max-width: 768px) {
