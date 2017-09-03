@@ -13,18 +13,18 @@ nav {
 nav {
 
   & a:link {
-    font-weight: 600;
-    color: #fff;
+    color: $light;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
 
   & a:visited {
-    color: #fff;
-  }
-
-  & .item {
-    flex-grow: 1;
+    color: $light;
   }
     
+}
+
+.nav__logo {
+  max-width: 190px;
+  height: auto;
 }
