@@ -3,3 +3,14 @@
     width: 100%;
     }
 }
+
+.img--middle {
+  vertical-align: middle;
+}
+
+.img--140px {
+  img {
+    width: 100%;
+    max-width: 140px;
+    }
+}

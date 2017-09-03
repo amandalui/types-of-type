@@ -13,7 +13,7 @@
   <!-- HEADER -->
   <div class="header-wrap clear">
       <div class="header-container">
-        <div class="header-section-title caps">
+        <div class="header-section-title caps rotate">
           The Basics
         </div>
         <div class="header-content">

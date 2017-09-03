@@ -29,6 +29,14 @@ html, body {
   text-align: center;
 }
 
+.center--left {
+  text-align: center;
+
+  @media #{$small} {
+    text-align: left;
+  }
+}
+
 .right {
   text-align: right;
 }
@@ -92,10 +100,14 @@ h3 {
 
 /*---Content------------------------------------*/
 
-.content {
+.content--first {
   width: 100%;
   margin: -100px 0 0 0;
   padding: 150px 0 0 0;
+}
+
+.content {
+  width: 100%;
 }
 
 .column--single {
@@ -111,6 +123,15 @@ h3 {
 }
 
 .column--one-third {
+  width: 33.333%;
+  float: left;
+    
+  @media #{$small} {
+    width: 100%;
+  }
+}
+
+.column--one-third-static {
   width: 33.333%;
   float: left;
 }
