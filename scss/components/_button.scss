@@ -1,5 +1,5 @@
 .button {
-  font-weight: 700;
+  font-weight: 600;
   background: $dark;
   color: $light;
   padding: 10px 20px;
@@ -7,6 +7,6 @@
 
   &:hover {
     @extend %transition;
-    background: $gray;
+    background: rgba($dark, 0.6);
   }
 }

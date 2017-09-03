@@ -29,6 +29,14 @@ html, body {
   text-align: center;
 }
 
+.center--left {
+  text-align: center;
+
+  @media #{$small} {
+    text-align: left;
+  }
+}
+
 .right {
   text-align: right;
 }
@@ -70,7 +78,7 @@ h1 {
 }
 
 h2 {
-  @include text(30px, $weight: 700);
+  @include text(30px, $weight: 600);
     
   @media #{$small} {
     font-size: 20px;
@@ -79,7 +87,7 @@ h2 {
 
     
 h3 {
-  @include text(20px, $weight: 700);
+  @include text(20px, $weight: 600);
     
   @media #{$small} {
     font-size: 16px;
@@ -92,10 +100,14 @@ h3 {
 
 /*---Content------------------------------------*/
 
-.content {
+.content--first {
   width: 100%;
   margin: -100px 0 0 0;
   padding: 150px 0 0 0;
+}
+
+.content {
+  width: 100%;
 }
 
 .column--single {
@@ -113,6 +125,15 @@ h3 {
 .column--one-third {
   width: 33.333%;
   float: left;
+    
+  @media #{$small} {
+    width: 100%;
+  }
+}
+
+.column--one-third-static {
+  width: 33.333%;
+  float: left;
 }
 
 .column--three-fourths {
@@ -123,4 +144,15 @@ h3 {
 .column--one-fourth {
   width: 25%;
   float: left;
+}
+
+.flex--center {
+  display: flex;
+  align-items: center;
+}
+
+/*---Rules------------------------------------*/
+
+.rule {
+  border-bottom: 2px solid $light;
 }
