@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss-watch": "scss --watch scss:css",
-    "scss-build": "scss scss css",
+    "scss-build": "scss scss/style.scss css/style.css",
     "php": "php -S localhost:8000",
     "js-watch": "",
     "js-build": "",

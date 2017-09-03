@@ -1,9 +1,10 @@
 # Types of Type
 
 # Run PHP Server
-- Run `php -S localhost:8000`
-- Open http://localhost:8000 in the browser
+- `npm run php`
 
 # Run SCSS Watcher
-- Run `scss --watch scss:css`
-- Make changes in scss folder
+- `npm run scss-watch`
+
+# Run SCSS Build
+- `npm run scss-build`
