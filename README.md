@@ -1,10 +1,10 @@
 # Types of Type
 
-# Run PHP Server
+## Run PHP Server
 - `npm run php`
 
-# Run SCSS Watcher
+## Run SCSS Watcher
 - `npm run scss-watch`
 
-# Run SCSS Build
+## Run SCSS Build
 - `npm run scss-build`
