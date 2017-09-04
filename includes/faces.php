@@ -1,76 +1,90 @@
-<div id="faces-app" class="center tc cf">
-  <div class="left w6 dib tc br">
+<template id="face-features-template">
+  <div>
     <div
-      v-for="value in koreanEyeOptions"
-      v-bind:class="{ 'bg-black white': value === koreanEye }"
+      v-for="option in feature.options"
       class="dib pointer m1r"
-      @click="koreanEye = value"
-    >
-      {{ value }}
-    </div>
-    <div class="f3">{{ koreanEye }}{{ koreanMouth }}{{ koreanEye }}</div>
-    <div
-      v-for="value in koreanMouthOptions"
-      v-bind:class="{ 'bg-black white': value === koreanMouth }"
-      class="dib pointer m1r"
-      @click="koreanMouth = value">
-    
-      {{ value }}
+      v-bind:class="{ 'bg-black white': option === feature.active }"
+      @click="changeOption(option)">
+      {{ option }}
     </div>
   </div>
+</template>
+
+<div id="faces-app" class="center tc cf">
+  <div class="left w6 dib tc br">
+    <face-features v-on:change="change" :feature="koreanEye"></face-features>
+    <div class="f3">{{ koreanEye.active }}{{ koreanMouth.active }}{{ koreanEye.active }}</div>
+    <face-features v-on:change="change" :feature="koreanMouth"></face-features>
+  </div>
   <div class="right w6 dib tc">
-    <div
-      v-for="value in englishEyesOptions"
-      v-bind:class="{ 'bg-black white': value === englishEyes }"
-      class="dib pointer m1r"
-      @click="englishEyes = value">
-      {{ value }}
-    </div>
-    <div class="f3">{{ englishEyes }} {{ englishMouth }}</div>
-    <div
-      v-for="value in englishMouthOptions"
-      class="dib pointer m1r"
-      v-bind:class="{ 'bg-black white': value === englishMouth }"
-      @click="englishMouth = value"
-    >
-      {{ value }}
-    </div>
+    <face-features v-on:change="change" :feature="englishEyes"></face-features>
+    <div class="f3">{{ englishEyes.active }} {{ englishMouth.active }}</div>
+    <face-features v-on:change="change" :feature="englishMouth"></face-features>
   </div>
 </div>
 
 <script>
-  new Vue({
-    el: '#faces-app',
-    data: {
-      englishEyesOptions: [':', ';', 'X', '>:'],
-      englishMouthOptions: [')', 'O', 'D', 'P'],
-      englishEyes: ':',
-      englishMouth: ')',
-      koreanEyeOptions: ['ㅇ', '^', '-', '$'],
-      koreanMouthOptions: ['ㅂ', 'ㅁ', 'ㅅ', '-'],
-      koreanEye: 'ㅇ',
-      koreanMouth: 'ㅁ'
+  Vue.component('face-features', {
+    template: '#face-features-template',
+    props: {
+      feature: Object      
+    },
+    methods: {
+      changeOption(option) {
+        this.$emit('change', this.feature.name, option)
+      }
     }
   })
+
+new Vue({
+  el: '#faces-app',
+  data: {
+    englishEyes: {
+      name: 'englishEyes',
+      options: [':', ';', 'X', '>:'],
+      active: ':'
+    },
+    englishMouth: {
+      name: 'englishMouth',
+      options: [')', 'O', 'D', 'P'],
+      active: ')'   
+    },
+    koreanEye: {
+      name: 'koreanEye',
+      options: ['ㅇ', '^', '-', '$'],
+      active: 'ㅇ',
+    },
+    koreanMouth: {
+      name: 'koreanMouth',
+      options: ['ㅂ', 'ㅁ', 'ㅅ', '-'],
+      active: 'ㅁ'
+    }
+  },
+  methods: {
+    change(feature, option) {
+      this[feature].active = option 
+    }      
+  }
+})
 </script>
 
 <style>
-  :root {
-    --width-1: 16px;
-    --width-2: 24px;
-    --width-3: 32px;
-    --width-4: 60px;
-    --width-5: 100px;
-    --width-6: 150px;
-    
-    --spacing-1: 16px;
-    --spacing-2: 24px;
-    --spacing-3: 32px;
-    --spacing-4: 60px;
-    --spacing-5: 100px;
-  }
+:root {
+  --width-1: 16px;
+  --width-2: 24px;
+  --width-3: 32px;
+  --width-4: 60px;
+  --width-5: 100px;
+  --width-6: 150px;
 
-  /* TODO: Change name so it doesn't collide with main stylesheet */
+  --spacing-1: 16px;
+  --spacing-2: 24px;
+  --spacing-3: 32px;
+  --spacing-4: 60px;
+  --spacing-5: 100px;
+}
+
+  /* TODO: Change names so it doesn't collide with main stylesheet */
   .center {
     margin-right: auto;
     margin-left: auto;
