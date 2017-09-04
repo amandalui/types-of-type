@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Types of Type | Type Categories</title>
+  <title>Types of Type | Letter-form Anatomy</title>
   <?php include('includes/head.php'); ?>
 </head>
     
@@ -17,172 +17,269 @@
           The Basics
         </div>
         <div class="header-content">
-            <span class="header-section-number">1&ndash;4</span>
-            <h1>Type Categories</h1>
-            <p class="header-section-desc">Compare Korean and English stroke variations to pair up similar type categories.</p>
+            <span class="header-section-number">1&ndash;3</span>
+            <h1>Letter-form Anatomy</h1>
+            <p class="header-section-desc">What are parts of letters called? Some parts exist in both the English and Korean alphabet&mdash;some don’t.</p>
         </div>
     </div>
   </div>
     
   <!-- SIDE NAV -->
   <div class="side-nav side-nav-left center">
-      <div class="rotate">
-          <a href="/letter-form-anatomy.php">&#9650;<br />Letter-form Anatomy</a>
+      <div class="rotate link--darkpink">
+          <a href="/hangul-blocks.php">&#9650;<br />Hangul Blocks</a>
       </div>
   </div>
   <div class="side-nav side-nav-right center">
-      <div class="rotate">
-          <a href="/italics-dashes.php">Italics, -, &ndash;, &mdash;, and  &tilde;<br />&#9660;</a>
+      <div class="rotate link--darkpink">
+          <a href="/type-categories.php">Type Categories<br />&#9660;</a>
       </div>
   </div>
 
   <!-- CONTENT -->
-  <div class="content--first green clear">
+  <div class="content--first lightpink clear">
     <div class="column--single img--100">
     <div class="column--single">
+            <img class="spacer--medium" src="/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy"><br />
+            <img class="spacer--medium" src="/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
+    </div>
+    </div>
+  </div>
+  <div class="content lightpink ">
+    <div class="column--single img--140">
         <div class="spacer--small">
-                <h2 class="caps center text--light spacer--tiny">Old Style</h2>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Serif / Myeongjo <span class="kr-sans">(명조체)</span></h3>
-                    <img class="spacer--tiny" src="/images/type-categories/01-kr-old-style.svg" alt="Korean Old Style"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Apple Myeongjo</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The letters in this category have strokes that are based off of traditional calligraphy.</p>
+            <div class="column--half spacer--small">
+                <div class="column--single text--blue">
+                        <h3 class="bold caps">Korean Anatomy</h3>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/01-kr-pillars.svg" alt="Pillars">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Pillars <span class="kr-sans-bold">(겸기둥)</span></div>
+                                <div class="serif caption--max-width">The two bars specific to letters <span class="kr-serif">ㅐ, ㅒ, ㅔ,</span> and <span class="kr-serif">ㅖ.</span></div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/02-kr-beak.svg" alt="Beak">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Beak <span class="kr-sans-bold">(부리)</span></div>
+                                <div class="serif caption--max-width">The top-most accent mark influenced from the first touch of the brush to the paper.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/03-kr-hor-stem.svg" alt="Horizontal Stem">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Horizontal Stem <span class="kr-sans-bold">(기로줄기)</span></div>
+                                <div class="serif caption--max-width">A horizontal stroke with at least one stroke prior.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/04-kr-vertex.svg" alt="Vertex">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Vertex <span class="kr-sans-bold">(꼭지점)</span></div>
+                                <div class="serif caption--max-width">Similar to the dotted i, the vertex is specific to the top part of letters <span class="kr-serif">ㅊ</span> and <span class="kr-serif">ㅎ.</span></div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/05-kr-side-stroke.svg" alt="Side Stroke">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Side Stroke <span class="kr-sans-bold">(곁줄기)</span></div>
+                                <div class="serif caption--max-width">Specific to the letters <span class="kr-serif">ㅓ, ㅏ, ㅔ,</span> and <span class="kr-serif">ㅖ.</span> It is shorter than the horizontal stem.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/06-kr-stem-joint.svg" alt="Stem Joint">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Stem Joint <span class="kr-sans-bold">(이음줄기)</span></div>
+                                <div class="serif caption--max-width">Refers to what happens when a letter connects upwards toward the letter next to it.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/07-kr-short-column.svg" alt="Short Column">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Short Column <span class="kr-sans-bold no-break">(짧은기둥)</span></div>
+                                <div class="serif caption--max-width">The part that sticks out vertically, specific to the letters <span class="kr-serif">ㅗ</span> and <span class="kr-serif">ㅜ.</span></div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/08-kr-bow.svg" alt="Bow">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Bow <span class="kr-sans-bold">(보)</span></div>
+                                <div class="serif caption--max-width">A horizontal stroke, normally with only one or two strokes prior or after.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/09-kr-vertical-stem.svg" alt="Vertical Stem">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Vertical Stem <span class="kr-sans-bold">(세로줄기)</span></div>
+                                <div class="serif caption--max-width">A long vertical stroke that is followed by at least one vertical stroke.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/10-kr-round-stem.svg" alt="Round Stem">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Round Stem <span class="kr-sans-bold">(둥근줄기)</span></div>
+                                <div class="serif caption--max-width">Only found in the letters <span class="kr-serif">ㅇ</span> and <span class="kr-serif">ㅎ.</span></div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/11-kr-topknot.svg" alt="Topknot">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps no-break">Topknot <span class="kr-sans-bold">(상투)</span></div>
+                                <div class="serif caption--max-width">An accent from the initial brush mark on paper.</div>
+                            </div>
+                        </div>
                 </div>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Serif / Humanist / Old Style</h3>
-                    <img class="spacer--tiny" src="/images/type-categories/01-en-old-style.svg" alt="English Old Style"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Garamond</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The letters in this category have thicker strokes and are based off of traditional calligraphy.</p>
+            </div>
+            <div class="column--half spacer--small">
+                <div class="column--single text--blue">
+                        <h3 class="bold caps">English Anatomy</h3>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/01-en-counter.svg" alt="Counter">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Counter</div>
+                                <div class="serif caption--max-width">Enclosed spaces.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/02-en-arch.svg" alt="Arch">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Arch</div>
+                                <div class="serif caption--max-width">Upper curves.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/03-en-serif.svg" alt="Serif">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Serif</div>
+                                <div class="serif caption--max-width">From the process of carving letters into stone. The serif marks the first strike into the stone.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/04-en-serif-bracket.svg" alt="Serif Brakcet">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Serif Bracket</div>
+                                <div class="serif caption--max-width">The style of the serif connected to the stem.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/05-en-outstroke.svg" alt="Outstroke">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Outstroke</div>
+                                <div class="serif caption--max-width">A stylized serif, used to end the last stroke of a letter.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/06-en-ascender.svg" alt="Ascender">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Ascender</div>
+                                <div class="serif caption--max-width">The part of a stem that rises above the meanline.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/07-en-stem.svg" alt="Stem">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Stem</div>
+                                <div class="serif caption--max-width">Any vertical stroke. </div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/08-en-descender.svg" alt="Descender">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Desender</div>
+                                <div class="serif caption--max-width">The part that hangs below the baseline.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/09-en-bowl.svg" alt="Bowl">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Bowl</div>
+                                <div class="serif caption--max-width">Any rounded part that contains a counter space.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/10-en-beak.svg" alt="Beak">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Beak</div>
+                                <div class="serif caption--max-width">The extension of the serif, usually located at the top of letters.</div>
+                            </div>
+                        </div>
+                        <div class="spacer--small flex-h-center">
+                            <div class="column--one-fourth">
+                                <img src="/images/letter-form-anatomy/11-en-finial.svg" alt="FInial">
+                            </div>
+                            <div class="column--three-fourths">
+                                <div class="bold caps">Finial/End Stroke</div>
+                                <div class="serif caption--max-width">An unstylized way of ending the last stroke.</div>
+                            </div>
+                        </div>
                 </div>
-        </div>
-        <div class="clear rule spacer--medium"></div>
-        <div class="spacer--small">
-                <h2 class="caps center text--light spacer--tiny">Transitional</h2>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Serif / Myeongjo <span class="kr-sans">(명조체)</span></h3>
-                    <img class="spacer--tiny" src="/images/type-categories/02-kr-transitional.svg" alt="Korean Transitional"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Nanum Myeongjo</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The strokes are thinner and the serifs are more refined. Overall there is less direct influence from the calligraphic brush strokes.</p>
-                </div>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Serif / Transitional</h3>
-                    <img class="spacer--tiny" src="/images/type-categories/02-en-transitional.svg" alt="English Transitional"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Baskerville</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The contrast between thick and thin strokes is heightened and the serifs are more refined because of advances in printing technology.</p>
-                </div>
-        </div>
-        <div class="clear rule spacer--medium"></div>
-        <div class="spacer--small">
-                <h2 class="caps center text--light spacer--tiny">Modern / Didone</h2>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Serif / Myeongjo <span class="kr-sans">(명조체)</span></h3>
-                    <img class="spacer--tiny" src="/images/type-categories/03-kr-modern.svg" alt="Korean Modern"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Bigyo</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">Heightened contrast between thick and thin strokes are a required feature, however the contrast does not have to be an extreme amount.</p>
-                </div>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Serif / Modern / Didone</h3>
-                    <img class="spacer--tiny" src="/images/type-categories/03-en-modern.svg" alt="English Modern"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Lust Didone</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">Extreme contrast between the thick and thin strokes become possible due to more advances in technology, usually featured with thin lined serifs.</p>
-                </div>
-        </div>
-        <div class="clear rule spacer--medium"></div>
-        <div class="spacer--small">
-                <h2 class="caps center text--light spacer--tiny">Slab Serif</h2>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Slab Serif / Myeongjo <span class="kr-sans">(명조체)</span></h3>
-                    <img class="spacer--tiny" src="/images/type-categories/04-kr-slab.svg" alt="Korean Slab Serif"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Seoul Hangang</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The serifs are more square-like. There is little to no contrast between the thicks and thins of the strokes.</p>
-                </div>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Slab Serif / Egyptian</h3>
-                    <img class="spacer--tiny" src="/images/type-categories/04-en-slab.svg" alt="English Slab Serif"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Adelle</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The serifs are more square-like. There is little to no contrast between the thicks and thins of the strokes.</p>
-                </div>
-        </div>
-        <div class="clear rule spacer--medium"></div>
-        <div class="spacer--small">
-                <h2 class="caps center text--light spacer--tiny">Humanist</h2>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Sans-Serif / Gothic <span class="kr-sans">(고딕체)</span></h3>
-                    <img class="spacer--tiny" src="/images/type-categories/05-kr-humanist.svg" alt="Korean Humanist Gothic"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Nanum Gothic</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The stroke shape and contrast is influenced by the original brush strokes from the written letters. There are no serifs.</p>
-                </div>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Sans-Serif / Humanist</h3>
-                    <img class="spacer--tiny" src="/images/type-categories/05-en-humanist.svg" alt="English Humanist"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Calluna Sans</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The stroke shape and contrast is influenced by calligraphy and it’s serifed predecessors. However, there are no serifs.</p>
-                </div>
-        </div>
-        <div class="clear rule spacer--medium"></div>
-        <div class="spacer--small">
-                <h2 class="caps center text--light spacer--tiny">Geometric</h2>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Sans-Serif / Gothic <span class="kr-sans">(고딕체)</span></h3>
-                    <img class="spacer--tiny" src="/images/type-categories/06-kr-geometric.svg" alt="Korean Geometric"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Nanum Square</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The strokes have no contrast between the thicks and thins. The shapes of th eletters are highly influenced by perfectly geometric lines and circles.</p>
-                </div>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Sans-Serif / Geometric</h3>
-                    <img class="spacer--tiny" src="/images/type-categories/06-en-geometric.svg" alt="English Geometric"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Futura</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The strokes have little to no contrast between thicks and thins. The shapes of the letters are highly influenced by perfectly geometric lines and circles.</p>
-                </div>
-        </div>
-        <div class="clear rule spacer--medium"></div>
-        <div class="spacer--small">
-                <h2 class="caps center text--light spacer--tiny">Grotesque</h2>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Sans-Serif / Gothic <span class="kr-sans">(고딕체)</span></h3>
-                    <img class="spacer--tiny" src="/images/type-categories/07-kr-grotesque.svg" alt="Korean Grotesque"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Malgun Gothic</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">There is no contrast between the thick and thin strokes. The letters are more regulated when contrasted with one another.</p>
-                </div>
-                <div class="column--half-br-fluid center">
-                    <h3 class="text--light bold">Sans-Serif / Grotesque</h3>
-                    <img class="spacer--tiny" src="/images/type-categories/07-en-grotesque.svg" alt="English Grotesque"><br />
-                    <span class="text--light caption caps">Typeface</span><br />
-                    <span class="caps bold text--lightpink">Nimbus Sans</span>
-                    <p class="column--single serif caption--max-width text--darkgreen left spacer--small">The stroke's thicks and thins have very slight contrast and the letters are more regulated when contrasted with one another.</p>
-                </div>
-        </div>
+            </div>
+        <div class="spacer--small clear"></div>
 
-
-            <div class="spacer--small clear"></div>
-
-        </div></div>
+      </div>
+    </div>
         
     <div class="clear"></div>
     <div class="spacer--medium center">
-        <a class="button caps" href="/italics-dashes.php">Next Chapter</a>
+        <a class="button caps" href="/type-categories.php">Next Chapter</a>
     </div>  
       
   <!-- NEXT SECTION -->
 
   <!-- FOOTER -->
-  <?php include('includes/footer.php'); ?>
+  <footer class="caption text--darkpink">
+      <div class="center">&copy; 2013&ndash;<script language="JavaScript" type="text/javascript">
+            now = new Date
+            theYear=now.getYear()
+            if (theYear < 1900)
+            theYear=theYear+1900
+            document.write(theYear)
+          </script> Amanda Lui
+      </div>
+  </footer>
   </div> 
-    
-<script src="js/hangul-blocks-slideshows.js"></script>
     
 </body>
 </html>

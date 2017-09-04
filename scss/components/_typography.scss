@@ -96,10 +96,17 @@ h3 {
 .caps {
   text-transform: uppercase;
   letter-spacing: 0.2em;
+    
+  @media #{$small} {
+    letter-spacing: 0.1em;
+  }
 }
 
-/*---Paragraphs------------------------------------*/
+/*---Other------------------------------------*/
 
+.no-break {
+  word-break: keep-all;
+}
 
 
 /*---Rotated------------------------------------*/

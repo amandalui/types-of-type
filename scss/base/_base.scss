@@ -119,6 +119,10 @@ html, body {
 .column--single {
   width: 80%;
   margin: 0 auto;
+
+  @media #{$small} {
+    width: 90%;
+  }
 }
 
 .column--half {

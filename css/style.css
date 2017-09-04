@@ -108,6 +108,9 @@ a {
 .column--single {
   width: 80%;
   margin: 0 auto; }
+  @media (max-width: 768px) {
+    .column--single {
+      width: 90%; } }
 
 .column--half {
   width: 50%;
@@ -535,8 +538,14 @@ h3 {
 .caps {
   text-transform: uppercase;
   letter-spacing: 0.2em; }
+  @media (max-width: 768px) {
+    .caps {
+      letter-spacing: 0.1em; } }
 
-/*---Paragraphs------------------------------------*/
+/*---Other------------------------------------*/
+.no-break {
+  word-break: keep-all; }
+
 /*---Rotated------------------------------------*/
 .rotate {
   /* Safari */

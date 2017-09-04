@@ -149,7 +149,5 @@
   <?php include('includes/footer.php'); ?>
   </div> 
     
-<script src="js/hangul-blocks-slideshows.js"></script>
-    
 </body>
 </html>
