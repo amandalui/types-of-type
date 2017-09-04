@@ -12,4 +12,5 @@
   <script src="https://use.typekit.net/mdt5gam.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+  <script src="/js/flexibility.js"></script>
   <script src="https://unpkg.com/vue"></script>

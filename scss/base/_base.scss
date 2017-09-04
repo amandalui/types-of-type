@@ -44,6 +44,10 @@ html, body {
   text-align: right;
 }
 
+.left {
+  text-align: left;
+}
+
 
 /*---Links------------------------------------*/
 
@@ -132,7 +136,8 @@ html, body {
 }
 
 .column--half-br-static {
-  width: 49.8%;
+  width: 49.8%; /* for browsers without calc() */
+  width: calc(50% - 1px);
   float: left;
 }
 
@@ -145,7 +150,8 @@ html, body {
 }
 
 .column--half-br {
-  width: 49.8%;
+  width: 49.8%; /* for browsers without calc() */
+  width: calc(50% - 1px);
   float: left;
     
   @media #{$small} {
@@ -158,8 +164,26 @@ html, body {
     
   @media #{$small} {
     border-right: 0px solid $light;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid $light;
     padding: 0 0 60px 0;
+  }
+}
+
+.column--half-br-fluid {
+  width: 49.8%; /* for browsers without calc() */
+  width: calc(50% - 1px);
+  float: left;
+    
+  @media #{$small} {
+    width: 100%;
+  }
+}
+
+.column--half-br-fluid:first-of-type {
+  border-right: 2px solid $light;
+    
+  @media #{$small} {
+    border-right: 0px solid $light;
   }
 }
 

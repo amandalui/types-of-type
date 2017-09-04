@@ -75,7 +75,7 @@
   <div class="content lightblue clear">
     <div class="column--single img--100 spacer--large text--blue">
         <div class="spacer--small"></div>
-        <div class="column--single dashes--flex">
+        <div data-style="display: flex;" class="column--single dashes--flex">
             <div class="column--half lightpink spacer--small dashes--flex-item">
                 <h3 class="caps center">Hyphen</h3>
                 <div class="serif center">

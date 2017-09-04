@@ -27,7 +27,7 @@
   <!-- SIDE NAV -->
   <div class="side-nav side-nav-left center">
       <div class="rotate">
-          <a href="/italics-dashes.php">&#9650;<br />Italics, -, &ndash;, &mdash;, and &#126;</a>
+          <a href="/italics-dashes.php">&#9650;<br />Italics, -, &ndash;, &mdash;, and &tilde;</a>
       </div>
   </div>
   <div class="side-nav side-nav-right center">
