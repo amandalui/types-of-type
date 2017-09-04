@@ -42,10 +42,10 @@
     <div class="column--single">
         <div class="spacer--small">
             <div class="expressive-wrapper spacer--medium">
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/01-01-en-playground.svg" alt="Playground"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Sofia Soft</span>
                 </div>
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/01-01-kr-playground.svg" alt="Playground"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">BM Jua</span>
                 </div>
             </div>
@@ -53,10 +53,10 @@
         </div>
         <div class="spacer--small">
             <div class="expressive-wrapper spacer--medium">
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/02-01-en-dearfriend.svg" alt="Dear Friend"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Kinescope</span>
                 </div>
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/02-01-kr-dearfriend.svg" alt="Friendly"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Pocheon Makgeoli</span>
                 </div>
             </div>
@@ -64,10 +64,10 @@
         </div>
         <div class="spacer--small">
             <div class="expressive-wrapper spacer--medium">
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/03-01-en-volcano.svg" alt="Volcano"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Freckle Face</span>
                 </div>
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/03-01-kr-volcano.svg" alt="Volcano"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Jeju Hallasan</span>
                 </div>
             </div>
@@ -75,10 +75,10 @@
         </div>
         <div class="spacer--small">
             <div class="expressive-wrapper spacer--medium">
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/04-01-en-environmental.svg" alt="Environmental"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Amatic</span>
                 </div>
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/04-01-kr-environmental.svg" alt="Environmental"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Sangsangtokki Blossom</span>
                 </div>
             </div>
@@ -86,10 +86,10 @@
         </div>
         <div class="spacer--small">
             <div class="expressive-wrapper spacer--medium">
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/05-01-en-seventies.svg" alt="Seventies"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Grad</span>
                 </div>
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/05-01-kr-seventies.svg" alt="Seventies"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Bom Param</span>
                 </div>
             </div>
@@ -97,10 +97,10 @@
         </div>
         <div class="spacer--small">
             <div class="expressive-wrapper spacer--medium">
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/06-01-en-historical.svg" alt="Historical"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">Givry</span>
                 </div>
-                <div class="column--half-static center spacer--small">
+                <div class="column--half center spacer--small">
                     <img src="/images/expressive-type/06-01-kr-historical.svg" alt="Historical"><br /><span class="text--brown caption caps">Typeface</span><br /><span class="caps bold">N/A</span>
                 </div>
             </div>
