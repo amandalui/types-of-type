@@ -47,8 +47,7 @@
     <div class="spacer--medium"></div>
     <div class="column--single">
         <div class="column--single">
-            <h2 class="center caps">Abbreviations</h2>
-            <div class="clear spacer--small"></div>
+            <h3 class="center caps">Abbreviations</h3>
             <div class="abbreviations-wrapper spacer--medium">
                 <div class="column--one-third spacer--small">           
                     <div class="arrow-container-white white-tri-right right-top center kr-sans">
@@ -70,7 +69,7 @@
                 </div>
             </div>
             <div class="clear rule"></div>
-            <div class="spacer--small">
+            <div class="spacer--small"></div>
             <div class="abbreviations-wrapper spacer--medium">
                 <div class="column--two-thirds">
                     <div class="column--single spacer--small">
@@ -92,7 +91,7 @@
                 </div>
             </div>
             <div class="clear rule"></div>
-            <div class="spacer--small">
+            <div class="spacer--small"></div>
             <div class="abbreviations-wrapper  spacer--medium">
                 <div class="column--one-third spacer--small">           
                     <div class="arrow-container-white white-tri-right right-top center kr-sans">
@@ -137,6 +136,7 @@
             </div>
             <div class="spacer--small clear"></div>
         </div>
+      </div>
     </div>
     <div class="clear"></div>
     <div class="spacer--medium center">

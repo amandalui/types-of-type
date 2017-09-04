@@ -8,8 +8,16 @@
   color: $lightpink;
 }
 
+.text--darkpink {
+  color: $darkpink;
+}
+
 .text--yellow {
   color: $yellow;
+}
+
+.text--brown {
+  color: $brown;
 }
 
 .text--darkgreen {
@@ -37,6 +45,45 @@
   font-weight: 700;
 }
 
+.bold {
+  font-weight: 600;
+}
+
+/*---Headers and Captions------------------------------------*/
+
+h1 {
+  @include text(60px, 1, 700);
+   
+  @media #{$small} {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  @include text(30px, $weight: 600);
+    
+  @media #{$small} {
+    font-size: 20px;
+  }
+}
+
+    
+h3 {
+  @include text(20px, $weight: 600);
+    
+  @media #{$small} {
+    font-size: 16px;
+  }
+}
+
+.caption {
+  font-size: 12px;
+}
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
 
 /*---Rotated------------------------------------*/
 
@@ -52,3 +99,4 @@
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
+
