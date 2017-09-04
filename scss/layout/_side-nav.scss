@@ -1,0 +1,38 @@
+.side-nav-left {
+  height: 150px;
+  position: fixed;
+  bottom: 0px;
+  left: -15px;
+
+  @media #{$small} {
+    display: none;
+  }
+}
+
+.side-nav-right {
+  height: 150px;
+  position: fixed;
+  bottom: 0px;
+  right: -30px;
+    
+  @media #{$small} {
+    display: none;
+  }
+}
+
+.side-nav a {
+    &:link {
+        font-size: 14px;
+        color: $light;
+    }
+    &:visited {
+        color: $light;
+    }
+    &:hover {
+        @extend %transition;
+        color: rgba($light, 0.6);
+    }
+    &:active {
+        color: rgba($light, 0.6);
+    }	   
+}

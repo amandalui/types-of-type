@@ -15,6 +15,16 @@
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.7);
   -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.7);
   box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.7);
+
+  @media #{$medium} {
+    width: 70%;
+    padding: 50px 15%;
+  }
+    
+  @media #{$small} {
+    width: 60%;
+    padding: 30px 20%;
+  }
 }
 
 .header-content {
@@ -28,16 +38,14 @@
   margin: 20px 0 0 -4%;
   left: 0;
   font-weight: 700;
-  /* Safari */
-  -webkit-transform: rotate(-90deg);
-  /* Firefox */
-  -moz-transform: rotate(-90deg);
-  /* IE */
-  -ms-transform: rotate(-90deg);
-  /* Opera */
-  -o-transform: rotate(-90deg);
-  /* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    
+  @media #{$medium} {
+    margin: 20px 0 0 -5%;
+  }
+
+  @media #{$small} {
+    margin: 50px 0 0 -6%;
+  }
 }
 
 .header-section-number {
