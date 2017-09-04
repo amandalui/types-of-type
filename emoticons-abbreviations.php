@@ -64,7 +64,7 @@
                 </div>
                 <div class="column--two-thirds spacer--small">
                     <div class="column--single">
-                        <h3><span class="kr-sans">ㅋㅋㅋ</span> / haha</h3>
+                        <h3><span class="kr-sans-bold">ㅋㅋㅋ</span> / haha</h3>
                         <p class="serif">To indicate laughter, literally kkkkkk.</p>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
             <div class="abbreviations-wrapper spacer--medium">
                 <div class="column--two-thirds">
                     <div class="column--single spacer--small">
-                        <h3><span class="kr-sans">ㅎㅎㅎ</span> / heh</h3>
+                        <h3><span class="kr-sans-bold">ㅎㅎㅎ</span> / heh</h3>
                         <p class="serif">To indicate breathes of laughter, literally hhh.</p>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="column--two-thirds">
                     <div class="column--single spacer--small">
-                        <h3><span class="kr-sans">ㅇㅋ</span> / OK</h3>
+                        <h3><span class="kr-sans-bold">ㅇㅋ</span> / OK</h3>
                         <p class="serif">The letter <span class="kr-serif">‘ㅇ’</span> looks like the letter ‘O’ and <span class="kr-serif">‘ㅋ’</span> is pronounced like the ‘k’ sound.</p>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
             <div class="abbreviations-wrapper spacer--medium">
                 <div class="column--two-thirds">
                     <div class="column--single spacer--small">
-                        <h3><span class="kr-sans">ㅅㄱ</span> / GG</h3>
+                        <h3><span class="kr-sans-bold">ㅅㄱ</span> / GG</h3>
                         <p class="serif">A casual of saying good game or good job. <span class="kr-serif">ㅅㄱ</span> is short hand for <span class="kr-serif">수고하세요.</span> The <span class="kr-serif">‘ㅅ’</span> represents the ‘s’ sound and <span class="kr-serif">‘ㄱ’</span> represents the ‘g’ sound.</p>
                     </div>
                 </div>

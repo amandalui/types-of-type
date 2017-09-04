@@ -15,15 +15,18 @@ html, body {
     }
 }
 
-@font-face {
+/* @font-face {
 	font-family: 'Nanum Myeongjo';
-	src: url('NanumMyeongjoBold.eot');
-	src: url('NanumMyeongjoBold.eot?#iefix') format('embedded-opentype'),
-		url('NanumMyeongjoBold.woff') format('woff'),
-		url('NanumMyeongjoBold.ttf') format('truetype');
+	src: url('../fonts/NanumMyeongjoBold.eot');
+	src: url('../fontsNanumMyeongjoBold.eot?#iefix') format('embedded-opentype'),
+		url('../fontsNanumMyeongjoBold.woff') format('woff'),
+		url('../fontsNanumMyeongjoBold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
-}
+} */
+
+/* @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 
 .center {
   text-align: center;
