@@ -13,4 +13,4 @@
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   <script src="/js/flexibility.js"></script>
-  <script src="https://unpkg.com/vue"></script>
+  <script src="js/vue.js"></script>
