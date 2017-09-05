@@ -37,6 +37,12 @@
         <?php include('includes/timeline.php'); ?>
         </div></div>
     
+  <!-- NEXT SECTION -->
+  <div class="clear"></div>
+  <div class="spacer--medium center">
+    <a class="button caps" href="/hangul-blocks.php">Next Chapter</a>
+  </div>  
+      
   <!-- FOOTER -->
   <?php include('includes/footer.php'); ?>
 
