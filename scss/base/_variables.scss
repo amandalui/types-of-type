@@ -2,7 +2,7 @@
 
 $sansserif      : 'Work Sans', Verdana, sans-serif;
 $serif          : 'Bitter', Georgia, serif;
-$krsansserif    : 'Noto Sans', AppleGothic, Dotum, sans-serif;
+$krsansserif    : 'source-han-sans-korean', 'Noto Sans KR', 'Noto Sans', AppleGothic, Dotum, sans-serif;
 $krserif        : 'Nanum Myeongjo', AppleMyungjo, Batang;
 
 // Type Sizes (Non headers)
@@ -18,9 +18,11 @@ $darker     : #111;
 $light      : #fff;
 
 $lightpink  : #fcdfeb;
+$darkpink   : #e39398;
 
 $yellow     : #ffce00;
 $darkyellow : #ffad00;
+$brown      : #d88f0e;
 
 $lightblue  : #93d6de;
 $blue       : #45c0c9;
@@ -32,8 +34,9 @@ $darkgreen  : #0a6024;
 
 // Media Query Breakpoints
 
-$small   : '(max-width: 768px)';
-$medium      : '(max-width: 1200px)';
+$small      : '(max-width: 768px)';
+$pre-medium : '(max-width: 900px)';
+$medium     : '(max-width: 1200px)';
 
 
 // Images

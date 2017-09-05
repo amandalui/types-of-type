@@ -8,6 +8,9 @@
 
   <link rel="SHORTCUT ICON" href="images/favicon.ico" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Sans:400,700|Work+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Work+Sans:300,400,600,700" rel="stylesheet">
+  <script src="https://use.typekit.net/mdt5gam.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-  <script src="js/vue.js"></script>
+  <script src="/js/flexibility.js"></script>
+  <script src="https://unpkg.com/vue"></script>

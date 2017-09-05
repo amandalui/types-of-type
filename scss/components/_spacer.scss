@@ -1,3 +1,11 @@
+.spacer--tiny {
+  padding: 15px 0;
+    
+  @media #{$small} {
+    padding: 5px 0;
+  }
+}
+
 .spacer--small {
   padding: 30px 0;
     

@@ -1,8 +1,9 @@
 .side-nav-left {
   height: 150px;
+  width: 250px;
   position: fixed;
   bottom: 0px;
-  left: -15px;
+  left: -90px;
 
   @media #{$small} {
     display: none;
@@ -11,9 +12,10 @@
 
 .side-nav-right {
   height: 150px;
+  width: 250px;
   position: fixed;
   bottom: 0px;
-  right: -30px;
+  right: -90px;
     
   @media #{$small} {
     display: none;

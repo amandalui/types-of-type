@@ -3,22 +3,22 @@
     <div
       v-for="option in feature.options"
       class="dib pointer m1r"
-      v-bind:class="{ 'bg-black white': option === feature.active }"
+      v-bind:class="{ 'bg-white': option === feature.active }"
       @click="changeOption(option)">
       {{ option }}
     </div>
   </div>
 </template>
 
-<div id="faces-app" class="center tc cf">
-  <div class="left w6 dib tc br">
+<div id="faces-app" class="center-align center cf spacer--small">
+  <div class="column--half-br dib center kr-sans">
     <face-features v-on:change="change" :feature="koreanEye"></face-features>
-    <div class="f3">{{ koreanEye.active }}{{ koreanMouth.active }}{{ koreanEye.active }}</div>
+    <div class="faces-display spacer--small">{{ koreanEye.active }}{{ koreanMouth.active }}{{ koreanEye.active }}</div>
     <face-features v-on:change="change" :feature="koreanMouth"></face-features>
   </div>
-  <div class="right w6 dib tc">
+  <div class="column--half-br dib center">
     <face-features v-on:change="change" :feature="englishEyes"></face-features>
-    <div class="f3">{{ englishEyes.active }} {{ englishMouth.active }}</div>
+    <div class="faces-display spacer--small">{{ englishEyes.active }} {{ englishMouth.active }}</div>
     <face-features v-on:change="change" :feature="englishMouth"></face-features>
   </div>
 </div>
@@ -51,13 +51,13 @@ new Vue({
     },
     koreanEye: {
       name: 'koreanEye',
-      options: ['ㅇ', '^', '-', '$'],
-      active: 'ㅇ',
+      options: ['ㅠ', 'ㅇ', 'ㅎ', '^'],
+      active: 'ㅠ',
     },
     koreanMouth: {
       name: 'koreanMouth',
-      options: ['ㅂ', 'ㅁ', 'ㅅ', '-'],
-      active: 'ㅁ'
+      options: ['ㅡ', 'ㅁ', 'ㅂ', 'ㅅ'],
+      active: 'ㅡ'
     }
   },
   methods: {
@@ -85,7 +85,7 @@ new Vue({
 }
 
   /* TODO: Change names so it doesn't collide with main stylesheet */
-  .center {
+  .center-align {
     margin-right: auto;
     margin-left: auto;
   }
@@ -114,15 +114,6 @@ new Vue({
     cursor: pointer;
   }
 
-  .m1r {
-    margin-right: var(--spacing-1);
-  }
-
-  .br {
-    border-right: solid;
-    border-right-width: .125rem;
-  }
-
   .f1 { font-size: 3rem; }
   .f2 { font-size: 2.25rem; }
   .f3 { font-size: 1.5rem; }
@@ -134,4 +125,6 @@ new Vue({
   .bg-black { background-color: black; }
 
   .white { color: white; }
+    
+  .bg-white { background-color: white; }
 </style>

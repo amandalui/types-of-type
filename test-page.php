@@ -8,7 +8,7 @@
 <body>
 
   <!-- TOP NAV -->
-        <?php include('includes/header-nav.php'); ?>
+  <?php include('includes/header-nav.php'); ?>
     
   <!-- HEADER -->
   <div class="header-wrap clear">
