@@ -45,7 +45,7 @@
           v-if="menuIsOpen"
           v-cloak
         >
-          <? include('includes/menu.php'); ?>
+          <?php include('includes/menu.php'); ?>
         </div>
       </transition>
     </div>
