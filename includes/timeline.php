@@ -146,6 +146,7 @@
         <p class="caption serif">Korea regained independence and Hangul once again became the official written language. Three years after, North Korea banned the use of Hanja.</p>
     </div>
   </div>
+</div>
   <div class="container-timeline right-timeline">
     <div class="content-timeline lightpink">
         <div class="caps bottom-br">
@@ -155,4 +156,3 @@
         <p class="caption serif">Post-modern type emerged as a reaction against the Modernist movement. The invention of the computer allowed for the creation of the unconventional.</p>
     </div>
   </div>
-</div>
