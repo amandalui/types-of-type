@@ -1,6 +1,6 @@
 <div class="timeline text--blue">
-  <h3 class="column--half caps center">Korean</h3>
-    <h3 class="column--half caps center">English</h3>
+  <h3 class="column--half caps center timeline-descriptor">Korean</h3>
+    <h3 class="column--half caps center timeline-descriptor">English</h3>
     <div class="clear"></div>
   <div class="container-timeline right-timeline">
     <div class="content-timeline lightpink">
