@@ -1,4 +1,4 @@
-<div class="timeline text--blue">
+<div class="timeline text--blue img--100">
   <h3 class="column--half caps center timeline-descriptor">Korean</h3>
     <h3 class="column--half caps center timeline-descriptor">English</h3>
     <div class="clear"></div>
@@ -147,7 +147,7 @@
     </div>
   </div>
 </div>
-  <div class="container-timeline right-timeline">
+  <div class="container-timeline right-timeline img--100">
     <div class="content-timeline lightpink">
         <div class="caps bottom-br">
             <span class="serif">1980</span> <span class="bold">Post Modernist</span>
