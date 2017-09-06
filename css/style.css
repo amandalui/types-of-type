@@ -306,10 +306,14 @@ a {
   background-color: #047272; }
 
 .green {
-  background-color: #45c274; }
+  background-color: #57c17b; }
 
 .darkgreen {
   background-color: #0a6024; }
+
+.split-bg {
+  background-image: url("../images/origins-of-type/split-bg.svg");
+  background-size: contain; }
 
 .button {
   font-weight: 600;
@@ -559,6 +563,126 @@ h3 {
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
 
+@media (max-width: 768px) {
+  .timeline-descriptor {
+    display: none; } }
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: white;
+  top: 145px;
+  bottom: -30px;
+  left: 50%;
+  margin-left: -1px; }
+  @media (max-width: 768px) {
+    .timeline::after {
+      width: 0px; } }
+
+/* Container around content */
+.container-timeline {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box; }
+  @media (max-width: 768px) {
+    .container-timeline {
+      width: 100%;
+      padding-left: 25px;
+      padding-right: 25px; } }
+
+/* The circles on the timeline */
+.container-timeline::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: -5px;
+  background-color: white;
+  top: 25px;
+  border-radius: 50%;
+  z-index: 1; }
+  @media (max-width: 768px) {
+    .container-timeline::after {
+      width: 0px;
+      height: 0px;
+      right: 0px; } }
+
+/* Fix the circle for containers on the right side */
+.right-timeline::after {
+  left: -5px; }
+  @media (max-width: 768px) {
+    .right-timeline::after {
+      left: 0px; } }
+
+/* Place the container to the left */
+.left-timeline {
+  left: 0; }
+
+/* Place the container to the right */
+.right-timeline {
+  left: 50%; }
+  @media (max-width: 768px) {
+    .right-timeline {
+      left: 0%; } }
+
+/* Add arrows to the left container (pointing right) */
+.left-timeline::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #ffce00;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #ffce00; }
+  @media (max-width: 768px) {
+    .left-timeline::before {
+      right: 15px;
+      border: medium solid #fcdfeb;
+      border-width: 10px 0 10px 10px;
+      border-color: transparent transparent transparent #fcdfeb; } }
+
+/* Add arrows to the right container (pointing left) */
+.right-timeline::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #fcdfeb;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #fcdfeb transparent transparent; }
+  @media (max-width: 768px) {
+    .right-timeline::before {
+      left: 15px;
+      border: medium solid #ffce00;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent #ffce00 transparent transparent; } }
+
+/* The actual content */
+.content-timeline {
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+  background: #fff; }
+
+.bottom-br {
+  border-bottom: 2px solid #047272;
+  padding: 0 0 5px 0; }
+
 /*---Footer------------------------------------*/
 footer {
   color: #fff;
@@ -587,9 +711,9 @@ footer {
   width: 80%;
   padding: 50px;
   margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.7);
-  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.7); }
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4); }
   @media (max-width: 1200px) {
     .header-container {
       width: 70%;

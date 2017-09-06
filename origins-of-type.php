@@ -23,14 +23,30 @@
         </div>
       </div>
   </div>
+    
+  <!-- SIDE NAV -->
+  <div class="side-nav side-nav-right center">
+      <div class="rotate">
+          <a href="/hangul-blocks.php">Hangul Blocks<br />&#9660;</a>
+      </div>
+  </div>
 
   <!-- CONTENT -->
-  <div class="content lightpink">
-      HellO!
-  </div>
+  <div class="content--first split-bg clear">
+    <div class="column--single spacer--medium">  <div class="column--single">  
+        <?php include('includes/timeline.php'); ?>
+        </div></div>
     
+  <!-- NEXT SECTION -->
+  <div class="clear"></div>
+  <div class="spacer--medium center">
+    <a class="button caps" href="/hangul-blocks.php">Next Chapter</a>
+  </div>  
+      
   <!-- FOOTER -->
   <?php include('includes/footer.php'); ?>
+
+  </div>   
     
 </body>
 </html>
