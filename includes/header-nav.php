@@ -2,46 +2,55 @@
   [v-cloak] {
     display: none;
   }
-  #header > nav {
-    z-index: 4;
-  }
   .pointer {
     cursor: pointer;
   }
-  .full-screen {
-    z-index: 3;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
+  .relative {
+    position: relative;
+  }
+  .z4 { z-index: 4 }
+  .z0 { z-index: 0 }
+  .dropdown {
+    width: 80vw;
+    left: -24vw;
+    position: absolute;
+    top: 50px;
     height: 100vh;
     background-color: #333;
     transition: opacity 300ms;
+    
   }
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity .3s
+  @media (max-width: 768px) {
+    .dropdown {
+      width: 90vw;
+      left: -29vw;
+    }
   }
-  .fade-enter, .fade-leave-to {
-    opacity: 0
+  .drop-enter-active, .drop-leave-active {
+    transition: top .3s
+  }
+  .drop-enter, .drop-leave-to {
+    top: -100vh
   }
 </style>
 
 <div id="header">
-  <nav>
+  <nav class="z4">
     <div class="column--one-third"><a href="/"><img class="nav__logo" src="images/types-of-type-horizontal.svg"></a></div>
-    <div class="column--one-third center"><img class="pointer" @click="toggleMenu" src="images/nav-button.png"></div>
+    <div class="column--one-third center relative">
+      <img class="pointer" @click="toggleMenu" src="images/nav-button.png">
+      <transition name="drop">
+        <div
+          class="dropdown"
+          v-if="menuIsOpen"
+          v-cloak
+        >
+          <? include('includes/menu.php'); ?>
+        </div>
+      </transition>
+    </div>
     <div class="column--one-third right"><a href="/about.php">About / Credits</a></div>
   </nav>
-
-  <transition name="fade">
-    <div
-      class="full-screen"
-      v-if="menuIsOpen"
-      v-cloak
-    >
-      <? include('includes/menu.php'); ?>
-    </div>
-  </transition>
 </div>
 
 <script>
