@@ -1,5 +1,4 @@
   <div class="menu column--single">
-    <h3 class="caps center">Contents</h3>
     <div class="column--half-static">
       <h3 class="caps center">The Basics</h3>
       <div class="menu__item">
