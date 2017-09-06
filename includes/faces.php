@@ -36,53 +36,53 @@
     }
   })
 
-new Vue({
-  el: '#faces-app',
-  data: {
-    englishEyes: {
-      name: 'englishEyes',
-      options: [':', ';', 'X', '>:'],
-      active: ':'
+  new Vue({
+    el: '#faces-app',
+    data: {
+      englishEyes: {
+        name: 'englishEyes',
+        options: [':', ';', 'X', '>:'],
+        active: ':'
+      },
+      englishMouth: {
+        name: 'englishMouth',
+        options: [')', 'O', 'D', 'P'],
+        active: ')'   
+      },
+      koreanEye: {
+        name: 'koreanEye',
+        options: ['ㅠ', 'ㅇ', 'ㅎ', '^'],
+        active: 'ㅠ',
+      },
+      koreanMouth: {
+        name: 'koreanMouth',
+        options: ['ㅡ', 'ㅁ', 'ㅂ', 'ㅅ'],
+        active: 'ㅡ'
+      }
     },
-    englishMouth: {
-      name: 'englishMouth',
-      options: [')', 'O', 'D', 'P'],
-      active: ')'   
-    },
-    koreanEye: {
-      name: 'koreanEye',
-      options: ['ㅠ', 'ㅇ', 'ㅎ', '^'],
-      active: 'ㅠ',
-    },
-    koreanMouth: {
-      name: 'koreanMouth',
-      options: ['ㅡ', 'ㅁ', 'ㅂ', 'ㅅ'],
-      active: 'ㅡ'
+    methods: {
+      change(feature, option) {
+        this[feature].active = option 
+      }      
     }
-  },
-  methods: {
-    change(feature, option) {
-      this[feature].active = option 
-    }      
-  }
-})
+  })
 </script>
 
 <style>
-:root {
-  --width-1: 16px;
-  --width-2: 24px;
-  --width-3: 32px;
-  --width-4: 60px;
-  --width-5: 100px;
-  --width-6: 150px;
+  :root {
+    --width-1: 16px;
+    --width-2: 24px;
+    --width-3: 32px;
+    --width-4: 60px;
+    --width-5: 100px;
+    --width-6: 150px;
 
-  --spacing-1: 16px;
-  --spacing-2: 24px;
-  --spacing-3: 32px;
-  --spacing-4: 60px;
-  --spacing-5: 100px;
-}
+    --spacing-1: 16px;
+    --spacing-2: 24px;
+    --spacing-3: 32px;
+    --spacing-4: 60px;
+    --spacing-5: 100px;
+  }
 
   /* TODO: Change names so it doesn't collide with main stylesheet */
   .center-align {
