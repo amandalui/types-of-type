@@ -33,7 +33,7 @@ First section slideshow (the one that says I am not Korean underneath):
 - [ ] Option to click/swipe through
 
 Last section slideshows (grid with 6 images pa, so, hwa, pal, son, won)
-- [ ] Static images, on click play slideshow once through (no loop)
+- [x] Static images, on click play slideshow once through (no loop)
 
 
 ### *1–3 Letter-form Anatomy*
