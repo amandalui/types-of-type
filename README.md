@@ -62,6 +62,7 @@ _Emoticons and abbreviations used online_
 ### *2–3 Expressive Type*
 _Showing how different type styles translate between the two languages_
 
+- [x] Rewrite rendering in Vue
 - [ ] Cycle through three pairs of words
 - [ ] Animate type on hover / tap
 - [ ] Amanda to export new assets
