@@ -96,45 +96,13 @@
             </div>
 
             <div class="spacer--small clear"></div>
-            <div class="column--one-third-static center img--140px">
-                <div class="block-pa">
-                    <img src="images/hangul-blocks/pa-0.svg" alt="p-a">
-                </div>
-                <div class="block-pa">
-                    <img src="images/hangul-blocks/pa-1.svg" alt="p-a">
-                </div>
-                <div class="block-pa">
-                    <img src="images/hangul-blocks/pa-2.svg" alt="p-a">
-                </div>
-                <div class="block-pa">
-                    <img src="images/hangul-blocks/pa-3.svg" alt="p-a">
-                </div>
-                <div class="block-pa">
-                    <img src="images/hangul-blocks/pa-4.svg" alt="p-a">
-                </div>
-            </div>
-            <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/so-0.svg" alt="s-o">
-            </div>
-            <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/hwa-0.svg" alt="h-w-a">
-            </div>
-            <br /><div class="spacer--small clear"></div>
-            <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/pal-0.svg" alt="p-a-l">
-            </div>
-            <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/son-0.svg" alt="s-o-n">
-            </div>
-            <div class="column--one-third-static center img--140px">
-                <img src="images/hangul-blocks/won-0.svg" alt="w-o-n">
-            </div>
-            <br />
         </div>
+            <br />
+        <?php include('includes/hangul-blocks.php'); ?>
     </div>
     <div class="clear"></div>
     <div class="spacer--medium center">
-        <a class="button caps" href="/letter-form-anatomy.php">Next Chapter</a>
+      <a class="button caps" href="/letter-form-anatomy.php">Next Chapter</a>
     </div>  
       
   <!-- NEXT SECTION -->
@@ -143,7 +111,7 @@
   <?php include('includes/footer.php'); ?>
   </div> 
     
-<script src="js/hangul-blocks-slideshows.js"></script>
+  <!-- <script src="js/hangul-blocks-slideshows.js"></script> -->
     
 </body>
 </html>
