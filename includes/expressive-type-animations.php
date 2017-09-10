@@ -32,7 +32,7 @@
     data () {
       return {
         index: 0,
-        length: 3,
+        length: 6,
         style: {
           width: this.width ? `${this.width}px` : '100%',
           height: this.height ? `${this.height}px` : '100%',
@@ -45,6 +45,11 @@
       play() {
         this.anim.destroy()
         this.nextAnimation()
+        this.anim.onComplete = () => {
+          this.anim.destroy()
+          this.nextAnimation()
+          this.anim.onComplete = null
+        }
       },
       nextAnimation() {
         this.anim = bodymovin.loadAnimation({
@@ -89,9 +94,12 @@
         return !!animationData[`${this.code}-in`]
       },
       animationData() {
-        return this.texts.map(text =>
-          animationData[`${this.lang}-${text}-in`]
-        )
+        return [].concat(...this.texts.map(text =>
+          [
+            animationData[`${this.lang}-${text}-in`],
+            animationData[`${this.lang}-${text}-out`]
+          ]
+        ))
       },
       code() {
         return `${this.lang}-${this.texts[0]}`
