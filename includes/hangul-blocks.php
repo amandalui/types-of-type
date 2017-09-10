@@ -5,7 +5,7 @@
   >
     <img
       alt="p-a"
-      class="block-pa"
+      class="block-pa pointer"
       :src="`images/hangul-blocks/${blockName}-${currentFrame}.svg`"
     />
   </div>
