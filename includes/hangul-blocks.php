@@ -1,21 +1,13 @@
-<style>
-  .shown { display: block; }
-  .hidden { display: none; }
-</style>
-
 <template id="hangul-block">
   <div
     class="column--one-third-static center img--140px"
     @click="startAnimation()"
   >
-    <div
+    <img
+      alt="p-a"
       class="block-pa"
-      v-for="frame in frames"
-      :key="frame"
-      :class="currentFrame === frame ? 'shown' : 'hidden'"
-    >
-      <img alt="p-a" :src="getSrc()" />
-    </div>
+      :src="`images/hangul-blocks/${blockName}-${currentFrame}.svg`"
+    />
   </div>
 </template>
 
@@ -41,10 +33,6 @@
     { name: 'won', numFrames: 7 }
   ]
 
-  function getSrc() {
-    return `images/hangul-blocks/${this.blockName}-${this.currentFrame}.svg`
-  }
-
   function updateFrame() {
     if (this.currentFrame === this.numFrames - 1) {
       this.currentFrame = 0
@@ -53,12 +41,6 @@
     }
     this.currentFrame += 1
     setTimeout(updateFrame.bind(this), FRAME_DURATION)
-  }
-
-  function startAnimation() {
-    if (this.isAnimating) return
-    this.isAnimating = true
-    updateFrame.call(this)
   }
 
   Vue.component('hangul-block', {
@@ -75,8 +57,11 @@
       }
     },
     methods: {
-      getSrc,
-      startAnimation
+      startAnimation() {
+        if (this.isAnimating) return
+        this.isAnimating = true
+        updateFrame.call(this)
+      }
     }
   })
 
