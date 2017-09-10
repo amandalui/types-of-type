@@ -15,7 +15,7 @@
 <script src="animations/expressive-type/kr-friendly-in.js"></script>
 
 <template id="bodymovin-template">
-  <div class="pointer" @click="play" ref="bodymovin"></div>
+  <div @click="play" class="pointer" ref="bodymovin"></div>
 </template>
 
 <script>
@@ -31,6 +31,8 @@
     },
     data () {
       return {
+        index: 0,
+        length: 3,
         style: {
           width: this.width ? `${this.width}px` : '100%',
           height: this.height ? `${this.height}px` : '100%',
@@ -41,30 +43,30 @@
     },
     methods: {
       play() {
-        this.anim.goToAndPlay(0)
-      }
-    },
-    mounted () {
-      this.anim = bodymovin.loadAnimation({
+        this.anim.destroy()
+        this.nextAnimation()
+      },
+      nextAnimation() {
+        this.anim = bodymovin.loadAnimation({
           container: this.$refs.bodymovin,
           renderer: 'svg',
           loop: this.options.loop !== false,
           autoplay: this.options.autoplay !== false,
-          animationData: this.options.animationData,
+          animationData: this.options.animationData[this.index],
           rendererSettings: this.options.rendererSettings
-        }
-      );
-      this.$emit('animCreated', this.anim)
+        })
+        this.index = (this.index + 1) % this.length
+      }
+    },
+    mounted () {
+      this.nextAnimation()
     }
   })
 </script>
 
-<!--
--->
-
 <template id="expressive-type-sub-section-template">
   <div class="column--half center spacer--small"> 
-      <bodymovin v-if="hasAnimationData" :options="{ loop: false, animationData: animationData }"></bodymovin>
+      <bodymovin v-if="hasAnimationData" :options="{ loop: false, animationData }"></bodymovin>
       <img v-if="!hasAnimationData" :src="'/images/expressive-type/' + code + '.svg'" :alt="alt">
       <br />
       <span class="text--brown caption caps">Typeface</span>
@@ -79,14 +81,20 @@
     props: {
       name: String,
       alt: String,
-      code: String
+      lang: String,
+      texts: Array
     },
     computed: {
       hasAnimationData() {
-        return !!animationData[this.code + '-in']
+        return !!animationData[`${this.code}-in`]
       },
       animationData() {
-        return animationData[this.code + '-in']
+        return this.texts.map(text =>
+          animationData[`${this.lang}-${text}-in`]
+        )
+      },
+      code() {
+        return `${this.lang}-${this.texts[0]}`
       }
     }
   })  
@@ -95,9 +103,19 @@
 <template id="expressive-type-section-template">
   <div class="spacer--small">
       <div class="expressive-wrapper spacer--medium">
-        <expressive-type-sub-section :name="en.name" :alt="name" :code="'en-' + code">
+        <expressive-type-sub-section
+          :name="en.name"
+          :alt="name"
+          :lang="'en'"
+          :texts="texts"
+        >
         </expressive-type-sub-section>
-        <expressive-type-sub-section :name="kr.name" :alt="name" :code="'kr-' + code">
+        <expressive-type-sub-section
+          :name="kr.name"
+          :alt="name"
+          :lang="'kr'"
+          :texts="texts"
+        >
         </expressive-type-sub-section>
       </div>
       <div class="clear" :class="!isLast && 'rule spacer--medium'"></div>
@@ -109,9 +127,9 @@
     template: '#expressive-type-section-template',
     props: {
       name: String,
-      code: String,
       en: Object,
       kr: Object,
+      texts: Array,
 			isLast: Boolean
     }
   })
@@ -122,12 +140,12 @@
       <div class="column--single img--100">
           <div class="column--single">
               <expressive-type-section
-                v-for="(animation, key, index) in animations"
+                v-for="(animation, index) in animations"
                 :name="animation.name"
                 :en="animation.en"
                 :kr="animation.kr"
-                :key="key"
-                :code="key"
+                :key="index"
+                :texts="animation.texts"
 								:is-last="index === Object.keys(animations).length - 1"
               >
               </expressive-type-section>
@@ -141,8 +159,8 @@
   new Vue({
     el: '#expressive-type-app',
     data: {
-      animations: {
-        playground: {
+      animations: [{
+        texts: ['playground', 'sunflower', 'friendly'],
           name: 'Playground',
           en: {
             name: 'Sofia Soft',
@@ -151,7 +169,8 @@
             name: 'BM Jua',
           }
         },
-        dearfriend: {
+        {
+          texts: ['dearfriend'],
           name: 'Dear Friend',
           en: {
             name: 'Kinescope',
@@ -160,7 +179,8 @@
             name: 'Pocheon Makgeoli',
           }
         },
-        volcano: {
+        {
+          texts: ['volcano'],
           name: 'Volcano',
           en: {
             name: 'Freckle Face',
@@ -169,7 +189,8 @@
             name: 'Jeju Hallasan',
           }
         },
-        environmental: {
+        {
+          texts: ['environmental'],
           name: 'Environmental',
           en: {
             name: 'Amatic',
@@ -178,7 +199,8 @@
             name: 'Sangsangtokki Blossom'
           }
         },
-        seventies: {
+        {
+          texts: ['seventies'],
           name: 'Seventies',
           en: {
             name: 'Grad',
@@ -187,7 +209,8 @@
             name: 'Bom Param'
           }
         },
-        historical: {
+        {
+          texts: ['historical'],
           name: 'Historical',
           en: {
             name: 'Givry',
@@ -196,7 +219,7 @@
             name: 'N/A'
           }
         }
-      }
+      ]
     },
   })
 </script>
