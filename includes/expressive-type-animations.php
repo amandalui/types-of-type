@@ -1,6 +1,71 @@
+<script>
+  animationData = {}
+</script>
+<script src="animations/expressive-type/en-playground-in.js"></script>
+<script src="animations/expressive-type/en-playground-out.js"></script>
+<script src="animations/expressive-type/kr-playground-in.js"></script>
+<script src="animations/expressive-type/kr-playground-out.js"></script>
+<script src="animations/expressive-type/en-sunflower-in.js"></script>
+<script src="animations/expressive-type/en-sunflower-out.js"></script>
+<script src="animations/expressive-type/kr-sunflower-in.js"></script>
+<script src="animations/expressive-type/kr-sunflower-out.js"></script>
+<script src="animations/expressive-type/en-friendly-in.js"></script>
+<script src="animations/expressive-type/en-friendly-out.js"></script>
+<script src="animations/expressive-type/kr-friendly-out.js"></script>
+<script src="animations/expressive-type/kr-friendly-in.js"></script>
+
+<template id="bodymovin-template">
+  <div class="pointer" @click="play" ref="bodymovin"></div>
+</template>
+
+<script>
+  Vue.component('bodymovin', {
+    template: '#bodymovin-template',
+    props: {
+      options: {
+        type: Object,
+        required: true
+      },
+      height: Number,
+      width: Number,
+    },
+    data () {
+      return {
+        style: {
+          width: this.width ? `${this.width}px` : '100%',
+          height: this.height ? `${this.height}px` : '100%',
+          overflow: 'hidden',
+          margin: '0 auto'
+        }
+      }
+    },
+    methods: {
+      play() {
+        this.anim.goToAndPlay(0)
+      }
+    },
+    mounted () {
+      this.anim = bodymovin.loadAnimation({
+          container: this.$refs.bodymovin,
+          renderer: 'svg',
+          loop: this.options.loop !== false,
+          autoplay: this.options.autoplay !== false,
+          animationData: this.options.animationData,
+          rendererSettings: this.options.rendererSettings
+        }
+      );
+      this.$emit('animCreated', this.anim)
+    }
+  })
+</script>
+
+<!--
+-->
+
 <template id="expressive-type-sub-section-template">
-  <div class="column--half center spacer--small">
-      <img :src="'/images/expressive-type/' + code + '.svg'" :alt="alt">
+  <div class="column--half center spacer--small"> 
+      <bodymovin v-if="hasAnimationData" :options="{ loop: false, animationData: animationData }"></bodymovin>
+      <img v-if="!hasAnimationData" :src="'/images/expressive-type/' + code + '.svg'" :alt="alt">
       <br />
       <span class="text--brown caption caps">Typeface</span>
       <br />
@@ -9,13 +74,20 @@
 </template>
 
 <script>
-  // TODO: Replace images with animations
   Vue.component('expressive-type-sub-section', {
     template: '#expressive-type-sub-section-template',
     props: {
       name: String,
       alt: String,
       code: String
+    },
+    computed: {
+      hasAnimationData() {
+        return !!animationData[this.code + '-in']
+      },
+      animationData() {
+        return animationData[this.code + '-in']
+      }
     }
   })  
 </script>

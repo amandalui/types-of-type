@@ -1,4 +1,4 @@
-animationData = {
+animationData['en-playground-in'] = {
   v: '4.10.1',
   fr: 30,
   ip: 0,
@@ -14,9 +14,9 @@ animationData = {
         fName: 'SofiaProSoftBold',
         fFamily: 'Sofia Pro Soft',
         fStyle: 'Bold',
-        ascent: 73.1033325195312
-      }
-    ]
+        ascent: 73.1033325195312,
+      },
+    ],
   },
   layers: [
     {
@@ -30,7 +30,7 @@ animationData = {
         r: { a: 0, k: 0, ix: 10 },
         p: { a: 0, k: [306, 69.5, 0], ix: 2 },
         a: { a: 0, k: [0, 0, 0], ix: 1 },
-        s: { a: 0, k: [100, 100, 100], ix: 6 }
+        s: { a: 0, k: [100, 100, 100], ix: 6 },
       },
       ao: 0,
       ef: [
@@ -56,7 +56,7 @@ animationData = {
                     n: ['0p273_1_0p167_0p167'],
                     t: 0,
                     s: [100],
-                    e: [-5]
+                    e: [-5],
                   },
                   {
                     i: { x: [0.55], y: [0.952] },
@@ -64,7 +64,7 @@ animationData = {
                     n: ['0p55_0p952_0p406_0p015'],
                     t: 15.015,
                     s: [-5],
-                    e: [2]
+                    e: [2],
                   },
                   {
                     i: { x: [0.401], y: [1] },
@@ -72,7 +72,7 @@ animationData = {
                     n: ['0p401_1_0p416_-0p133'],
                     t: 25.025,
                     s: [2],
-                    e: [0]
+                    e: [0],
                   },
                   {
                     i: { x: [0.401], y: [1] },
@@ -80,7 +80,7 @@ animationData = {
                     n: ['0p401_1_0p167_0p167'],
                     t: 37.037,
                     s: [0],
-                    e: [0]
+                    e: [0],
                   },
                   {
                     i: { x: [0.586], y: [1.08] },
@@ -88,7 +88,7 @@ animationData = {
                     n: ['0p586_1p08_0p599_0'],
                     t: 84.084,
                     s: [0],
-                    e: [5.598]
+                    e: [5.598],
                   },
                   {
                     i: { x: [0.498], y: [1.008] },
@@ -96,7 +96,7 @@ animationData = {
                     n: ['0p498_1p008_0p411_0p06'],
                     t: 95.095,
                     s: [5.598],
-                    e: [-5]
+                    e: [-5],
                   },
                   {
                     i: { x: [0.833], y: [0.833] },
@@ -104,15 +104,15 @@ animationData = {
                     n: ['0p833_0p833_1_0p003'],
                     t: 107.107,
                     s: [-5],
-                    e: [100]
+                    e: [100],
                   },
-                  { t: 130.1298828125 }
+                  { t: 130.1298828125 },
                 ],
-                ix: 1
-              }
-            }
-          ]
-        }
+                ix: 1,
+              },
+            },
+          ],
+        },
       ],
       t: {
         d: {
@@ -128,11 +128,11 @@ animationData = {
                 tr: 0,
                 lh: 120,
                 ls: 0,
-                fc: [0.04, 0.38, 0.14]
+                fc: [0.04, 0.38, 0.14],
               },
-              t: 0
-            }
-          ]
+              t: 0,
+            },
+          ],
         },
         p: {},
         m: { g: 1, a: { a: 0, k: [0, 0], ix: 2 } },
@@ -142,7 +142,7 @@ animationData = {
               t: 1,
               b: 1,
               x:
-                "var $bm_rt;\nvar delay, d;\ndelay = 2;\nd = mul(mul(delay, thisComp.frameDuration), sub(textIndex, 1));\n$bm_rt = effect('Animation')('Slider').valueAtTime(sub(time, d));"
+                "var $bm_rt;\nvar delay, d;\ndelay = 2;\nd = mul(mul(delay, thisComp.frameDuration), sub(textIndex, 1));\n$bm_rt = effect('Animation')('Slider').valueAtTime(sub(time, d));",
             },
             a: {
               p: {
@@ -156,7 +156,7 @@ animationData = {
                     s: [0, 212, 0],
                     e: [0, 317.384, 0],
                     to: [0, 0, 0],
-                    ti: [0, 0, 0]
+                    ti: [0, 0, 0],
                   },
                   {
                     i: { x: 0.833, y: 0.833 },
@@ -166,7 +166,7 @@ animationData = {
                     s: [0, 317.384, 0],
                     e: [0, 1200, 0],
                     to: [0, 0, 0],
-                    ti: [0, 0, 0]
+                    ti: [0, 0, 0],
                   },
                   {
                     i: { x: 0.833, y: 0.833 },
@@ -176,7 +176,7 @@ animationData = {
                     s: [0, 1200, 0],
                     e: [0, -1200, 0],
                     to: [0, 0, 0],
-                    ti: [0, 0, 0]
+                    ti: [0, 0, 0],
                   },
                   {
                     i: { x: 0.833, y: 0.833 },
@@ -186,22 +186,22 @@ animationData = {
                     s: [0, -1200, 0],
                     e: [0, -235, 0],
                     to: [0, 0, 0],
-                    ti: [0, 0, 0]
+                    ti: [0, 0, 0],
                   },
-                  { t: 95 }
+                  { t: 95 },
                 ],
-                ix: 2
+                ix: 2,
               },
-              r: { a: 0, k: 0, ix: 8 }
-            }
-          }
-        ]
+              r: { a: 0, k: 0, ix: 8 },
+            },
+          },
+        ],
       },
       ip: 0,
       op: 150,
       st: 0,
-      bm: 0
-    }
+      bm: 0,
+    },
   ],
   chars: [
     {
@@ -228,15 +228,15 @@ animationData = {
                       [44.211, -46.628],
                       [35.449, -36.859],
                       [22.458, -36.859],
-                      [22.458, -56.396]
+                      [22.458, -56.396],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'P',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 1,
@@ -254,7 +254,7 @@ animationData = {
                       [0, 11.481],
                       [15.811, 0],
                       [0, 0],
-                      [0.101, -4.129]
+                      [0.101, -4.129],
                     ],
                     o: [
                       [0, 3.625],
@@ -265,7 +265,7 @@ animationData = {
                       [0, -11.38],
                       [0, 0],
                       [-4.431, 0],
-                      [0, 0]
+                      [0, 0],
                     ],
                     v: [
                       [7.755, -6.345],
@@ -276,27 +276,27 @@ animationData = {
                       [59.015, -46.628],
                       [36.154, -69.388],
                       [14.804, -69.388],
-                      [7.755, -61.835]
+                      [7.755, -61.835],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'P',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'P',
             np: 5,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
+      fFamily: 'Sofia Pro Soft',
     },
     {
       ch: 'l',
@@ -321,7 +321,7 @@ animationData = {
                       [0.101, -3.424],
                       [0, 0],
                       [-3.726, 0],
-                      [0, 3.525]
+                      [0, 3.525],
                     ],
                     o: [
                       [0, -3.525],
@@ -329,7 +329,7 @@ animationData = {
                       [0, 0],
                       [0.101, 3.424],
                       [3.827, 0],
-                      [0, 0]
+                      [0, 0],
                     ],
                     v: [
                       [20.242, -66.87],
@@ -337,27 +337,27 @@ animationData = {
                       [6.143, -66.87],
                       [6.143, -5.74],
                       [13.193, 0.504],
-                      [20.242, -5.74]
+                      [20.242, -5.74],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'l',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'l',
             np: 3,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
+      fFamily: 'Sofia Pro Soft',
     },
     {
       ch: 'a',
@@ -387,7 +387,7 @@ animationData = {
                       [0, 3.525],
                       [0, 0],
                       [3.827, 0],
-                      [0.101, -3.424]
+                      [0.101, -3.424],
                     ],
                     o: [
                       [-4.028, -6.244],
@@ -400,7 +400,7 @@ animationData = {
                       [0, 0],
                       [0, -3.525],
                       [-3.726, 0],
-                      [0, 0]
+                      [0, 0],
                     ],
                     v: [
                       [40.686, -40.384],
@@ -413,15 +413,15 @@ animationData = {
                       [54.785, -5.74],
                       [54.785, -41.29],
                       [47.736, -47.534],
-                      [40.686, -41.29]
+                      [40.686, -41.29],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'a',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 1,
@@ -436,27 +436,27 @@ animationData = {
                       [18.228, -23.465],
                       [29.306, -35.349],
                       [40.787, -23.465],
-                      [29.306, -11.581]
+                      [29.306, -11.581],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'a',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'a',
             np: 5,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
+      fFamily: 'Sofia Pro Soft',
     },
     {
       ch: 'y',
@@ -486,7 +486,7 @@ animationData = {
                       [0, 0],
                       [0, 0],
                       [-3.424, -0.806],
-                      [-1.309, 3.122]
+                      [-1.309, 3.122],
                     ],
                     o: [
                       [1.309, -3.625],
@@ -499,7 +499,7 @@ animationData = {
                       [0, 0],
                       [-1.41, 3.625],
                       [4.33, 1.007],
-                      [0, 0]
+                      [0, 0],
                     ],
                     v: [
                       [46.124, -38.873],
@@ -512,27 +512,27 @@ animationData = {
                       [17.02, -4.834],
                       [9.164, 14.703],
                       [13.193, 23.163],
-                      [22.055, 19.235]
+                      [22.055, 19.235],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'y',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'y',
             np: 3,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
+      fFamily: 'Sofia Pro Soft',
     },
     {
       ch: 'g',
@@ -566,7 +566,7 @@ animationData = {
                       [0, 0],
                       [10.675, 0],
                       [2.618, 2.82],
-                      [2.518, -2.316]
+                      [2.518, -2.316],
                     ],
                     o: [
                       [4.633, 5.74],
@@ -583,7 +583,7 @@ animationData = {
                       [0.604, 9.366],
                       [-3.827, 0],
                       [-1.913, -2.115],
-                      [-2.518, 2.216]
+                      [-2.518, 2.216],
                     ],
                     v: [
                       [8.258, 14.099],
@@ -600,15 +600,15 @@ animationData = {
                       [41.19, -5.841],
                       [28.198, 10.876],
                       [17.725, 5.74],
-                      [9.064, 5.438]
+                      [9.064, 5.438],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'g',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 1,
@@ -623,27 +623,27 @@ animationData = {
                       [18.228, -23.465],
                       [29.306, -35.349],
                       [40.787, -23.465],
-                      [29.306, -11.581]
+                      [29.306, -11.581],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'g',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'g',
             np: 5,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
+      fFamily: 'Sofia Pro Soft',
     },
     {
       ch: 'r',
@@ -674,7 +674,7 @@ animationData = {
                       [0, 0],
                       [-7.855, 0],
                       [-1.007, 0],
-                      [-0.504, 3.525]
+                      [-0.504, 3.525],
                     ],
                     o: [
                       [-4.834, 0],
@@ -688,7 +688,7 @@ animationData = {
                       [0.201, -11.783],
                       [0.906, 0],
                       [3.122, 0],
-                      [0.906, -6.647]
+                      [0.906, -6.647],
                     ],
                     v: [
                       [32.428, -47.937],
@@ -702,27 +702,27 @@ animationData = {
                       [20.041, -17.322],
                       [30.716, -35.147],
                       [34.14, -35.046],
-                      [41.089, -40.182]
+                      [41.089, -40.182],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'r',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'r',
             np: 3,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
+      fFamily: 'Sofia Pro Soft',
     },
     {
       ch: 'o',
@@ -747,15 +747,15 @@ animationData = {
                       [28.299, 0.906],
                       [53.073, -23.666],
                       [28.299, -47.937],
-                      [3.625, -23.666]
+                      [3.625, -23.666],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'o',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 1,
@@ -770,27 +770,27 @@ animationData = {
                       [28.299, -12.689],
                       [17.725, -23.666],
                       [28.299, -34.341],
-                      [38.974, -23.666]
+                      [38.974, -23.666],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'o',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'o',
             np: 5,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
+      fFamily: 'Sofia Pro Soft',
     },
     {
       ch: 'u',
@@ -824,7 +824,7 @@ animationData = {
                       [0, -3.525],
                       [0, 0],
                       [-10.574, 0],
-                      [-2.518, 4.733]
+                      [-2.518, 4.733],
                     ],
                     o: [
                       [0, 3.525],
@@ -841,7 +841,7 @@ animationData = {
                       [0, 0],
                       [0, 13.394],
                       [5.539, 0],
-                      [0, 0]
+                      [0, 0],
                     ],
                     v: [
                       [36.557, -5.74],
@@ -858,27 +858,27 @@ animationData = {
                       [5.64, -41.29],
                       [5.64, -17.725],
                       [22.961, 0.906],
-                      [36.557, -6.848]
+                      [36.557, -6.848],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'u',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'u',
             np: 3,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
+      fFamily: 'Sofia Pro Soft',
     },
     {
       ch: 'n',
@@ -912,7 +912,7 @@ animationData = {
                       [0, 3.525],
                       [0, 0],
                       [10.574, 0],
-                      [2.518, -4.733]
+                      [2.518, -4.733],
                     ],
                     o: [
                       [0, -3.525],
@@ -929,7 +929,7 @@ animationData = {
                       [0, 0],
                       [0, -13.394],
                       [-5.539, 0],
-                      [0, 0]
+                      [0, 0],
                     ],
                     v: [
                       [20.041, -41.29],
@@ -946,27 +946,27 @@ animationData = {
                       [50.958, -5.74],
                       [50.958, -28.098],
                       [33.636, -48.038],
-                      [20.041, -40.182]
+                      [20.041, -40.182],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'n',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'n',
             np: 3,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
+      fFamily: 'Sofia Pro Soft',
     },
     {
       ch: 'd',
@@ -996,7 +996,7 @@ animationData = {
                       [0, 3.525],
                       [0, 0],
                       [3.827, 0],
-                      [0.101, -3.424]
+                      [0.101, -3.424],
                     ],
                     o: [
                       [-4.028, -6.244],
@@ -1009,7 +1009,7 @@ animationData = {
                       [0, 0],
                       [0, -3.525],
                       [-3.726, 0],
-                      [0, 0]
+                      [0, 0],
                     ],
                     v: [
                       [40.686, -40.384],
@@ -1022,15 +1022,15 @@ animationData = {
                       [54.785, -5.74],
                       [54.785, -66.87],
                       [47.736, -73.114],
-                      [40.686, -66.87]
+                      [40.686, -66.87],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'd',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 1,
@@ -1045,27 +1045,27 @@ animationData = {
                       [18.228, -23.465],
                       [29.306, -35.349],
                       [40.787, -23.465],
-                      [29.306, -11.581]
+                      [29.306, -11.581],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: 'd',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: 'd',
             np: 5,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'Sofia Pro Soft'
-    }
-  ]
+      fFamily: 'Sofia Pro Soft',
+    },
+  ],
 }

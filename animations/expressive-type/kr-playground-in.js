@@ -1,11 +1,11 @@
-animationData = {
+animationData['kr-playground-in'] = {
   v: '4.10.1',
   fr: 30,
-  ip: 84,
-  op: 150,
+  ip: 0,
+  op: 61,
   w: 600,
   h: 125,
-  nm: '01-01-kr-playground-out',
+  nm: '01-01-kr-playground-in',
   ddd: 0,
   assets: [],
   fonts: {
@@ -14,9 +14,9 @@ animationData = {
         fName: 'BMJUAOTF',
         fFamily: 'BM JUA_OTF',
         fStyle: 'Regular',
-        ascent: 71.2677001953125
-      }
-    ]
+        ascent: 71.2677001953125,
+      },
+    ],
   },
   layers: [
     {
@@ -30,7 +30,7 @@ animationData = {
         r: { a: 0, k: 0, ix: 10 },
         p: { a: 0, k: [306, 70, 0], ix: 2 },
         a: { a: 0, k: [0, 0, 0], ix: 1 },
-        s: { a: 0, k: [100, 100, 100], ix: 6 }
+        s: { a: 0, k: [100, 100, 100], ix: 6 },
       },
       ao: 0,
       ef: [
@@ -56,7 +56,7 @@ animationData = {
                     n: ['0p273_1_0p167_0p167'],
                     t: 0,
                     s: [100],
-                    e: [-5]
+                    e: [-5],
                   },
                   {
                     i: { x: [0.55], y: [0.952] },
@@ -64,7 +64,7 @@ animationData = {
                     n: ['0p55_0p952_0p406_0p015'],
                     t: 15.015,
                     s: [-5],
-                    e: [2]
+                    e: [2],
                   },
                   {
                     i: { x: [0.401], y: [1] },
@@ -72,7 +72,7 @@ animationData = {
                     n: ['0p401_1_0p416_-0p133'],
                     t: 25.025,
                     s: [2],
-                    e: [0]
+                    e: [0],
                   },
                   {
                     i: { x: [0.401], y: [1] },
@@ -80,7 +80,7 @@ animationData = {
                     n: ['0p401_1_0p167_0p167'],
                     t: 37.037,
                     s: [0],
-                    e: [0]
+                    e: [0],
                   },
                   {
                     i: { x: [0.586], y: [1.08] },
@@ -88,7 +88,7 @@ animationData = {
                     n: ['0p586_1p08_0p599_0'],
                     t: 84.084,
                     s: [0],
-                    e: [5.598]
+                    e: [5.598],
                   },
                   {
                     i: { x: [0.498], y: [1.008] },
@@ -96,7 +96,7 @@ animationData = {
                     n: ['0p498_1p008_0p411_0p06'],
                     t: 95.095,
                     s: [5.598],
-                    e: [-5]
+                    e: [-5],
                   },
                   {
                     i: { x: [0.833], y: [0.833] },
@@ -104,15 +104,15 @@ animationData = {
                     n: ['0p833_0p833_1_0p003'],
                     t: 107.107,
                     s: [-5],
-                    e: [100]
+                    e: [100],
                   },
-                  { t: 130.1298828125 }
+                  { t: 130.1298828125 },
                 ],
-                ix: 1
-              }
-            }
-          ]
-        }
+                ix: 1,
+              },
+            },
+          ],
+        },
       ],
       t: {
         d: {
@@ -128,11 +128,11 @@ animationData = {
                 tr: 0,
                 lh: 120,
                 ls: 0,
-                fc: [0.04, 0.38, 0.14]
+                fc: [0.04, 0.38, 0.14],
               },
-              t: 0
-            }
-          ]
+              t: 0,
+            },
+          ],
         },
         p: {},
         m: { g: 1, a: { a: 0, k: [0, 0], ix: 2 } },
@@ -142,7 +142,7 @@ animationData = {
               t: 1,
               b: 1,
               x:
-                "var $bm_rt;\nvar delay, d;\ndelay = 2;\nd = mul(mul(delay, thisComp.frameDuration), sub(textIndex, 1));\n$bm_rt = effect('Animation')('Slider').valueAtTime(sub(time, d));"
+                "var $bm_rt;\nvar delay, d;\ndelay = 2;\nd = mul(mul(delay, thisComp.frameDuration), sub(textIndex, 1));\n$bm_rt = effect('Animation')('Slider').valueAtTime(sub(time, d));",
             },
             a: {
               p: {
@@ -156,7 +156,7 @@ animationData = {
                     s: [0, 212, 0],
                     e: [0, 317.384, 0],
                     to: [0, 0, 0],
-                    ti: [0, 0, 0]
+                    ti: [0, 0, 0],
                   },
                   {
                     i: { x: 0.833, y: 0.833 },
@@ -166,7 +166,7 @@ animationData = {
                     s: [0, 317.384, 0],
                     e: [0, 1200, 0],
                     to: [0, 0, 0],
-                    ti: [0, 0, 0]
+                    ti: [0, 0, 0],
                   },
                   {
                     i: { x: 0.833, y: 0.833 },
@@ -176,7 +176,7 @@ animationData = {
                     s: [0, 1200, 0],
                     e: [0, -1200, 0],
                     to: [0, 0, 0],
-                    ti: [0, 0, 0]
+                    ti: [0, 0, 0],
                   },
                   {
                     i: { x: 0.833, y: 0.833 },
@@ -186,22 +186,22 @@ animationData = {
                     s: [0, -1200, 0],
                     e: [0, -235, 0],
                     to: [0, 0, 0],
-                    ti: [0, 0, 0]
+                    ti: [0, 0, 0],
                   },
-                  { t: 95 }
+                  { t: 95 },
                 ],
-                ix: 2
+                ix: 2,
               },
-              r: { a: 0, k: 0, ix: 8 }
-            }
-          }
-        ]
+              r: { a: 0, k: 0, ix: 8 },
+            },
+          },
+        ],
       },
       ip: 0,
       op: 150,
       st: 0,
-      bm: 0
-    }
+      bm: 0,
+    },
   ],
   chars: [
     {
@@ -227,15 +227,15 @@ animationData = {
                       [41.592, -35.55],
                       [75.833, -52.167],
                       [41.592, -68.784],
-                      [7.352, -52.167]
+                      [7.352, -52.167],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 1,
@@ -260,7 +260,7 @@ animationData = {
                       [-0.302, -2.618],
                       [-4.028, -0.201],
                       [-0.604, 2.82],
-                      [-0.101, 2.82]
+                      [-0.101, 2.82],
                     ],
                     o: [
                       [2.82, -0.101],
@@ -278,7 +278,7 @@ animationData = {
                       [0.403, 4.028],
                       [2.719, 0.101],
                       [0, -3.827],
-                      [6.747, 0]
+                      [6.747, 0],
                     ],
                     v: [
                       [68.582, -18.329],
@@ -296,15 +296,15 @@ animationData = {
                       [34.946, -11.078],
                       [41.592, -5.237],
                       [48.642, -9.668],
-                      [48.944, -17.926]
+                      [48.944, -17.926],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 2,
@@ -327,7 +327,7 @@ animationData = {
                       [-5.136, 0],
                       [0, 0],
                       [-1.511, 1.913],
-                      [0.403, 2.518]
+                      [0.403, 2.518],
                     ],
                     o: [
                       [0, 0],
@@ -343,7 +343,7 @@ animationData = {
                       [0, 0],
                       [0.101, 0],
                       [1.208, -1.41],
-                      [-0.403, -2.82]
+                      [-0.403, -2.82],
                     ],
                     v: [
                       [71.402, -0.302],
@@ -359,15 +359,15 @@ animationData = {
                       [15.71, 11.481],
                       [70.697, 11.481],
                       [74.524, 9.467],
-                      [75.732, 3.525]
+                      [75.732, 3.525],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 3,
@@ -382,27 +382,27 @@ animationData = {
                       [41.592, -57.504],
                       [62.137, -52.167],
                       [41.592, -46.628],
-                      [21.048, -52.167]
+                      [21.048, -52.167],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: '?',
             np: 7,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'BM JUA_OTF'
+      fFamily: 'BM JUA_OTF',
     },
     {
       ch: '동',
@@ -457,7 +457,7 @@ animationData = {
                       [0, 0],
                       [-2.115, 2.014],
                       [0, 1.309],
-                      [0.906, 0.705]
+                      [0.906, 0.705],
                     ],
                     o: [
                       [-5.74, -0.302],
@@ -495,7 +495,7 @@ animationData = {
                       [0.201, 0],
                       [0.806, -0.705],
                       [0, -1.208],
-                      [-1.913, -1.511]
+                      [-1.913, -1.511],
                     ],
                     v: [
                       [67.776, -30.212],
@@ -533,15 +533,15 @@ animationData = {
                       [66.971, -19.537],
                       [74.524, -21.35],
                       [75.833, -25.076],
-                      [74.423, -28.198]
+                      [74.423, -28.198],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 1,
@@ -556,15 +556,15 @@ animationData = {
                       [5.237, -0.806],
                       [38.168, 13.293],
                       [71.201, -0.806],
-                      [38.168, -14.905]
+                      [38.168, -14.905],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 2,
@@ -579,27 +579,27 @@ animationData = {
                       [57.907, -0.806],
                       [38.168, 3.424],
                       [19.135, -0.806],
-                      [38.168, -5.035]
+                      [38.168, -5.035],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: '?',
             np: 6,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'BM JUA_OTF'
+      fFamily: 'BM JUA_OTF',
     },
     {
       ch: '장',
@@ -624,15 +624,15 @@ animationData = {
                       [9.467, -3.525],
                       [43.103, 11.984],
                       [76.74, -3.525],
-                      [43.103, -19.034]
+                      [43.103, -19.034],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 1,
@@ -672,7 +672,7 @@ animationData = {
                       [2.518, 2.518],
                       [0.906, 0.906],
                       [1.309, 1.108],
-                      [0.705, 0.604]
+                      [0.705, 0.604],
                     ],
                     o: [
                       [0, 0],
@@ -705,7 +705,7 @@ animationData = {
                       [-0.705, -0.705],
                       [-1.511, -1.41],
                       [-1.208, -1.007],
-                      [-0.101, -0.504]
+                      [-0.101, -0.504],
                     ],
                     v: [
                       [34.442, -56.497],
@@ -738,15 +738,15 @@ animationData = {
                       [45.117, -37.061],
                       [42.7, -39.578],
                       [38.47, -43.405],
-                      [34.442, -47.031]
+                      [34.442, -47.031],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 2,
@@ -774,7 +774,7 @@ animationData = {
                       [-1.007, 0.705],
                       [-0.403, 0.806],
                       [-0.101, 1.41],
-                      [0, 0]
+                      [0, 0],
                     ],
                     o: [
                       [3.928, -0.101],
@@ -795,7 +795,7 @@ animationData = {
                       [0.705, -0.504],
                       [0.806, -1.511],
                       [0, 0],
-                      [0, 0]
+                      [0, 0],
                     ],
                     v: [
                       [77.243, -38.672],
@@ -816,15 +816,15 @@ animationData = {
                       [72.107, -21.954],
                       [73.819, -23.969],
                       [74.927, -28.5],
-                      [74.927, -38.672]
+                      [74.927, -38.672],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
+                hd: false,
               },
               {
                 ind: 3,
@@ -839,27 +839,27 @@ animationData = {
                       [63.144, -3.525],
                       [43.103, 1.41],
                       [23.666, -3.525],
-                      [43.103, -8.56]
+                      [43.103, -8.56],
                     ],
-                    c: true
+                    c: true,
                   },
-                  ix: 2
+                  ix: 2,
                 },
                 nm: '?',
                 mn: 'ADBE Vector Shape - Group',
-                hd: false
-              }
+                hd: false,
+              },
             ],
             nm: '?',
             np: 7,
             cix: 2,
             ix: 1,
             mn: 'ADBE Vector Group',
-            hd: false
-          }
-        ]
+            hd: false,
+          },
+        ],
       },
-      fFamily: 'BM JUA_OTF'
-    }
-  ]
+      fFamily: 'BM JUA_OTF',
+    },
+  ],
 }
