@@ -69,8 +69,9 @@
     width: 80vw;
     padding: 70px 10vw; 
     position: absolute;
-    z-index: 1;
-    top: 0px;
+    z-index: -1;
+    left: -34vw;
+    top: -20px;
     height: calc(100vh - 140px);
     background-color: #333;
     transition: opacity 1s;
