@@ -1,5 +1,6 @@
 <script>
   animationData = {}
+  bus = new Vue()
 </script>
 <script src="animations/expressive-type/en-playground-in.js"></script>
 <script src="animations/expressive-type/en-playground-out.js"></script>
@@ -22,6 +23,8 @@
   Vue.component('bodymovin', {
     template: '#bodymovin-template',
     props: {
+      typeIndex: Number,
+      lang: String,
       options: {
         type: Object,
         required: true
@@ -41,8 +44,16 @@
         }
       }
     },
+    computed: {
+      otherLang() {
+        return this.lang === 'en' ? 'kr' : 'en'
+      }
+    },
     methods: {
-      play() {
+      play(emit = true) {
+        if (emit) {
+          bus.$emit(`play-animation-${this.typeIndex}-${this.otherLang}`)
+        }
         this.anim.destroy()
         this.nextAnimation()
         this.anim.onComplete = () => {
@@ -60,19 +71,35 @@
           animationData: this.options.animationData[this.index],
           rendererSettings: this.options.rendererSettings
         })
+        this.anim.setSpeed(1.6)
         this.index = (this.index + 1) % this.length
-      }
+      },
     },
     mounted () {
       this.nextAnimation()
+    },
+    created() {
+      bus.$on(`play-animation-${this.typeIndex}-${this.lang}`, () => {
+        this.play(false)
+      })
     }
   })
 </script>
 
 <template id="expressive-type-sub-section-template">
   <div class="column--half center spacer--small"> 
-      <bodymovin v-if="hasAnimationData" :options="{ loop: false, animationData }"></bodymovin>
-      <img v-if="!hasAnimationData" :src="'/images/expressive-type/' + code + '.svg'" :alt="alt">
+      <bodymovin 
+        v-if="hasAnimationData"
+        :options="{ loop: false, animationData }"
+        :type-index="typeIndex"
+        :lang="lang"
+      >
+      </bodymovin>
+      <img
+        v-if="!hasAnimationData"
+        :src="'/images/expressive-type/' + code + '.svg'"
+        :alt="alt"
+      >
       <br />
       <span class="text--brown caption caps">Typeface</span>
       <br />
@@ -87,7 +114,8 @@
       name: String,
       alt: String,
       lang: String,
-      texts: Array
+      texts: Array,
+      typeIndex: Number
     },
     computed: {
       hasAnimationData() {
@@ -112,17 +140,19 @@
   <div class="spacer--small">
       <div class="expressive-wrapper spacer--medium">
         <expressive-type-sub-section
-          :name="en.name"
-          :alt="name"
-          :lang="'en'"
-          :texts="texts"
-        >
-        </expressive-type-sub-section>
-        <expressive-type-sub-section
           :name="kr.name"
           :alt="name"
           :lang="'kr'"
           :texts="texts"
+          :type-index="typeIndex"
+        >
+        </expressive-type-sub-section>
+        <expressive-type-sub-section
+          :name="en.name"
+          :alt="name"
+          :lang="'en'"
+          :texts="texts"
+          :type-index="typeIndex"
         >
         </expressive-type-sub-section>
       </div>
@@ -138,6 +168,7 @@
       en: Object,
       kr: Object,
       texts: Array,
+      typeIndex: Number,
 			isLast: Boolean
     }
   })
@@ -153,6 +184,7 @@
                 :en="animation.en"
                 :kr="animation.kr"
                 :key="index"
+                :type-index="index"
                 :texts="animation.texts"
 								:is-last="index === Object.keys(animations).length - 1"
               >
