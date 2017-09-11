@@ -31,6 +31,8 @@
   <div class="spacer--medium"></div>
     
   <!-- CONTENTS / MENU -->
+  <h3 class="caps center text--light">Contents</h3>
+  <div class="spacer--tiny"></div>
   <?php include('includes/menu.php'); ?>
 
     
