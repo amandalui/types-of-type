@@ -1,6 +1,8 @@
 <script>
+  // TODO: Remove globals
   animationData = {}
   bus = new Vue()
+  // TODO: Combine animations into a single file?
 </script>
 <script src="animations/expressive-type/en-playground-in.js"></script>
 <script src="animations/expressive-type/en-playground-out.js"></script>
@@ -34,6 +36,7 @@
     },
     data () {
       return {
+        isAnimating: true,
         index: 0,
         length: 6,
         style: {
@@ -51,6 +54,8 @@
     },
     methods: {
       play(emit = true) {
+        if (this.isAnimating) return
+        this.isAnimating = true
         if (emit) {
           bus.$emit(`play-animation-${this.typeIndex}-${this.otherLang}`)
         }
@@ -59,7 +64,10 @@
         this.anim.onComplete = () => {
           this.anim.destroy()
           this.nextAnimation()
-          this.anim.onComplete = null
+          this.anim.onComplete = () => {
+            this.isAnimating = false
+            this.anim.onComplete = null
+          }
         }
       },
       nextAnimation() {
@@ -77,6 +85,9 @@
     },
     mounted () {
       this.nextAnimation()
+      this.anim.onComplete = () => {
+        this.isAnimating = false
+      }
     },
     created() {
       bus.$on(`play-animation-${this.typeIndex}-${this.lang}`, () => {
@@ -97,7 +108,7 @@
       </bodymovin>
       <img
         v-if="!hasAnimationData"
-        :src="'/images/expressive-type/' + code + '.svg'"
+        :src="`/images/expressive-type/${code}.svg`"
         :alt="alt"
       >
       <br />

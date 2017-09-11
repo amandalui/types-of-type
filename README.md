@@ -63,6 +63,6 @@ _Emoticons and abbreviations used online_
 _Showing how different type styles translate between the two languages_
 
 - [x] Rewrite rendering in Vue
-- [ ] Cycle through three pairs of words
+- [x] Cycle through three pairs of words
 - [x] Animate type on hover / tap
-- [ ] Amanda to export new assets
+- [x] Amanda to export new assets
