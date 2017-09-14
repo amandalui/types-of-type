@@ -18,8 +18,8 @@
   <!-- INTRO SECTION -->
   <div class="intro-index-wrap center">
     <div class="intro-index">
-        <h3 class="caps">A Different Guide to Typography</h3>
-        <p>See typography in a new light by comparing Korean and English.</p>
+        <h3 class="caps">A guide to typography with character</h3>
+        <p>Compare English and Korean for a new perspective on type.</p>
     </div>
     <br />
     <p><a class="button caps" href="/origins-of-type.php">Let's get to it</a></p>
