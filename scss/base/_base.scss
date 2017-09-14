@@ -54,18 +54,18 @@ html, body {
  a {
     &:link {
         text-decoration: none;
-    }
- /*   &:visited {
         color: $dark;
-        border-bottom: 2px solid $dark;
+    }
+    &:visited {
+        color: $dark;
     }
     &:hover {
         color: rgba($dark, 0.3);
-        border-bottom: 2px solid rgba($dark, 0.3);
+        @extend %transition;
     }
     &:active {
         color: rgba($dark, 0.3);
-    }	   */
+    }
 }
 
 .link--end a {
@@ -76,7 +76,7 @@ html, body {
         border-bottom: 2px solid $dark;
     }
     &:visited {
-        color: $light;
+        color: $dark;
     }
     &:hover {
         color: rgba($dark, 0.7);

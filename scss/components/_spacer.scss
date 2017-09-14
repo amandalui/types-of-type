@@ -29,3 +29,13 @@
     padding: 45px 0;
   }
 }
+
+.spacer--left {
+  padding-left: 3%;
+  float: right;
+    
+  @media #{$small} {
+    padding-left: 0;
+    float: left;
+  }
+}

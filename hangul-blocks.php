@@ -100,7 +100,7 @@
             <br />
         <?php include('includes/hangul-blocks.php'); ?>
     </div>
-    <div class="clear"></div>
+    <div class="clear spacer--medium"></div>
     <div class="spacer--medium center">
       <a class="button caps" href="/letter-form-anatomy.php">Next Chapter</a>
     </div>  

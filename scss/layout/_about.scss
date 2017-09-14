@@ -1,0 +1,25 @@
+.about-wrap {
+  width: 100%;
+  min-height: 100%;
+  padding-top: 100px;
+}
+
+.about-container {
+  position: relative;
+  z-index: 2;
+  background: $light;
+  width: 80%;
+  max-width: 685px;
+  padding: 100px;
+  margin: 0 auto;
+
+  @media #{$medium} {
+    width: 70%;
+    padding: 50px 7%;
+  }
+    
+  @media #{$small} {
+    width: 60%;
+    padding: 30px 10%;
+  }
+}

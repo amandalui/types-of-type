@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Types of Type | Italics, -, &ndash;, &mdash;, and &#126;</title>
+  <title>Types of Type | Italics, -, &ndash;, &mdash;, and &tilde;;</title>
   <?php include('includes/head.php'); ?>
 </head>
     
@@ -18,7 +18,7 @@
         </div>
         <div class="header-content">
             <span class="header-section-number">2&ndash;1</span>
-            <h1>Italics, -, &ndash;, &mdash;, and &#126;</h1>
+            <h1>Italics, -, &ndash;, &mdash;, and &tilde;</h1>
             <p class="header-section-desc">Italics, scripts, and all of those dahses have uniqe purposes.</p>
         </div>
     </div>

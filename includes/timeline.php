@@ -147,7 +147,7 @@
     </div>
   </div>
 </div>
-  <div class="container-timeline right-timeline img--100">
+  <div class="container-timeline text--blue right-timeline img--100">
     <div class="content-timeline lightpink">
         <div class="caps bottom-br">
             <span class="serif">1980</span> <span class="bold">Post Modernist</span>

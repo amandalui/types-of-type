@@ -42,3 +42,10 @@
   background-image: url('../images/origins-of-type/split-bg.svg');
   background-size: contain;
 }
+
+.bg--about {
+  background-image: url('../images/bg--about.svg');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  background-color: $lightblue;
+}

@@ -1,7 +1,7 @@
 .button {
   font-weight: 600;
   background: $dark;
-  color: $light;
+  color: $light !important;
   padding: 10px 20px;
   @extend %rounded;
 

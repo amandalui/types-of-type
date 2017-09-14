@@ -16,7 +16,7 @@
 - [ ] Amanda to make loading animation
 - [ ] Navigation without page refresh
 - [x] Top menu navigation drop down (with the includes/menu)
-- [ ] Amanda to create About/Credits page
+- [x] Amanda to create About/Credits page
 
 ### *1–1 Origins of Type*
 _Primer on how the english and korean alphabets were created, it's very different_
