@@ -98,7 +98,7 @@
 </script>
 
 <template id="expressive-type-sub-section-template">
-  <div class="column--half center spacer--small"> 
+  <div class="column--half-et center spacer--small"> 
       <bodymovin 
         v-if="hasAnimationData"
         :options="{ loop: false, animationData }"
@@ -144,12 +144,15 @@
         return `${this.lang}-${this.texts[0]}`
       }
     }
-  })  
+  })
 </script>
 
 <template id="expressive-type-section-template">
   <div class="spacer--small">
-      <div class="expressive-wrapper spacer--medium">
+      <div class="expressive-wrapper spacer--medium flex"> 
+        <div class="column--et-refresh button--refresh center">
+            <img src="../images/expressive-type/refresh.svg" alt="refresh">
+    </div>
         <expressive-type-sub-section
           :name="kr.name"
           :alt="name"

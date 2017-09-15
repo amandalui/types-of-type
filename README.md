@@ -13,7 +13,6 @@
 
 ## Todos
 - [ ] Load typefaces before showing page content
-- [ ] Amanda to make loading animation
 - [ ] Navigation without page refresh
 - [x] Top menu navigation drop down (with the includes/menu)
 - [x] Amanda to create About/Credits page
@@ -21,7 +20,7 @@
 ### *1–1 Origins of Type*
 _Primer on how the english and korean alphabets were created, it's very different_
 
-Any ideas for interaction? Fade in on scroll?
+- [ ] Fade in on scroll
 
 
 ### *1–2 Hangul Blocks*
@@ -45,7 +44,8 @@ Any ideas for interaction?
 ### *1–4 Type Categories*
 _Describing the differences between the sub categories of serif and sans-serif_
 
-Any ideas for interaction? Maybe when people hover/tap we could highlight the parts to look at that are different between the sub categories? Amanda can make assets to show on hover.
+- [ ] Amanda to make hover assets
+- [ ] Switch image on hover/tap
 
 
 ### *2-1 Italics, –, –, —, and \~*
@@ -59,6 +59,7 @@ _Emoticons and abbreviations used online_
 
 - [x] Make a face selections
 
+
 ### *2–3 Expressive Type*
 _Showing how different type styles translate between the two languages_
 
@@ -66,3 +67,4 @@ _Showing how different type styles translate between the two languages_
 - [x] Cycle through three pairs of words
 - [x] Animate type on hover / tap
 - [x] Amanda to export new assets
+– [ ] Make refresh button functional
