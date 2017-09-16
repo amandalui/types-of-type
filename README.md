@@ -28,8 +28,9 @@ _Intro on how the Korean written language works_
 
 First section slideshow (the one that says I am not Korean underneath):
 - [ ] Radial progress dots
-- [ ] Should have a 0.2s fade transition
-- [ ] Option to click/swipe through
+- [x] Should have a 0.2s fade transition
+- [x] Option to click through
+- [ ] Option to swipe through
 
 Last section slideshows (grid with 6 images pa, so, hwa, pal, son, won)
 - [x] Static images, on click play slideshow once through (no loop)

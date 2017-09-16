@@ -37,12 +37,7 @@
   </div>
 
   <!-- CONTENT -->
-  <div class="content--first blue clear">
-    <div class="column--single spacer--small">
-        <div class="column--single center img--100"><img src="images/hangul-blocks/slide-1.svg" alt="Hangul Blocks"></div>
-        <h3 class="spacer--small caps center text--blue">(I am not Korean)</h3>
-    </div>
-  </div>
+  <?php include('includes/hangul-block-slides.php'); ?>
   <div class="content mediumblue">
     <div class="spacer--medium"></div>
     <div class="column--single">
