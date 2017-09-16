@@ -44,7 +44,7 @@ Any ideas for interaction?
 ### *1–4 Type Categories*
 _Describing the differences between the sub categories of serif and sans-serif_
 
-- [ ] Amanda to make hover assets
+- [x] Amanda to make hover assets
 - [ ] Switch image on hover/tap
 
 
