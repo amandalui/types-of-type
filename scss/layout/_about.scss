@@ -2,6 +2,7 @@
   width: 100%;
   min-height: 100%;
   padding-top: 100px;
+  line-height: 1.6;
 }
 
 .about-container {
@@ -22,4 +23,8 @@
     width: 60%;
     padding: 30px 10%;
   }
+}
+
+.about-wrap a {
+  border-bottom: 1px solid;
 }

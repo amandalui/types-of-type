@@ -22,8 +22,8 @@
             <p><span class="bold">Writing and Design</span><br />
                 <span class="serif"><a href="http://amandalui.com" target="_blank">Amanda Lui</a></span></p>
             <p><span class="bold">Website in collaboration with</span><br />
-                <span class="serif"><a href="https://github.com/thisjeremiah" target="_blank">Jeremiah Montoya</a></span><br />
-                <span class="serif"><a href="https://github.com/nathanspecht" target="_blank">Nathan Specht</a></span>
+                <span class="serif"><a href="https://dreaminginmonospace.com/" target="_blank">Jeremiah Montoya</a></span><br />
+                <span class="serif"><a href="http://nathanspecht.com/" target="_blank">Nathan Specht</a></span>
             </p>
             <p><span class="bold">Special Thanks</span><br />
                 <span class="serif"><a href="http://romanjaster.com/" target="_blank">Roman Jaster</a></span><br />

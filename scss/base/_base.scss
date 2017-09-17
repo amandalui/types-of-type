@@ -1,7 +1,7 @@
 /*---Set Up------------------------------------*/
 
 html, body {
-    @include text(16px, 1.3, 400);
+    @include text(16px, 1.5, 400);
     font-family: $sansserif;
     color: $dark;
     text-rendering: optimizeLegibility;

@@ -4,18 +4,24 @@
   bus = new Vue()
   // TODO: Combine animations into a single file?
 </script>
-<script src="animations/expressive-type/en-playground-in.js"></script>
-<script src="animations/expressive-type/en-playground-out.js"></script>
-<script src="animations/expressive-type/kr-playground-in.js"></script>
-<script src="animations/expressive-type/kr-playground-out.js"></script>
-<script src="animations/expressive-type/en-sunflower-in.js"></script>
-<script src="animations/expressive-type/en-sunflower-out.js"></script>
-<script src="animations/expressive-type/kr-sunflower-in.js"></script>
-<script src="animations/expressive-type/kr-sunflower-out.js"></script>
-<script src="animations/expressive-type/en-friendly-in.js"></script>
-<script src="animations/expressive-type/en-friendly-out.js"></script>
-<script src="animations/expressive-type/kr-friendly-out.js"></script>
-<script src="animations/expressive-type/kr-friendly-in.js"></script>
+<script src="animations/expressive-type/01-playground-sunflower-friendly.js"></script>
+<script src="animations/expressive-type/02-dearfriend-handwriting-thankyou.js"></script>
+<script src="animations/expressive-type/03-volcano-ukulele-pineapple.js"></script>
+<script src="animations/expressive-type/04-environmental-trees-sustainable.js"></script>
+<script src="animations/expressive-type/05-seventies-disco-bellbottoms.js"></script>
+<script src="animations/expressive-type/06-01-en-historical-in.js"></script>
+<script src="animations/expressive-type/06-01-en-historical-out.js"></script>
+<script src="animations/expressive-type/06-01-kr-historical-in.js"></script>
+<script src="animations/expressive-type/06-01-kr-historical-out.js"></script>
+<script src="animations/expressive-type/06-02-en-medieval-in.js"></script>
+<script src="animations/expressive-type/06-02-en-medieval-out.js"></script>
+<script src="animations/expressive-type/06-02-kr-medieval-in.js"></script>
+<script src="animations/expressive-type/06-02-kr-medieval-out.js"></script>
+<script src="animations/expressive-type/06-03-en-joseon-in.js"></script>
+<script src="animations/expressive-type/06-03-en-joseon-out.js"></script>
+<script src="animations/expressive-type/06-03-kr-joseon-in.js"></script>
+<script src="animations/expressive-type/06-03-kr-joseon-out.js"></script>
+
 
 <template id="bodymovin-template">
   <div @click="play" class="pointer" ref="bodymovin"></div>
@@ -224,7 +230,7 @@
           }
         },
         {
-          texts: ['dearfriend'],
+          texts: ['dearfriend','handwriting','thankyou'],
           name: 'Dear Friend',
           en: {
             name: 'Kinescope',
@@ -234,7 +240,7 @@
           }
         },
         {
-          texts: ['volcano'],
+          texts: ['volcano', 'ukulele', 'pineapple'],
           name: 'Volcano',
           en: {
             name: 'Freckle Face',
@@ -244,7 +250,7 @@
           }
         },
         {
-          texts: ['environmental'],
+          texts: ['environmental', 'trees', 'sustainable'],
           name: 'Environmental',
           en: {
             name: 'Amatic',
@@ -254,7 +260,7 @@
           }
         },
         {
-          texts: ['seventies'],
+          texts: ['seventies', 'disco', 'bellbottoms'],
           name: 'Seventies',
           en: {
             name: 'Grad',
@@ -264,7 +270,7 @@
           }
         },
         {
-          texts: ['historical'],
+          texts: ['historical', 'medieval', 'joseon'],
           name: 'Historical',
           en: {
             name: 'Givry',
