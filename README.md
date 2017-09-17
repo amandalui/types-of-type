@@ -71,3 +71,4 @@ _Showing how different type styles translate between the two languages_
 - [x] Animate type on hover / tap
 - [x] Amanda to export new assets
 – [ ] Make refresh button functional and rotate image 180 degrees on click
+- [ ] Possible to add blur to historical, medieval, and joseon?
