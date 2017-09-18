@@ -21,7 +21,10 @@
   }
 
   .transition-opacity img {
-    transition: opacity 0.2s;
+    transition: 0.6s linear;
+    -moz-transition: 0.6s linear;    /* FF3.7+ */
+    -o-transition: 0.6s linear;      /* Opera 10.5 */
+    -webkit-transition: 0.6s linear; /* Saf3.2+, Chrome */
   }
 </style>
 
@@ -38,6 +41,7 @@
         alt="Hangul Blocks"
       >
     </div>
+      <img src="./images/hangul-blocks/slide-translation.svg" alt="na noon han gook een ee a neeb nee da">
     <h3 class="spacer--small caps center text--blue">(I am not Korean)</h3>
   </div>
 </div>

@@ -16,6 +16,9 @@
 - [ ] Navigation without page refresh
 - [x] Top menu navigation drop down (with the includes/menu)
 - [x] Amanda to create About/Credits page
+- [ ] Amanda to create favicon
+- [ ] Amanda to create bookmark icons to show on android / ios
+- [ ] Amanda to create page previews for shared linkes on facebook, etc.
 
 ### *1–1 Origins of Type*
 _Primer on how the english and korean alphabets were created, it's very different_
