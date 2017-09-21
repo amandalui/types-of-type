@@ -1,0 +1,129 @@
+/*---Text Colors------------------------------------*/
+
+.text--light {
+  color: $light;
+}
+
+.text--blue {
+  color: $darkblue;
+}
+
+.text--lightpink {
+  color: $lightpink;
+}
+
+.text--darkpink {
+  color: $darkpink;
+}
+
+.text--yellow {
+  color: $yellow;
+}
+
+.text--brown {
+  color: $brown;
+}
+
+.text--darkgreen {
+  color: $darkgreen;
+}
+
+/*---Typeface------------------------------------*/
+
+.serif {
+  font-family: $serif;
+}
+
+.kr-sans {
+  font-family: $krsansserif;
+  font-weight: 500;
+}
+
+.kr-sans-bold {
+  font-family: $krsansserif;
+  font-weight: 700;
+}
+
+.kr-serif {
+  font-family: $krserif;
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+/*---Headers and Captions------------------------------------*/
+
+h1 {
+  @include text(60px, 1, 700);
+   
+  @media #{$small} {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  @include text(30px, $weight: 600);
+    
+  @media #{$small} {
+    font-size: 20px;
+  }
+}
+
+    
+h3 {
+  @include text(20px, $weight: 600);
+    
+  @media #{$pre-medium} {
+    font-size: 18px;
+  }
+    
+  @media #{$small} {
+    font-size: 16px;
+  }
+}
+
+.caption {
+  font-size: 12px;
+}
+
+.caption--max-width {
+  font-size: 12px;
+  max-width: 300px;
+}
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+    
+  @media #{$small} {
+    letter-spacing: 0.1em;
+  }
+}
+
+/*---Other------------------------------------*/
+
+.no-break {
+  word-break: keep-all;
+}
+
+.no-orphan {
+    white-space: nowrap;
+}
+
+/*---Rotated------------------------------------*/
+
+.rotate {
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+

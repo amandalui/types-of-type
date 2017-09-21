@@ -1,0 +1,30 @@
+.button {
+  font-weight: 600;
+  background: $dark;
+  color: $light !important;
+  padding: 10px 20px;
+  @extend %rounded;
+
+  &:hover {
+    @extend %transition;
+    background: rgba($dark, 0.6);
+  }
+}
+
+.button--refresh {
+    background: $light;
+    max-height: 60px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    /* future proofing */
+    -khtml-border-radius: 50px;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75);
+    -moz-box-shadow:    5px 5px 0px 0px rgba(153, 102, 0, 0.75);
+    box-shadow:         5px 5px 0px 0px rgba(153, 102, 0, 0.75);
+    
+  &:hover {
+    @extend %transition;
+    background: rgba($darkpink, 0.6);
+  }
+}

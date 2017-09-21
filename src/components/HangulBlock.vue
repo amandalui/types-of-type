@@ -4,7 +4,7 @@
     @click="startAnimation()"
   >
     <img
-      alt="p-a"
+      alt="hangul block"
       class="block-pa pointer"
       :src="`/static/images/hangul-blocks/${blockName}-${currentFrame}.svg`"
     />

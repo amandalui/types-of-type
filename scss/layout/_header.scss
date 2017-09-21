@@ -1,0 +1,74 @@
+.header-wrap {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+}
+
+.header-container {
+  position: relative;
+  z-index: 2;
+  background: $light;
+  width: 80%;
+  padding: 50px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.4);
+
+  @media #{$medium} {
+    width: 70%;
+    padding: 50px 15%;
+  }
+    
+  @media #{$small} {
+    width: 60%;
+    padding: 30px 20%;
+  }
+}
+
+.header-content {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.header-section-title {
+  position: absolute;
+  margin: 20px 0 0 -4%;
+  left: 0px;
+  font-weight: 700;
+    
+  @media #{$medium} {
+    margin: 20px 0 0 -5%;
+  }
+
+  @media #{$small} {
+    margin: 50px 0 0 -6%;
+  }
+}
+
+.header-section-title-conno {
+  position: absolute;
+  margin: 37px 0 0 -6%;
+  left: 0px;
+  font-weight: 700;
+    
+  @media #{$medium} {
+    margin: 37px 0 0 -6.8%;
+  }
+
+  @media #{$small} {
+    margin: 65px 0 0 -8.4%;
+  }
+}
+
+.header-section-number {
+  @include text(20px, $weight: 600);
+  border-bottom: 3px solid $dark;
+}
+
+.header-section-desc {
+  font-family: $serif;
+  font-size: $medium-type;
+}

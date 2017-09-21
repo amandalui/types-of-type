@@ -1,0 +1,51 @@
+.light {
+  background-color: $light;
+}
+
+.lightpink {
+  background-color: $lightpink;
+}
+
+.yellow {
+  background-color: $yellow;
+}
+
+.darkyellow {
+  background-color: $darkyellow;
+}
+
+.lightblue {
+  background-color: $lightblue;
+}
+
+.blue {
+  background-color: $blue;
+}
+
+.mediumblue {
+  background-color: $mediumblue;
+}
+
+.darkblue {
+  background-color: $darkblue;
+}
+
+.green {
+  background-color: $green;
+}
+
+.darkgreen {
+  background-color: $darkgreen;
+}
+
+.split-bg {
+  background-image: url('../images/origins-of-type/split-bg.svg');
+  background-size: contain;
+}
+
+.bg--about {
+  background-image: url('../images/bg--about.svg');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  background-color: $lightblue;
+}
