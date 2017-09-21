@@ -1,0 +1,53 @@
+<template>
+  <div id="header">
+    <nav class="z4">
+      <div class="column--one-third">
+        <router-link @click.native="closeMenu" to="/">
+          <img class="nav__logo" src="../images/types-of-type-horizontal.svg">
+        </router-link>
+      </div>
+      <div class="column--one-third center relative">
+        <img class="pointer" @click="toggleMenu" src="../images/nav-button.png">
+        <transition name="drop">
+          <div
+            class="dropdown"
+            v-if="menuIsOpen"
+            v-cloak
+          >
+            <app-menu @select="closeMenu">
+            </app-menu>
+          </div>
+        </transition>
+      </div>
+      <div class="column--one-third right">
+        <router-link @click.native="closeMenu" to="/about">About / Credits</router-link>
+      </div>
+    </nav>
+  </div>
+</template>
+
+<script>
+  import AppMenu from '@/components/AppMenu'
+
+  export default {
+    name: 'app-header',
+    data () {
+      return { menuIsOpen: false }
+    },
+    methods: {
+      toggleMenu () {
+        this.menuIsOpen = !this.menuIsOpen
+        document.body.style.overflow = this.menuIsOpen ? 'hidden' : 'scroll'
+      },
+      closeMenu () {
+        if (this.menuIsOpen) {
+          this.menuIsOpen = false
+          document.body.style.overflow = 'scroll'
+        }
+      }
+    },
+    components: {
+      AppMenu
+    }
+  }
+</script>
