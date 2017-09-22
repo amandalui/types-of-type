@@ -41,6 +41,14 @@
     -webkit-box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75);
     -moz-box-shadow:    5px 5px 0px 0px rgba(153, 102, 0, 0.75);
     box-shadow:         5px 5px 0px 0px rgba(153, 102, 0, 0.75);
+      
+    &:active {
+      @extend %transition;
+      background: rgba(153, 102, 0, 0.75);
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+      -moz-box-shadow:    0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+      box-shadow:         0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+    }
 
     @media #{$medium} {
       width: 50px;

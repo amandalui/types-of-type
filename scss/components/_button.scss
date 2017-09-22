@@ -27,4 +27,12 @@
     @extend %transition;
     background: rgba($darkpink, 0.6);
   }
+    
+  &:active {
+    @extend %transition;
+    background: rgba($darkpink, 0.6);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+    -moz-box-shadow:    0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+    box-shadow:         0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+  }
 }

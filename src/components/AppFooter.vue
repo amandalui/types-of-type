@@ -1,9 +1,10 @@
 <template>
-  <footer class="caption">
+  <footer class="caption content white text--lightgray">
       <div class="center">
         &copy; 2013&ndash;{{ endYear }}  Amanda Lui
       </div>
   </footer>
+
 </template>
 
 <script>

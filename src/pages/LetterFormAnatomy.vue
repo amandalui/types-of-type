@@ -38,7 +38,7 @@
 
     <div class="content lightpink ">
       <div class="column--single img--140">
-          <div class="spacer--small">
+          <div class="spacer--small column--single">
               <div class="column--half spacer--small">
                   <div class="column--single text--blue">
                           <h3 class="bold caps">Korean Anatomy</h3>
@@ -255,6 +255,7 @@
       <div class="spacer--medium center">
           <router-link class="button caps" to="/type-categories">Next Chapter</router-link>
       </div>  
+      <div class="spacer--small"></div>
     </div>
   </div>
 </template>   

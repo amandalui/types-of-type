@@ -4,7 +4,7 @@
       @tap="changeOption(option)"
       v-for="option in feature.options"
       class="dib pointer m1r"
-      :class="{ 'bg-white': option === feature.active }">
+      :class="{ 'white': option === feature.active }">
       {{ option }}
     </v-touch>
   </div>

@@ -130,7 +130,8 @@
       <div class="clear"></div>
       <div class="spacer--medium center">
         <router-link class="button caps" to="/expressive-type">Next Chapter</router-link>
-      </div>  
+      </div>
+      <div class="spacer--small"></div>
     </div> 
   </div>
 </template> 

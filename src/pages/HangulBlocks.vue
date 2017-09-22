@@ -28,10 +28,7 @@
 
     <!-- CONTENT -->
     <div class="content--first blue clear">
-      <div class="column--single spacer--small">
-          <div class="column--single center img--100"><img src="../images/hangul-blocks/slide-1.svg" alt="Hangul Blocks"></div>
-          <h3 class="spacer--small caps center text--blue">(I am not Korean)</h3>
-      </div>
+      <hangul-blocks-slides></hangul-blocks-slides>
     </div>
     <div class="content mediumblue">
       <div class="spacer--medium"></div>
@@ -94,11 +91,13 @@
       <div class="spacer--medium center">
         <router-link class="button caps" to="/letter-form-anatomy">Next Chapter</router-link>
       </div>  
+      <div class="spacer--small"></div>
     </div>
   </div>
 </template>
 
 <script>
+import HangulBlocksSlides from '@/components/HangulBlocksSlides'
 import HangulBlocks from '@/components/HangulBlocks'
 
 export default {
@@ -107,7 +106,8 @@ export default {
     return {}
   },
   components: {
-    HangulBlocks
+    HangulBlocks,
+    HangulBlocksSlides
   }
 }
 </script>

@@ -73,6 +73,7 @@ _The difference between italics, scripts, and the appropriate way to use the dif
 _Emoticons and abbreviations used online_
 
 - [x] Make a face selections
+- [ ] Enable long click for selections
 
 
 ### *2–3 Expressive Type*
@@ -83,6 +84,6 @@ _Showing how different type styles translate between the two languages_
 - [x] Animate type on hover / tap
 - [x] Amanda to export new assets
 – [x] Make refresh button functional
-- [ ] Rotate image 180 degrees on click
+- [x] Press-in Feedback
 - [ ] Possible to add blur to historical, medieval, and joseon?
-- [ ] Fix animation exports for historical, medieval, joseon, and others
+- [x] Fix animation exports for historical, medieval, joseon, and others

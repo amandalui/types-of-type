@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
-a:hover, .link--end a:hover, .button:hover, .button--refresh:hover, .m1r:hover, .menu__item:hover, .side-nav a:hover {
+a:hover, .link--end a:hover, .button:hover, .button--refresh:hover, .button--refresh:active, .m1r:active, .m1r:hover, .menu__item:hover, .side-nav a:hover {
   transition: 0.2s linear;
   -moz-transition: 0.2s linear;
   /* FF3.7+ */
@@ -361,6 +361,11 @@ a:active {
   box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75); }
   .button--refresh:hover {
     background: rgba(227, 147, 152, 0.6); }
+  .button--refresh:active {
+    background: rgba(227, 147, 152, 0.6);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+    box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75); }
 
 /*---Clear------------------------------------*/
 .clear {
@@ -416,6 +421,11 @@ a:active {
   -webkit-box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75);
   -moz-box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75);
   box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75); }
+  .m1r:active {
+    background: rgba(153, 102, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+    box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75); }
   @media (max-width: 1200px) {
     .m1r {
       width: 50px;
@@ -533,6 +543,9 @@ a:active {
 
 .text--darkgreen {
   color: #0a6024; }
+
+.text--lightgray {
+  color: #ccc; }
 
 /*---Typeface------------------------------------*/
 .serif {
@@ -952,7 +965,7 @@ nav a:visited {
   height: 150px;
   width: 250px;
   position: fixed;
-  bottom: 0px;
+  bottom: 30px;
   left: -90px; }
   @media (max-width: 768px) {
     .side-nav-left {
@@ -962,7 +975,7 @@ nav a:visited {
   height: 150px;
   width: 250px;
   position: fixed;
-  bottom: 0px;
+  bottom: 30px;
   right: -90px; }
   @media (max-width: 768px) {
     .side-nav-right {
