@@ -9,7 +9,7 @@
           class="progress-dot"
         >
         </div>
-      </div>
+     </div>
     </div>
     <div
       class="column--single center img--100 relative transition-opacity"
@@ -29,18 +29,29 @@
 </template>
 
 <script>
+  const SLIDE_DURATION = 4000
+
   export default {
     name: 'hangul-blocks-slides',
     data () {
       return {
+        playNextTimeout: null,
         slideNum: 0,
         slides: [ ...Array(4).keys() ]
       }
     },
     methods: {
       nextSlide () {
+        if (this.playNextTimeout) clearTimeout(this.playNextTimeout)
         this.slideNum = (this.slideNum + 1) % this.slides.length
+        this.autoPlay()
+      },
+      autoPlay () {
+        this.playNextTimeout = setTimeout(this.nextSlide, SLIDE_DURATION)
       }
+    },
+    created () {
+      this.autoPlay()
     }
   }
 </script>
