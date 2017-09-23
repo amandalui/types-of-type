@@ -65,7 +65,7 @@ _Describing the differences between the sub categories of serif and sans-serif_
 ### *2-1 Italics, –, –, —, and \~*
 _The difference between italics, scripts, and the appropriate way to use the different dashes_
 
-- [ ] Show examples large on hover (Hypen, en dash, em dash tilde section; *Show on Page Load* and *Show on Hover* sections noted)
+- [ ] Show examples large on hover/tap (Hypen, en dash, em dash tilde section; *Show on Page Load* and *Show on Hover* sections noted)
 – [x] Amanda to put examples on hidden div
 
 
