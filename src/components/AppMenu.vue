@@ -41,9 +41,9 @@
         </router-link>
       </div>
       <div class="menu__item">
-        <router-link @click.native="select" to="emoticons-abbreviations">
+        <router-link @click.native="select" to="emoticons-text">
           <img src="../images/menu/menu--emoticons-abbreviations.png"><br />
-          <div class="column--three-fourths menu__title">Emoticons &amp; Abbreviations</div>
+          <div class="column--three-fourths menu__title">Emoticons &amp; Text</div>
           <div class="column--one-fourth right">2-2</div>
         </router-link>
       </div>

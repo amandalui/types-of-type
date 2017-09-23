@@ -20,7 +20,7 @@
                   <span class="serif">Andrea Juhie Kim</span>
               </p>
               <p><span class="bold">Colophon</span><br />
-                  <span class="serif">English type set in <a href="https://fonts.google.com/specimen/Work+Sans" target="_blank">Work Sans</a> and <a href="https://fonts.google.com/specimen/Bitter" target="_blank">Bitter</a>. Korean type set in <a href="https://www.google.com/get/noto/help/cjk/" target="_blank">Noto Sans CJK</a> and <a href="http://hangeul.naver.com/" target="_blank">Nanum Myeongjo</a></span>
+                  <span class="serif">English type set in <a href="https://fonts.google.com/specimen/Work+Sans" target="_blank">Work Sans</a> and <a href="https://fonts.google.com/specimen/Bitter" target="_blank">Bitter</a>. Korean type set in <a href="https://www.google.com/get/noto/help/cjk/" target="_blank">Noto Sans CJK</a> and <a href="http://hangeul.naver.com/" target="_blank">Nanum Myeongjo</a>. Made with <a href="https://vuejs.org/" target="_blank">Vue</a>.</span>
               </p>
           </div>
           <div class="column--one-third spacer--small spacer--left caption">

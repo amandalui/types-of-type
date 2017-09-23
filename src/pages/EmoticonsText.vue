@@ -8,7 +8,7 @@
           </div>
           <div class="header-content">
               <span class="header-section-number">2&ndash;2</span>
-              <h1>Emoticons &amp; Abbreviations</h1>
+              <h1>Emoticons &amp; Text</h1>
               <p class="header-section-desc">TLDR; :D Haha! <span class="kr-serif">ㅎ_ㅎ</span> OMG.. <span class="kr-serif">^ㅁ^</span></p>
           </div>
       </div>

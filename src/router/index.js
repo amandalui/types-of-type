@@ -7,7 +7,7 @@ import About from '@/pages/About'
 import OriginsOfType from '@/pages/OriginsOfType'
 import ItalicsDashes from '@/pages/ItalicsDashes'
 import HangulBlocks from '@/pages/HangulBlocks'
-import EmoticonsAbbreviations from '@/pages/EmoticonsAbbreviations'
+import EmoticonsText from '@/pages/EmoticonsText'
 import LetterFormAnatomy from '@/pages/LetterFormAnatomy'
 import ExpressiveType from '@/pages/ExpressiveType'
 import TypeCategories from '@/pages/TypeCategories'
@@ -47,9 +47,9 @@ export default new Router({
       component: HangulBlocks,
     },
     {
-      path: '/emoticons-abbreviations',
-      name: 'Emoticons & Abbreviations',
-      component: EmoticonsAbbreviations,
+      path: '/emoticons-text',
+      name: 'Emoticons & Text',
+      component: EmoticonsText,
     },
     {
       path: '/letter-form-anatomy',

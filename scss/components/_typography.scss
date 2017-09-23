@@ -57,6 +57,10 @@
   font-weight: 600;
 }
 
+.black {
+  font-weight: 700;
+}
+
 /*---Headers and Captions------------------------------------*/
 
 h1 {
@@ -86,6 +90,15 @@ h3 {
   @media #{$small} {
     font-size: 16px;
   }
+}
+
+.dash-eg {
+  font-size: 50px;
+  line-height: 1.2;
+
+    @media #{$small} {
+      font-size: 30px;
+    }
 }
 
 .caption {

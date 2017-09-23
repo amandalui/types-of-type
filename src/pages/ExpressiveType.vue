@@ -16,7 +16,7 @@
     <!-- SIDE NAV -->
     <div class="side-nav side-nav-left center">
         <div class="rotate link--darkpink">
-            <router-link to="/emoticons-abbreviations">&#9650;<br />Emoticons &amp; Abbreviations</router-link>
+            <router-link to="/emoticons-text">&#9650;<br />Emoticons &amp; Text</router-link>
         </div>
     </div>
     <div class="side-nav side-nav-right center">

@@ -20,7 +20,7 @@
     </div>
     <div class="side-nav side-nav-right center">
         <div class="rotate">
-            <router-link to="/emoticons-abbreviations">Emoticons &amp; Abbreviations<br />&#9660;</router-link>
+            <router-link to="/emoticons-text">Emoticons &amp; Text<br />&#9660;</router-link>
         </div>
     </div>
 
@@ -67,40 +67,71 @@
                   <h3 class="caps center">Hyphen</h3>
                   <div class="serif center">
                       Connect Two Words<br />
-                      <img class="spacer--small" src="../images/italics-dashes/hyphen.svg" alt="Hyphen">
                   </div>
-                  <p class="column--single caption serif">Hyphens are not needed in Korean—even when splitting words from the end of a line to the beginning of the next.</p><br />
-                  <p class="column--single caption serif">e.g. Look at that good-looking, light-headed, T-rex!</p>
+                  <!--Show on Page Load-->
+                  <div>
+                    <img class="spacer--small" src="../images/italics-dashes/hyphen.svg" alt="Hyphen">
+                    <p class="column--single caption serif">Hyphens are not needed in Korean—even when splitting words from the end of a line to the beginning of the next.</p><br />
+                  </div>
+                  <!--End Show on Page Load-->
+                  <!--Show on Hover-->
+                  <!--<div class="column--single spacer--small dash-eg black">
+                    Look at that good-looking, light-headed, T-rex!
+                  </div>-->
+                  <!--End Show on Hover-->
                   <div class="spacer--tiny"></div>
               </div>
               <div class="column--half light spacer--small dashes--flex-item">
                   <h3 class="caps center">En Dash</h3>
                   <div class="serif center">
                       Connect Ranges
-                      <img class="spacer--small" src="../images/italics-dashes/endash.svg" alt="En Dash">
                   </div>
-                  <p class="column--single caption serif">En dashes are used in the same way in both languages, replacing the words ‘to’ and ‘from’ when writing values.</p><br />
-                  <p class="column--single caption serif">e.g. In class from 9AM–6PM please read pages 27–56 of the textbook this Monday–Wednesday.</p>
+                  <!--Show on Page Load-->
+                  <div>
+                    <img class="spacer--small" src="../images/italics-dashes/endash.svg" alt="En Dash">
+                    <p class="column--single caption serif">En dashes are used in the same way in both languages, replacing the words ‘to’ and ‘from’ when writing values.</p><br />
+                  </div>
+                  <!--End Show on Page Load-->
+                  <!--Show on Hover-->
+                  <!--<div class="column--single spacer--small">
+                    <h2>In class from 9AM–6PM please read pages 27–56 of the textbook this Monday–Wednesday.</h2>
+                  </div>-->
+                  <!--End Show on Hover-->
                   <div class="spacer--tiny"></div>
               </div>
               <div class="column--half light spacer--small">
                   <h3 class="caps center">Em Dash</h3>
                   <div class="serif center">
                       Connect Phrases
-                      <img class="spacer--small" src="../images/italics-dashes/emdash.svg" alt="Em Dash">
                   </div>
-                  <p class="column--single caption serif">The em dash emphasizes a break in thought, this usage remains the same between English and Korean. It can be used in place of commas.</p><br />
-                  <p class="column--single caption serif">e.g. She decided—against her will—that she would not eat the entire cake—no matter how delicious—in one sitting.</p>
+                  <!--Show on Page Load-->
+                  <div>
+                    <img class="spacer--small" src="../images/italics-dashes/emdash.svg" alt="Em Dash">
+                    <p class="column--single caption serif">The em dash emphasizes a break in thought, this usage remains the same between English and Korean. It can be used in place of commas.</p><br />
+                  </div>
+                  <!--End Show on Page Load-->
+                  <!--Show on Hover-->
+                  <!--<div class="column--single spacer--small">
+                    <h2>She decided—against her will—that she would not eat the entire cake—no matter how delicious—in one sitting.</h2>
+                  </div>-->
+                  <!--End Show on Hover-->
                   <div class="spacer--tiny"></div>
               </div>
               <div class="column--half lightpink spacer--small">
                   <h3 class="caps center">Tilde</h3>
                   <div class="serif center">
                       Approximately / Accent / Happy
-                      <img class="spacer--small" src="../images/italics-dashes/tilde.svg" alt="Tilde">
                   </div>
-                  <p class="column--single caption serif">Used as an accent overletters and also as a symbol for ‘approximately.’ In Korean it us ised in informal text to mean you are happy. The more tilde’s, the more happiness.</p><br />
-                  <p class="column--single caption serif">e.g. Lets break the piñata in ~10 minutes; Thank you~~</p>
+                  <!--Show on Page Load-->
+                  <div>
+                    <img class="spacer--small" src="../images/italics-dashes/tilde.svg" alt="Tilde">
+                    <p class="column--single caption serif">Used as an accent overletters and also as a symbol for ‘approximately.’ In Korean it us ised in informal text to mean you are happy. The more tilde’s, the more happiness.</p><br />
+                  </div>
+                  <!--End Show on Page Load-->
+                  <!--Show on Hover-->
+                  <!--<div class="column--single spacer--small dash-eg black">Lets break the piñata in ~10 minutes; Thank you~~-->
+                  </div>
+                  <!--End Show on Hover-->
                   <div class="spacer--tiny"></div>
               </div>
           </div>
@@ -108,7 +139,7 @@
           
       <div class="clear"></div>
       <div class="spacer--medium center">
-          <router-link class="button caps" to="/emoticons-abbreviations">Next Chapter</router-link>
+          <router-link class="button caps" to="/emoticons-text">Next Chapter</router-link>
       </div>  
     </div>
   </div>
