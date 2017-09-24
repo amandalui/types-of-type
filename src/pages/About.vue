@@ -4,7 +4,7 @@
           <h2 class="center caps">About</h2>
           <h1 class="spacer--small">A guide to typography with character.</h1>
           <h3 class="serif">Types of Type is a playful guide to typography. By using a foreign language it looks at type as shapes, bringing forward details that may be easily missed.</h3>
-          <h3 class="serif">Have something to say to us? Send a message to Amanda at hi.amandalui@gmail.com.</h3>
+          <h3 class="serif">Want to get in touch? Send a message to hello@amandalui.com.</h3>
           <div class="spacer--small"></div>
           <div class="column--half spacer--small">
               <p><span class="bold">Writing and Design</span><br />

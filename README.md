@@ -25,9 +25,9 @@ sccs -> src/css
 - [x] Navigation without page refresh
 - [x] Top menu navigation drop down (with the includes/menu)
 - [x] Amanda to create About/Credits page
-- [ ] Amanda to create favicon
-- [ ] Amanda to create bookmark icons to show on android / ios
-- [ ] Amanda to create page previews for shared linkes on facebook, etc.
+- [x] Amanda to create favicon
+- [x] Amanda to create bookmark icons to show on android / ios
+- [x] Amanda to create page previews for shared links on facebook, etc.
 
 ### *1–1 Origins of Type*
 _Primer on how the english and korean alphabets were created, it's very different_
@@ -39,7 +39,7 @@ _Primer on how the english and korean alphabets were created, it's very differen
 _Intro on how the Korean written language works_
 
 First section slideshow (the one that says I am not Korean underneath):
-- [ ] Radial progress dots
+- [x] Radial progress dots
 - [x] Should have a 0.2s fade transition
 - [x] Option to click through
 - [ ] Option to swipe through
@@ -66,7 +66,7 @@ _Describing the differences between the sub categories of serif and sans-serif_
 _The difference between italics, scripts, and the appropriate way to use the different dashes_
 
 - [ ] Show examples large on hover/tap (Hypen, en dash, em dash tilde section; *Show on Page Load* and *Show on Hover* sections noted)
-– [x] Amanda to put examples on hidden div
+- [x] Amanda to put examples on hidden div
 
 
 ### *2-2 Emoticons & Text*
@@ -83,7 +83,7 @@ _Showing how different type styles translate between the two languages_
 - [x] Cycle through three pairs of words
 - [x] Animate type on hover / tap
 - [x] Amanda to export new assets
-– [x] Make refresh button functional
+- [x] Make refresh button functional
 - [x] Press-in Feedback
 - [ ] Possible to add blur to historical, medieval, and joseon?
 - [x] Fix animation exports for historical, medieval, joseon, and others

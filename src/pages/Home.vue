@@ -7,7 +7,7 @@
     <div class="intro-index-wrap center">
       <div class="intro-index">
           <h3 class="caps">A guide to typography with character</h3>
-          <p>Compare English and Korean for a new perspective on type.</p>
+          <p>Compare Korean and English for a new perspective on type.</p>
       </div>
       <br />
       <p><router-link class="button caps" to="/origins-of-type">Let's get to it</router-link></p>
