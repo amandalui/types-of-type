@@ -39,8 +39,9 @@ _Primer on how the english and korean alphabets were created, it's very differen
 _Intro on how the Korean written language works_
 
 First section slideshow (the one that says I am not Korean underneath):
-- [ ] Radial progress dots
+- [x] Radial progress dots
 - [x] Should have a 0.2s fade transition
+- [x] Option to click through
 - [x] Option to click through
 - [ ] Option to swipe through
 
