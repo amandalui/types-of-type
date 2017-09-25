@@ -35,7 +35,7 @@ sccs -> src/css
 ### *1–1 Origins of Type*
 _Primer on how the english and korean alphabets were created, it's very different_
 
-- [ ] Fade in on scroll
+- [x] Fade in on scroll
 
 
 ### *1–2 Hangul Blocks*

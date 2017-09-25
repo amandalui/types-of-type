@@ -41,7 +41,7 @@
       return {
         milestones: milestones.slice(0, -1),
         lastMilestone: milestones.slice(-1)[0],
-        scrollBottom: getScrollBottom(),
+        scrollBottom: null,
       }
     },
     mounted () {
@@ -56,6 +56,7 @@
     methods: {
       updateScrollBottom () {
         this.scrollBottom = getScrollBottom()
+        console.log(this.scrollBottom)
       },
     },
     components: {

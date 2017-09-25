@@ -29,7 +29,7 @@
       }
     },
     mounted () {
-      this.offsetTop = this.$refs.el.getBoundingClientRect().top
+      this.offsetTop = this.$refs.el.getBoundingClientRect().top + window.scrollY
     },
     computed: {
       className: function () {
@@ -44,6 +44,7 @@
       isActive () {
         if (this.hasActivated) return true
         if (typeof this.offsetTop !== 'number') return false
+        if (typeof this.scrollBottom !== 'number') return false
         const isInView = this.offsetTop < this.scrollBottom
         if (isInView) this.hasActivated = true
         return isInView
