@@ -1,5 +1,5 @@
 <template> 
-  <div>
+  <div class="dark">
     <div class="header-wrap clear">
       <div class="header-container">
           <div class="header-section-title-conno caps rotate">

@@ -1,5 +1,5 @@
 <template>
-  <div class="menu column--single">
+  <div class="menu column--single dark">
     <div class="column--half-static">
       <h3 class="caps center">The Basics</h3>
       <div class="menu__item">

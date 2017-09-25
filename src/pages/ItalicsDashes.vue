@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="dark">
     <div class="header-wrap clear">
       <div class="header-container">
           <div class="header-section-title-conno caps rotate">
@@ -129,8 +129,8 @@
                   </div>
                   <!--End Show on Page Load-->
                   <!--Show on Hover-->
-                  <!--<div class="column--single spacer--small dash-eg black">Lets break the piñata in ~10 minutes; Thank you~~-->
-                  </div>
+                  <!--<div class="column--single spacer--small dash-eg black">Lets break the piñata in ~10 minutes; Thank you~~
+                  </div>-->
                   <!--End Show on Hover-->
                   <div class="spacer--tiny"></div>
               </div>
