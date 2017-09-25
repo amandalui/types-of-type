@@ -1,0 +1,173 @@
+{
+  "milestones": [
+    {
+      "color": "lightpink",
+      "side": "right",
+      "year": "4000 BC",
+      "title": "Cuneiform",
+      "img": "01-cuneiform.svg",
+      "alt": "Cuneiform",
+      "caption": "Sumerians in Mesopotamia created pictograms called Cuneform."
+    },
+    {
+      "color": "yellow",
+      "side": "left",
+      "year": "2333 BC",
+      "title": "Hanja",
+      "img": "02-hanja.svg",
+      "alt": "Hanja",
+      "caption":
+        "The Chinese writing system was used initially when Gojoseon (modern day Korea) was founded."
+    },
+    {
+      "color": "lightpink",
+      "side": "right",
+      "year": "3000 BC",
+      "title": "Hieroglyphs",
+      "img": "03-heiroglyphs.svg",
+      "alt": "Heiroglyphs",
+      "caption":
+        "Egyptians developed pictograms called Hieroglyphs. Each Hieroglyph was a visual representation of a word."
+    },
+    {
+      "color": "lightpink",
+      "side": "right",
+      "year": "1600 BC",
+      "title": "Phoenician",
+      "img": "04-phoenician.svg",
+      "alt": "Phoenician",
+      "caption":
+        "Phoenicians in Egypt developed an alphabet where characters represented sound rather than objects."
+    },
+    {
+      "color": "lightpink",
+      "side": "right",
+      "year": "800 BC",
+      "title": "Greek & Roman",
+      "img": "05-greek-roman.svg",
+      "alt": "Greek and Roman",
+      "caption":
+        "Greeks adopted Phoenician and added a few vowels. Then, the Romans refined it to create the alphabet we use today."
+    },
+    {
+      "color": "yellow",
+      "side": "left",
+      "year": "950 BC",
+      "title": "Idu",
+      "img": "06-idu.svg",
+      "alt": "Idu",
+      "caption":
+        "Modified Hanja with simplified characters representing Korean words and sounds. Idu combines the Hyangchai and Gugyeol systems of writing."
+    },
+    {
+      "color": "lightpink",
+      "side": "right",
+      "year": "1000",
+      "title": "Carolingian",
+      "img": "07-carolingian.svg",
+      "alt": "Carolingian",
+      "caption":
+        "The King of Italy, Charlemagne, could not handle disorder and hired a man from York to create orderly, legible, type with upper/lower csae letters; it was called Carolingian script."
+    },
+    {
+      "side": "left",
+      "color": "yellow",
+      "year": "1446",
+      "title": "Hangul",
+      "img": "08-hangul.svg",
+      "alt": "Hangul",
+      "caption":
+        "King Sejong created the original Korean letters and released them in his speech Hunmin Jeong-eum (The Proper Sounds for the Education of the People)."
+    },
+    {
+      "side": "right",
+      "color": "lightpink",
+      "year": "1500",
+      "title": "Metal",
+      "img": "09-metal-type.svg",
+      "alt": "Metal Type",
+      "caption":
+        "The invention of Gutenberg printing press and metal type initiated the revolution of machine made typography."
+    },
+    {
+      "side": "left",
+      "color": "yellow",
+      "year": "1504",
+      "title": "Yeonsangun",
+      "img": "10-yeonsangun.svg",
+      "alt": "Yeonsangun",
+      "caption":
+        "The new Hangul letters were so easy to learn that the aristocrats feared their corruption would be revealed, and their power taken away, by the newly literate. King Yeonsangun joined this opposition and banned Hangul due to it’s use by the lower class to ridicule him."
+    },
+    {
+      "side": "right",
+      "color": "lightpink",
+      "year": "1600",
+      "title": "Renaissance",
+      "img": "11-renaissance.svg",
+      "alt": "Renaissance",
+      "caption":
+        "The French designed a simplified style of type with less influence from the scribe’s handwriting that its predecessors."
+    },
+    {
+      "side": "left",
+      "color": "yellow",
+      "year": "1894",
+      "title": "Hangul",
+      "img": "12-hangul-revival.svg",
+      "alt": "Hangul Revival",
+      "caption":
+        "Hangul was officially used again after going through a revival 100 years prior. Bourgeois used Hanja as an attempt to keep the gap between classes."
+    },
+    {
+      "side": "right",
+      "color": "lightpink",
+      "year": "1800",
+      "title": "Realist",
+      "img": "13-realist.svg",
+      "alt": "Realist",
+      "caption":
+        "William Caslon IV started the trend of the sans serif, it quickly caught on. The sans serif was a simplified style that rid of the serifs at the ends of each letter."
+    },
+    {
+      "side": "left",
+      "color": "yellow",
+      "year": "1910",
+      "title": "Japanese",
+      "img": "14-japan.svg",
+      "alt": "Japanese Colonization",
+      "caption":
+        "Japan colonized Korea and implemented Japanese as the official language. Hangul was officially banned thirty-one years later due to culterual assimilation."
+    },
+    {
+      "side": "right",
+      "color": "lightpink",
+      "year": "1920",
+      "title": "Modernist",
+      "img": "15-modernist.svg",
+      "alt": "Modernist",
+      "caption":
+        "Modernist typography was popularized in Germany at the Bauhaus. This tyle of type was influenced by geometric forms."
+    },
+    {
+      "side": "left",
+      "color": "yellow",
+      "year": "1946",
+      "title": "Korean",
+      "img": "16-korean-independance.svg",
+      "alt": "Korean Independence",
+      "caption":
+        "Korea regained independence and Hangul once again became the official written language. Three years after, North Korea banned the use of Hanja."
+    },
+    {
+      "side": "right",
+      "color": "lightpink",
+      "year": "1980",
+      "title": "Post",
+      "img": "17-post-modernist.svg",
+      "alt": "Modernist",
+      "caption":
+        "Post-modern type emerged as a reaction against the Modernist movement. The invention of the computer allowed for the creation of the unconventional."
+    }
+  ]
+}
