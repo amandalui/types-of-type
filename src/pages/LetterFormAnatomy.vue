@@ -29,9 +29,9 @@
     <div class="content--first lightpink clear">
       <div class="column--single img--100">
         <div class="column--single">
-          <img class="spacer--medium" src="../images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
+          <img class="spacer--medium" src="/static/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
           <br />
-          <img class="spacer--medium" src="../images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
+          <img class="spacer--medium" src="/static/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@
                           <h3 class="bold caps">Korean Anatomy</h3>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/01-kr-pillars.svg" alt="Pillars">
+                                  <img src="/static/images/letter-form-anatomy/01-kr-pillars.svg" alt="Pillars">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Pillars <span class="kr-sans-bold">(겸기둥)</span></div>
@@ -53,7 +53,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/02-kr-beak.svg" alt="Beak">
+                                  <img src="/static/images/letter-form-anatomy/02-kr-beak.svg" alt="Beak">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Beak <span class="kr-sans-bold">(부리)</span></div>
@@ -62,7 +62,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/03-kr-hor-stem.svg" alt="Horizontal Stem">
+                                  <img src="/static/images/letter-form-anatomy/03-kr-hor-stem.svg" alt="Horizontal Stem">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Horizontal Stem <span class="kr-sans-bold">(기로줄기)</span></div>
@@ -71,7 +71,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/04-kr-vertex.svg" alt="Vertex">
+                                  <img src="/static/images/letter-form-anatomy/04-kr-vertex.svg" alt="Vertex">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Vertex <span class="kr-sans-bold">(꼭지점)</span></div>
@@ -80,7 +80,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/05-kr-side-stroke.svg" alt="Side Stroke">
+                                  <img src="/static/images/letter-form-anatomy/05-kr-side-stroke.svg" alt="Side Stroke">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Side Stroke <span class="kr-sans-bold">(곁줄기)</span></div>
@@ -89,7 +89,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/06-kr-stem-joint.svg" alt="Stem Joint">
+                                  <img src="/static/images/letter-form-anatomy/06-kr-stem-joint.svg" alt="Stem Joint">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Stem Joint <span class="kr-sans-bold">(이음줄기)</span></div>
@@ -98,7 +98,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/07-kr-short-column.svg" alt="Short Column">
+                                  <img src="/static/images/letter-form-anatomy/07-kr-short-column.svg" alt="Short Column">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Short Column <span class="kr-sans-bold no-break">(짧은기둥)</span></div>
@@ -107,7 +107,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/08-kr-bow.svg" alt="Bow">
+                                  <img src="/static/images/letter-form-anatomy/08-kr-bow.svg" alt="Bow">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Bow <span class="kr-sans-bold">(보)</span></div>
@@ -116,7 +116,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/09-kr-vertical-stem.svg" alt="Vertical Stem">
+                                  <img src="/static/images/letter-form-anatomy/09-kr-vertical-stem.svg" alt="Vertical Stem">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Vertical Stem <span class="kr-sans-bold">(세로줄기)</span></div>
@@ -125,7 +125,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/10-kr-round-stem.svg" alt="Round Stem">
+                                  <img src="/static/images/letter-form-anatomy/10-kr-round-stem.svg" alt="Round Stem">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Round Stem <span class="kr-sans-bold">(둥근줄기)</span></div>
@@ -134,7 +134,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/11-kr-topknot.svg" alt="Topknot">
+                                  <img src="/static/images/letter-form-anatomy/11-kr-topknot.svg" alt="Topknot">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Topknot <span class="kr-sans-bold">(상투)</span></div>
@@ -148,7 +148,7 @@
                           <h3 class="bold caps">English Anatomy</h3>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/01-en-counter.svg" alt="Counter">
+                                  <img src="/static/images/letter-form-anatomy/01-en-counter.svg" alt="Counter">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Counter</div>
@@ -157,7 +157,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/02-en-arch.svg" alt="Arch">
+                                  <img src="/static/images/letter-form-anatomy/02-en-arch.svg" alt="Arch">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Arch</div>
@@ -166,7 +166,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/03-en-serif.svg" alt="Serif">
+                                  <img src="/static/images/letter-form-anatomy/03-en-serif.svg" alt="Serif">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Serif</div>
@@ -175,7 +175,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/04-en-serif-bracket.svg" alt="Serif Brakcet">
+                                  <img src="/static/images/letter-form-anatomy/04-en-serif-bracket.svg" alt="Serif Brakcet">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Serif Bracket</div>
@@ -184,7 +184,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/05-en-outstroke.svg" alt="Outstroke">
+                                  <img src="/static/images/letter-form-anatomy/05-en-outstroke.svg" alt="Outstroke">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Outstroke</div>
@@ -193,7 +193,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/06-en-ascender.svg" alt="Ascender">
+                                  <img src="/static/images/letter-form-anatomy/06-en-ascender.svg" alt="Ascender">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Ascender</div>
@@ -202,7 +202,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/07-en-stem.svg" alt="Stem">
+                                  <img src="/static/images/letter-form-anatomy/07-en-stem.svg" alt="Stem">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Stem</div>
@@ -211,7 +211,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/08-en-descender.svg" alt="Descender">
+                                  <img src="/static/images/letter-form-anatomy/08-en-descender.svg" alt="Descender">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Desender</div>
@@ -220,7 +220,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/09-en-bowl.svg" alt="Bowl">
+                                  <img src="/static/images/letter-form-anatomy/09-en-bowl.svg" alt="Bowl">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Bowl</div>
@@ -229,7 +229,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/10-en-beak.svg" alt="Beak">
+                                  <img src="/static/images/letter-form-anatomy/10-en-beak.svg" alt="Beak">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Beak</div>
@@ -238,7 +238,7 @@
                           </div>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
-                                  <img src="../images/letter-form-anatomy/11-en-finial.svg" alt="FInial">
+                                  <img src="/static/images/letter-form-anatomy/11-en-finial.svg" alt="FInial">
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps">Finial/End Stroke</div>

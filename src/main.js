@@ -4,7 +4,6 @@ import Vue from 'vue'
 import VueTouch from 'vue-touch'
 import App from './App'
 import router from './router'
-import './css/style.css'
 
 Vue.use(VueTouch, { name: 'v-touch' })
 

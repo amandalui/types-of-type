@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header-index center">
-      <img src="../images/index/types-of-type-index-logo.svg">
+      <img src="/static/images/index/types-of-type-index-logo.svg">
     </div>
 
     <div class="intro-index-wrap center light">
@@ -14,7 +14,7 @@
       <br />
       <div class="spacer--small"></div>
       <p class="caps caption">
-        <img src="../images/index/a-to-z.png"><br />No Korean language knowledge needed.</p>
+        <img src="/static/images/index/a-to-z.png"><br />No Korean language knowledge needed.</p>
     </div>
       
     <div class="dark">

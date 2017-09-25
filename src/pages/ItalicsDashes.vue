@@ -30,13 +30,13 @@
               <div class="column--half-br">
                   <h2 class="text--lightpink caps center">Italic</h2>
                   <div class="serif text--lightpink center">In a Font Family</div>
-                  <p class="center spacer--small"><img src="../images/italics-dashes/kr-italic.svg" alt="Italic">
+                  <p class="center spacer--small"><img src="/static/images/italics-dashes/kr-italic.svg" alt="Italic">
                   <br />
                   <span class="text--lightpink caption caps">Typeface</span><br /><span class="caps bold text--blue">Nanum Myeongjo, Skewed</span></p>
                   <div class="spacer--small center">
-                      <img class="img--minirule" src="../images/mini-rule.svg" alt="divider">
+                      <img class="img--minirule" src="/static/images/mini-rule.svg" alt="divider">
                   </div>
-                  <p class="center spacer--small"><img src="../images/italics-dashes/en-italic.svg" alt="Italic">
+                  <p class="center spacer--small"><img src="/static/images/italics-dashes/en-italic.svg" alt="Italic">
                   <br />
                   <span class="text--lightpink caption caps">Typeface</span><br /><span class="caps bold text--blue">Kepler Italic</span></p>
                   <p class="serif caption text--lightpink column--single spacer--small">Custom italics within a font family are not usually made in Korean. Possibly due to the roughly 11,000 charcters required to represent each character block combination, Korean italics are often simply skewed versions of the original font.</p>
@@ -44,13 +44,13 @@
               <div class="column--half-br">
                   <h2 class="text--lightpink caps center">Script</h2>
                   <div class="serif text--lightpink center">Standalone Typeface</div>
-                  <p class="center spacer--small"><img src="../images/italics-dashes/kr-script.svg" alt="Italic">
+                  <p class="center spacer--small"><img src="/static/images/italics-dashes/kr-script.svg" alt="Italic">
                   <br />
                   <span class="text--lightpink caption caps">Typeface</span><br /><span class="caps bold text--blue">Nanum Brush Script</span></p>
                   <div class="spacer--small center">
-                      <img class="img--minirule" src="../images/mini-rule.svg" alt="divider">
+                      <img class="img--minirule" src="/static/images/mini-rule.svg" alt="divider">
                   </div>
-                  <p class="center spacer--small"><img src="../images/italics-dashes/en-script.svg" alt="Italic">
+                  <p class="center spacer--small"><img src="/static/images/italics-dashes/en-script.svg" alt="Italic">
                   <br />
                   <span class="text--lightpink caption caps">Typeface</span><br /><span class="caps bold text--blue">Braxton</span></p>
                   <p class="serif caption text--lightpink column--single spacer--small">The origin of the italic is based off of the natural angle of letters when written by hand. The English and Hangul scripts both have a hand written influence.</p>
@@ -70,7 +70,7 @@
                   </div>
                   <!--Show on Page Load-->
                   <div>
-                    <img class="spacer--small" src="../images/italics-dashes/hyphen.svg" alt="Hyphen">
+                    <img class="spacer--small" src="/static/images/italics-dashes/hyphen.svg" alt="Hyphen">
                     <p class="column--single caption serif">Hyphens are not needed in Korean—even when splitting words from the end of a line to the beginning of the next.</p><br />
                   </div>
                   <!--End Show on Page Load-->
@@ -88,7 +88,7 @@
                   </div>
                   <!--Show on Page Load-->
                   <div>
-                    <img class="spacer--small" src="../images/italics-dashes/endash.svg" alt="En Dash">
+                    <img class="spacer--small" src="/static/images/italics-dashes/endash.svg" alt="En Dash">
                     <p class="column--single caption serif">En dashes are used in the same way in both languages, replacing the words ‘to’ and ‘from’ when writing values.</p><br />
                   </div>
                   <!--End Show on Page Load-->
@@ -106,7 +106,7 @@
                   </div>
                   <!--Show on Page Load-->
                   <div>
-                    <img class="spacer--small" src="../images/italics-dashes/emdash.svg" alt="Em Dash">
+                    <img class="spacer--small" src="/static/images/italics-dashes/emdash.svg" alt="Em Dash">
                     <p class="column--single caption serif">The em dash emphasizes a break in thought, this usage remains the same between English and Korean. It can be used in place of commas.</p><br />
                   </div>
                   <!--End Show on Page Load-->
@@ -124,7 +124,7 @@
                   </div>
                   <!--Show on Page Load-->
                   <div>
-                    <img class="spacer--small" src="../images/italics-dashes/tilde.svg" alt="Tilde">
+                    <img class="spacer--small" src="/static/images/italics-dashes/tilde.svg" alt="Tilde">
                     <p class="column--single caption serif">Used as an accent overletters and also as a symbol for ‘approximately.’ In Korean it us ised in informal text to mean you are happy. The more tilde’s, the more happiness.</p><br />
                   </div>
                   <!--End Show on Page Load-->

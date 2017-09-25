@@ -3,11 +3,11 @@
     <nav class="z4">
       <div class="column--one-third">
         <router-link @click.native="closeMenu" to="/">
-          <img class="nav__logo" src="../images/types-of-type-horizontal.svg">
+          <img class="nav__logo" src="/static/images/types-of-type-horizontal.svg">
         </router-link>
       </div>
       <div class="column--one-third center relative">
-        <img class="pointer" @click="toggleMenu" src="../images/nav-button.png">
+        <img class="pointer" @click="toggleMenu" src="/static/images/nav-button.png">
         <transition name="drop">
           <div
             class="dropdown"

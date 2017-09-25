@@ -38,10 +38,10 @@
               <p class="serif center">Based on the physical forms of the tongue, mouth, and throat.</p>
               <div class="flex--center">
                   <div class="column--one-fourth spacer--medium">
-                      <img src="../images/hangul-blocks/consonants.gif" alt="Hangul Consonants">
+                      <img src="/static/images/hangul-blocks/consonants.gif" alt="Hangul Consonants">
                   </div>
                   <div class="column--three-fourths">
-                      <img src="../images/hangul-blocks/consonants-array.svg" alt="Hangul Consonants Array">
+                      <img src="/static/images/hangul-blocks/consonants-array.svg" alt="Hangul Consonants Array">
                   </div>
               </div>
               <div class="clear"></div>
@@ -51,10 +51,10 @@
               <p class="serif center">Based on the harmony of the earth, yin (earth) and yang (sky).</p>
               <div class="flex--center">
                   <div class="column--one-fourth spacer--medium">
-                      <img src="../images/hangul-blocks/vowels.gif" alt="Hangul Vowels">
+                      <img src="/static/images/hangul-blocks/vowels.gif" alt="Hangul Vowels">
                   </div>
                   <div class="column--three-fourths">
-                      <img src="../images/hangul-blocks/vowels-array.svg" alt="Hangul Vowels Array">
+                      <img src="/static/images/hangul-blocks/vowels-array.svg" alt="Hangul Vowels Array">
                   </div>
               </div>
           </div>
@@ -67,18 +67,18 @@
           <div class="column--single">
               <h2 class="center caps">Character Blocks</h2>
               <div class="serif center--left caption">
-                  <img class="img--middle img--icon" src="../images/tap-icon.svg" alt="TAP"> Tap each character block to see how they come together
+                  <img class="img--middle img--icon" src="/static/images/tap-icon.svg" alt="TAP"> Tap each character block to see how they come together
               </div>
               <div class="clear spacer--small"></div>
               <div class="serif center--left caption clear">
                   <div class="column--one-third">
-                      <img class="img--middle" src="../images/hangul-blocks/key--consonant-first.png" alt="First Consonant"> First Consonant <span class="kr-serif">(초성)</span> 
+                      <img class="img--middle" src="/static/images/hangul-blocks/key--consonant-first.png" alt="First Consonant"> First Consonant <span class="kr-serif">(초성)</span> 
                   </div>
                   <div class="column--one-third">
-                      <img class="img--middle" src="../images/hangul-blocks/key--vowel.png" alt="Vowel(s)"> Vowel(s) <span class="kr-serif">(중성)</span>
+                      <img class="img--middle" src="/static/images/hangul-blocks/key--vowel.png" alt="Vowel(s)"> Vowel(s) <span class="kr-serif">(중성)</span>
                   </div>
                   <div class="column--one-third">
-                      <img class="img--middle" src="../images/hangul-blocks/key--consonant-second.png" alt="Vowel(s)"> Last Consonant <span class="kr-serif">(종성)</span>
+                      <img class="img--middle" src="/static/images/hangul-blocks/key--consonant-second.png" alt="Vowel(s)"> Last Consonant <span class="kr-serif">(종성)</span>
                   </div>
               </div>
 

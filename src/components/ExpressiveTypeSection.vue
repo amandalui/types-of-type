@@ -2,7 +2,7 @@
   <div class="spacer--small">
     <div class="expressive-wrapper spacer--medium flex"> 
       <div class="pointer column--et-refresh button--refresh center" @click="animate">
-        <img src="../images/expressive-type/refresh.svg" alt="refresh">
+        <img src="/static/images/expressive-type/refresh.svg" alt="refresh">
       </div>
       <expressive-type-sub-section
         :name="kr.name"
