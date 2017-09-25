@@ -41,11 +41,10 @@
       return {
         milestones: milestones.slice(0, -1),
         lastMilestone: milestones.slice(-1)[0],
-        scrollBottom: null,
+        scrollBottom: 0,
       }
     },
     mounted () {
-      this.updateScrollBottom()
       window.addEventListener('scroll', this.updateScrollBottom)
       window.addEventListener('resize', this.updateScrollBottom)
     },
@@ -56,7 +55,6 @@
     methods: {
       updateScrollBottom () {
         this.scrollBottom = getScrollBottom()
-        console.log(this.scrollBottom)
       },
     },
     components: {
