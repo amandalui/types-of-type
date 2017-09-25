@@ -29,7 +29,7 @@
 </template>
 
 <script>
-  const SLIDE_DURATION = 4000
+  const SLIDE_DURATION = 2000
 
   export default {
     name: 'hangul-blocks-slides',

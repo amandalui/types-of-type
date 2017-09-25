@@ -9,7 +9,7 @@
           <span class="bold">{{ milestone.title }}</span>
         </div>
         <br />
-        <img :src="`../images/origins-of-type/${milestone.img}`" :alt="`${milestone.alt}`">
+        <img :src="`/static/images/origins-of-type/${milestone.img}`" :alt="`${milestone.alt}`">
         <p class="caption serif">{{ milestone.caption }}</p>
       </div>
     </div>

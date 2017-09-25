@@ -1,17 +1,26 @@
 <template>
   <div>
-    <div class="timeline text--blue img--100">
-      <h3 class="column--half caps center timeline-descriptor">Korean</h3>
-      <h3 class="column--half caps center timeline-descriptor">English</h3>
-      <div class="clear"></div>
-      <milestone
-           v-for="milestone in milestones"
-           :key="milestone.title"
-           :milestone="milestone"
-           :scrollBottom="scrollBottom"
-           >
-      </milestone>
+    <div>
+      <div class="timeline text--blue img--100">
+        <h3 class="column--half caps center timeline-descriptor">Korean</h3>
+        <h3 class="column--half caps center timeline-descriptor">English</h3>
+        <div class="clear"></div>
+        <milestone
+             v-for="milestone in milestones"
+             :key="milestone.title"
+             :milestone="milestone"
+             :scrollBottom="scrollBottom"
+             >
+        </milestone>
       </div>
+    </div>
+    <div class="text--blue">
+      <milestone
+             :key="lastMilestone.title"
+             :milestone="lastMilestone"
+             :scrollBottom="scrollBottom"
+             >
+      </milestone>
     </div>
   </div>
 </template>
@@ -30,7 +39,8 @@
     name: 'timeline',
     data () {
       return {
-        milestones,
+        milestones: milestones.slice(0, -1),
+        lastMilestone: milestones.slice(-1)[0],
         scrollBottom: getScrollBottom(),
       }
     },
