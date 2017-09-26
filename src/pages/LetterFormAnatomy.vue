@@ -25,16 +25,8 @@
             <router-link to="/type-categories">Type Categories<br />&#9660;</router-link>
         </div>
     </div>
-
-    <div class="content--first lightpink clear">
-      <div class="column--single img--100">
-        <div class="column--single">
-          <img class="spacer--medium" src="/static/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
-          <br />
-          <img class="spacer--medium" src="/static/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
-        </div>
-      </div>
-    </div>
+    
+    <letter-form-scroll></letter-form-scroll>
 
     <div class="content lightpink ">
       <div class="column--single img--140">
@@ -261,10 +253,12 @@
 </template>   
 
 <script>
+import LetterFormScroll from '@/components/LetterFormAnatomyScroll'
+
 export default {
   name: 'letter-form-anatomy',
-  data () {
-    return {}
+  components: {
+    LetterFormScroll
   }
 }
 </script>

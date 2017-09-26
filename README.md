@@ -55,7 +55,9 @@ Last section slideshows (grid with 6 images pa, so, hwa, pal, son, won)
 ### *1–3 Letter-form Anatomy*
 _Charting out the different pieces that make up letters_
 
-- [ ] on mobile, make first two images larger and scroll horizontally (Amanda will try first)
+- [x] on mobile, make first two images larger and scroll horizontally (Amanda will try first)
+- [ ] Hide horizontal scrollbar
+- [ ] enable horizontal scroll with mouse wheel / verticall scroll
 - [ ] Some other type of interaction?
 
 
