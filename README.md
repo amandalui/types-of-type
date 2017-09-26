@@ -30,7 +30,7 @@ sccs -> src/css
 - [x] Amanda to create page previews for shared links on facebook, etc.
 
 ### *About*
-- [ ] Amanda to write better about copy
+- [x] Amanda to write better about copy
 
 ### *1–1 Origins of Type*
 _Primer on how the english and korean alphabets were created, it's very different_

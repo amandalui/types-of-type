@@ -25,6 +25,29 @@
   }
 }
 
-.about-wrap a {
+.about-link a {
   border-bottom: 1px solid;
+}
+
+.headshot img {
+  width: 100px; 
+  padding: 15px 0 5px 0;
+}
+
+.social-media a {
+    &:link {
+        text-decoration: none;
+        & img {
+          height: 15px;
+          width: auto;
+          padding: 5px 0 0 0;
+        }
+    }
+    &:hover {
+        & img {
+        opacity: 0.6; 
+        filter: alpha(opacity=60);
+        @extend %transition;
+        }
+    }
 }

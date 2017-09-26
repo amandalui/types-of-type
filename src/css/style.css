@@ -229,6 +229,10 @@ a:active {
   align-items: center; }
 
 /*---Flex------------------------------------*/
+.headshot-img {
+  width: 100px;
+  padding: 15px 0 5px 0; }
+
 /* White Container */
 .arrow-container-white {
   margin: 0 20px;
