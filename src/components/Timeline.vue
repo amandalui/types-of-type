@@ -26,13 +26,14 @@
 </template>
 
 <script>
+  import { throttle } from 'lodash/fp'
   import { milestones } from '@/data/timeline.json'
   import Milestone from './Milestone'
 
-  const SCROLL_BOTTOM_OFFSET = 200
+  const SCROLL_BOTTOM_OFFSET_RATIO = 0.2
 
   function getScrollBottom () {
-    return window.scrollY + window.innerHeight - SCROLL_BOTTOM_OFFSET
+    return window.scrollY + window.innerHeight - window.innerHeight * SCROLL_BOTTOM_OFFSET_RATIO
   }
 
   export default {
@@ -45,6 +46,8 @@
       }
     },
     mounted () {
+      this.updateScrollBottom = throttle(100, this.updateScrollBottom)
+      setTimeout(() => this.updateScrollBottom(), 500)
       window.addEventListener('scroll', this.updateScrollBottom)
       window.addEventListener('resize', this.updateScrollBottom)
     },

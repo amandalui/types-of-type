@@ -16,6 +16,7 @@
 </template>
 
 <script>
+  import { throttle } from 'lodash/fp'
   export default {
     name: 'milestone',
     props: {
@@ -29,7 +30,12 @@
       }
     },
     mounted () {
-      this.offsetTop = this.$refs.el.getBoundingClientRect().top + window.scrollY
+      this.setOffsetTop = throttle(100, this.setOffsetTop)
+      setTimeout(this.setOffsetTop, 500)
+      window.addEventListener('resize', this.setOffsetTop)
+    },
+    destroyed () {
+      window.removeEventListener('resize', this.setOffsetTop)
     },
     computed: {
       className: function () {
@@ -48,7 +54,10 @@
         const isInView = this.offsetTop < this.scrollBottom
         if (isInView) this.hasActivated = true
         return isInView
-      }
+      },
+      setOffsetTop () {
+        this.offsetTop = this.$refs.el.getBoundingClientRect().top + window.scrollY
+      },
     },
   }
 </script>
