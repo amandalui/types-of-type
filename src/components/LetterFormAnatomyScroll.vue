@@ -49,7 +49,3 @@
     name: 'LetterFormScroll'
   }
 </script>
-
-<script>
-
-</script>
