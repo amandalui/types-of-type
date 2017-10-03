@@ -3,9 +3,9 @@
       <div class="about-container clear">
           <h2 class="center caps">About</h2>
           <h1 class="spacer--small">A guide to typography with character.</h1>
-          <h3 class="serif">Dear friends,</h3>
+          <h3 class="serif">Hi there!</h3>
           <h3 class="serif">It all began when I realized I could combine my love for cultural comparisons and graphic design. This took many forms during my studies and has stayed with me since.</h3>
-          <h3 class="serif">Types of Type compares the typography of two different alphabets. I have definitely learned a lot from putting this guide together, and hope you enjoy it as much as I did!</h3>
+          <h3 class="serif">Types of Type compares the typography of two different alphabets. I have definitely learned a lot from putting this guide together, and hope you enjoy it as much as I did.</h3>
           <h3 class="serif">Amanda Lui</h3>
           <p class="serif about-link">Let's talk!<br /><a href="mailto:hello@amandalui.com">hello@amandalui.com</a></p>
           <div class="spacer--small"></div>

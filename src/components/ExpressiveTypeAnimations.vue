@@ -37,7 +37,6 @@
           }
         },
         {
-          // en broken
           texts: ['dearfriend', 'handwriting', 'thankyou'],
           name: 'Dear Friend',
           en: {
@@ -78,7 +77,6 @@
           }
         },
         {
-          // all broken
           texts: ['historical', 'medieval', 'joseon'],
           name: 'Historical',
           en: {
