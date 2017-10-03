@@ -32,12 +32,19 @@
                 <div class="serif column--half">
                     <div class="headshot"><img src="/static/images/about/jeremiah-montoya.png" alt="Jeremiah"><br /></div>
                     <div class="about-link"><a href="https://dreaminginmonospace.com/" target="_blank">Jeremiah Montoya</a></div>
-                      <span class="caption">Developer</span><br /><br />
+                      <span class="caption">Developer</span><br />
+                    <div class="social-media">
+                        <a href="https://twitter.com/thisjeremiah" target="_blank"><img src="/static/images/about/icon-twitter.svg" alt="Twitter"></a>
+                        <a href="https://github.com/thisjeremiah" target="_blank"><img src="/static/images/about/icon-git.svg" alt="Github"></a>
+                    </div><br />
                 </div>
                 <div class="serif column--half">
                      <div class="headshot"><img src="/static/images/about/nathan-specht.png" alt="Nathan"><br /></div>
                      <div class="about-link"><a href="http://nathanspecht.com/" target="_blank">Nathan Specht</a></div>
-                     <span class="caption">Developer</span><br /><br />
+                     <span class="caption">Developer</span><br />
+                    <div class="social-media">
+                        <a href="https://github.com/nathanspecht" target="_blank"><img src="/static/images/about/icon-git.svg" alt="Github"></a>
+                    </div><br />
                 </div>
               </p>
               <div class="clear spacer--tiny"></div>
