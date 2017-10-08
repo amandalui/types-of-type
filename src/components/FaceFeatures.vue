@@ -6,7 +6,9 @@
       :key="option.name"
       class="dib pointer m1r"
       :class="{ 'white': option === feature.active }">
-      {{ option }}
+      <div @click="changeOption(option)">
+        {{ option }}
+      </div>
     </v-touch>
   </div>
 </template>

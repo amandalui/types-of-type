@@ -79,7 +79,7 @@ _The difference between italics, scripts, and the appropriate way to use the dif
 _Emoticons and abbreviations used online_
 
 - [x] Make a face selections
-- [ ] Enable long click for buttons in the Make a Face section
+- [x] Enable long click for buttons in the Make a Face section
 
 
 ### *2–3 Expressive Type*
