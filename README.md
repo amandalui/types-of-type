@@ -21,7 +21,7 @@ Run `npm install --save` in project directory
 sccs -> src/css
 
 ## Todos
-- [ ] Load typefaces before showing page content
+- [x] Load typefaces before showing page content
 - [x] Navigation without page refresh
 - [x] Top menu navigation drop down (with the includes/menu)
 - [x] Amanda to create About/Credits page
@@ -56,9 +56,9 @@ Last section slideshows (grid with 6 images pa, so, hwa, pal, son, won)
 _Charting out the different pieces that make up letters_
 
 - [x] on mobile, make first two images larger and scroll horizontally (Amanda will try first)
-- [ ] Hide horizontal scrollbar
-- [ ] enable horizontal scroll with mouse wheel / verticall scroll
-- [ ] Some other type of interaction?
+- [x] Hide horizontal scrollbar
+- [x] enable horizontal scroll with mouse wheel / vertical scroll
+- [ ] Some other type of interaction? (Hyperlink to parts?)
 
 
 ### *1–4 Type Categories*

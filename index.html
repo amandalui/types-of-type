@@ -15,7 +15,7 @@
   <!--  Essential META Tags -->
   <meta property="og:title" content="Types of Type">
   <meta property="og:description" content="A Guide to Typography with Character.">
-  <meta property="og:image" content="./assets/web-preview.png">
+  <meta property="og:image" content="/static/web-preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:type" content="image/png" />
@@ -24,25 +24,51 @@
   <!--  Non-Essential, But Recommended -->
   <meta property="og:site_name" content="Types of Type">
   <meta name="twitter:image:alt" content="Types of Type | A Guide to Typography with Character">
-  <!--[if IE]><link rel="shortcut icon" href="./assets/typesoftype-favicon.ico"><![endif]-->
-  <link rel="icon" href="./assets/favicon.png?">
+  <!--[if IE]><link rel="shortcut icon" href="/static/favicon.ico"><![endif]-->
+  <link rel="icon" href="/static/favicon.png">
   <!--Google Android-->
-  <link rel="icon" sizes="128x128" href="./assets/android-icon.png">
-  <link rel="icon" sizes="192x192" href="./assets/android-icon-hd.png">
+  <link rel="icon" sizes="128x128" href="/static/android-icon.png">
+  <link rel="icon" sizes="192x192" href="/static/android-icon-hd.png">
   <!--Apple iOS-->
-  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="./assets/apple-touch-icon-ipad.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon-iphone-retina.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="./assets/apple-touch-icon-ipad-retina.png">
+  <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/static/assets/apple-touch-icon-ipad-retina.png">
   <link href="https://fonts.googleapis.com/css?family=Bitter|Work+Sans:300,400,600,700" rel="stylesheet">
   <script src="https://use.typekit.net/mdt5gam.js"></script>
+  <style>
+    .hidden {
+      /* transistion */ 
+      transition: opacity, 0.5s;
+    }
+
+    .hidden.active {
+      opacity: 0;
+    }
+    
+    .hidden.inactive {
+      opacity: 1;
+    }
+  
+  </style>
   <script>
-    try { Typekit.load({ async: true }); } catch (e) { }
+    try {
+      Typekit.load({ async: true,
+        active() {
+          document.querySelector('body').classList = "hidden inactive"
+        },
+        inactive() {
+          document.querySelector('body').classList = "hidden inactive"
+        }
+      })
+    } catch (e) {
+
+    }
   </script>
-  <link rel="stylesheet" href="/static/css/style.css" ></link>
+  <link rel="stylesheet" href="/static/css/style.css"></link>
 </head>
 
-<body>
+<body class="hidden active">
   <div id="app"></div>
 </body>
 

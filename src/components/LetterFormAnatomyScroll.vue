@@ -1,47 +1,84 @@
 <template>
     <div class="content--first lightpink clear show-small">
-        <div class="hscroll-container">
-          <div style="flex: 0 0 auto;">
+      <div class="horizontal-scroll-container">
+        <div class="horizontal-scroll-wrapper">
+          <div>
             <img class="spacer--medium" src="/static/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
           </div>
         </div>
-        <div class="hscroll-container">
-          <div style="flex: 0 0 auto;">
+      </div>
+      <div class="horizontal-scroll-container">
+        <div class="horizontal-scroll-wrapper">
+          <div>
             <img class="spacer--medium" src="/static/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
           </div>
         </div>
+      </div>
     </div>
 </template>
 
-<style scope>
-  .hscroll-container {
-  width: 64%;
-  margin: 0 auto;
+<style scoped>
+  .horizontal-scroll-container {
+    width: 64%;
+    margin: 0 auto;
   }
   
-  .hscroll-container img {
+  .horizontal-scroll-container img {
     width: 100%;
   }
 
   @media (max-width: 768px) {
-  .show-small {
+    .horizontal-scroll-container {
+      width: 100%;
+      height: 400px;
+      overflow: hidden;
+    }
 
+    .horizontal-scroll-container ::-webkit-scrollbar { 
+      display: none; 
+    }
+
+    .horizontal-scroll-wrapper {
+      height: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      transform: rotate(-90deg);
+      transform-origin: right top;
+
+      width: 1500px;
+      transform:rotate(-90deg) translateY(-1500px);
+      padding: 1500px 0 0 0;
+    }
+
+    .horizontal-scroll-wrapper > div {
+      width: 1500px;
+      height: calc(1500px - 400px);
+      transform: rotate(90deg);
+      transform-origin: right top;
+    }
+
+  }
+
+  /*
+
+  @media (max-width: 768px) {
+      
+    .hscroll-container {
+      width: 100%; display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
     }
     
-  .hscroll-container {
-  width: 100%; display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+    .hscroll-container img {
+      width: 300%;
+      padding: 0 0 50px 10%;
+      text-align: left;
+    }
   }
-  
-  .hscroll-container img {
-  width: 300%;
-  padding: 0 0 50px 10%;
-  text-align: left;
-  }
-}
+  */
 </style>
 
 <script>
