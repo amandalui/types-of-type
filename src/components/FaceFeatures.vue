@@ -3,6 +3,7 @@
     <v-touch
       @tap="changeOption(option)"
       v-for="option in feature.options"
+      :key="option.name"
       class="dib pointer m1r"
       :class="{ 'white': option === feature.active }">
       {{ option }}

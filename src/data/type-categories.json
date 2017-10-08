@@ -1,0 +1,137 @@
+{
+  "categories": [
+    {
+      "id": "01-old-style",
+      "name": "Old Style",
+      "korean": {
+        "subCategory": {
+          "english": "Serif / Myeongjo",
+          "korean": "(명조체)"
+        },
+        "typeface": "Apple Myeongjo",
+        "description":
+          "The letters in this category have strokes that are based off of traditional calligraphy."
+      },
+      "english": {
+        "subCategory": "Serif / Humanist / Old Style",
+        "typeface": "Garamond",
+        "description":
+          "The letters in this category have thicker strokes and are based off of traditional calligraphy."
+      }
+    },
+    {
+      "id": "02-transitional",
+      "name": "Transitional",
+      "korean": {
+        "subCategory": {
+          "english": "Serif / Myeongjo",
+          "korean": "(명조체)"
+        },
+        "typeface": "Nanum Myeongjo",
+        "description":
+          "The strokes are thinner and the serifs are more refined. Overall there is less direct influence from the calligraphic brush strokes."
+      },
+      "english": {
+        "subCategory": "Serif / Transitional",
+        "typeface": "Baskerville",
+        "description":
+          "The contrast between thick and thin strokes is heightened and the serifs are more refined because of advances in printing technology."
+      }
+    },
+    {
+      "id": "03-modern",
+      "name": "Modern / Didone",
+      "korean": {
+        "subCategory": {
+          "english": "Serif / Myeongjo",
+          "korean": "(명조체)"
+        },
+        "typeface": "Bigyo",
+        "description":
+          "Heightened contrast between thick and thin strokes are a required feature, however the contrast does not have to be an extreme amount."
+      },
+      "english": {
+        "subCategory": "Serif / Modern / Didone",
+        "typeface": "Lust Didone",
+        "description":
+          "Extreme contrast between the thick and thin strokes become possible due to more advances in technology, usually featured with thin lined serifs."
+      }
+    },
+    {
+      "id": "04-slab",
+      "name": "Slab Serif",
+      "korean": {
+        "subCategory": {
+          "english": "Slab Serif / Myeongjo",
+          "korean": "(명조체)"
+        },
+        "typeface": "Seoul Hangang",
+        "description":
+          "The serifs are more square-like. There is little to no contrast between the thicks and thins of the strokes."
+      },
+      "english": {
+        "subCategory": "Slab Serif / Egyptian",
+        "typeface": "Adelle",
+        "description":
+          "The serifs are more square-like. There is little to no contrast between the thicks and thins of the strokes."
+      }
+    },
+    {
+      "id": "05-humanist",
+      "name": "Humanist",
+      "korean": {
+        "subCategory": {
+          "english": "Sans-Serif / Gothic",
+          "korean": "(고딕체)"
+        },
+        "typeface": "Nanum Gothic",
+        "description":
+          "The stroke shape and contrast is influenced by the original brush strokes from the written letters. There are no serifs."
+      },
+      "english": {
+        "subCategory": "Sans-Serif / Humanist",
+        "typeface": "Calluna Sans",
+        "description":
+          "The stroke shape and contrast is influenced by calligraphy and it’s serifed predecessors. However, there are no serifs."
+      }
+    },
+    {
+      "id": "06-geometric",
+      "name": "Geometric",
+      "korean": {
+        "subCategory": {
+          "english": "Sans-Serif / Gothic",
+          "korean": "(고딕체)"
+        },
+        "typeface": "Nanum Square",
+        "description":
+          "The strokes have no contrast between the thicks and thins. The shapes of th eletters are highly influenced by perfectly geometric lines and circles."
+      },
+      "english": {
+        "subCategory": "Sans-Serif / Geometric",
+        "typeface": "Futura",
+        "description":
+          "The strokes have little to no contrast between thicks and thins. The shapes of the letters are highly influenced by perfectly geometric lines and circles."
+      }
+    },
+    {
+      "id": "07-grotesque",
+      "name": "Grotesque",
+      "korean": {
+        "subCategory": {
+          "english": "Sans-Serif / Gothic",
+          "korean": "(고딕체)"
+        },
+        "typeface": "Malgun Gothic",
+        "description":
+          "There is no contrast between the thick and thin strokes. The letters are more regulated when contrasted with one another."
+      },
+      "english": {
+        "subCategory": "Sans-Serif / Grotesque",
+        "typeface": "Nimbus Sans",
+        "description":
+          "The stroke's thicks and thins have very slight contrast and the letters are more regulated when contrasted with one another."
+      }
+    }
+  ]
+}

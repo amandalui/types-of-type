@@ -65,7 +65,7 @@ _Charting out the different pieces that make up letters_
 _Describing the differences between the sub categories of serif and sans-serif_
 
 - [x] Amanda to make hover assets
-- [ ] Switch image on hover/tap (images should correlate with what's in static/images/type-categories)
+- [x] Switch image on hover/tap (images should correlate with what's in static/images/type-categories)
 
 
 ### *2-1 Italics, –, –, —, and \~*
