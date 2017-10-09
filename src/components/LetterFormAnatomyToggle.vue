@@ -105,6 +105,7 @@
                               </div>
                           </div>
                   </div>
+                  <div class="spacer--medium"></div>
               </div>
               <div class="column--half">
                   <div class="column--single text--blue">

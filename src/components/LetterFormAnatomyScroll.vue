@@ -1,5 +1,5 @@
 <template>
-    <div class="lightpink clear show-small">
+    <div class="content lightpink clear show-small">
       <div class="horizontal-scroll-container">
         <div class="horizontal-scroll-wrapper">
           <div>
