@@ -1036,6 +1036,9 @@ nav {
   width: 96%;
   margin: 0 auto;
   padding: 20px 2% 0 2%; }
+  @media (max-width: 768px) {
+    nav {
+      padding: 10px 2% 0 2%; } }
 
 nav a:link {
   color: #fff;

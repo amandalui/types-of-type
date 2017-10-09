@@ -23,7 +23,7 @@
         <div class="spacer--tiny"></div>
         <app-menu></app-menu>
 
-        <div class="spacer--medium clear"></div>
+        <div class="spacer--large clear"></div>
     </div>
   </div>
 </template>
