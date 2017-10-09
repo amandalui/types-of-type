@@ -1,16 +1,16 @@
 <template>
-    <div class="content--first lightpink clear show-small">
+    <div class="lightpink clear show-small">
       <div class="horizontal-scroll-container">
         <div class="horizontal-scroll-wrapper">
           <div>
-            <img class="spacer--medium" src="/static/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
+            <img class="spacer--small" src="/static/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
           </div>
         </div>
       </div>
       <div class="horizontal-scroll-container">
         <div class="horizontal-scroll-wrapper">
           <div>
-            <img class="spacer--medium" src="/static/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
+            <img class="spacer--small" src="/static/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
           </div>
         </div>
       </div>

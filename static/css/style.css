@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
-a:hover, .link--end a:hover, .button:hover, .button--refresh:hover, .button--refresh:active, .m1r:active, .m1r:hover, .social-media a:hover img, .menu__item:hover, .side-nav a:hover {
+a:hover, .link--end a:hover, .button:hover, .button--refresh:hover, .button--refresh:active, .button--toggle:hover, .button--toggle:active, .m1r:active, .m1r:hover, .social-media a:hover img, .menu__item:hover, .side-nav a:hover {
   transition: 0.2s linear;
   -moz-transition: 0.2s linear;
   /* FF3.7+ */
@@ -374,6 +374,31 @@ a:active {
     -webkit-transform: rotate(-45deg);
     /* Chrome, Safari, Opera */
     transform: rotate(-45deg); }
+
+.button--toggle {
+  background: #fff;
+  padding: 5px 10px;
+  max-width: 70%;
+  width: 150px;
+  margin: 0 auto;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  /* future proofing */
+  -khtml-border-radius: 50px;
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75);
+  box-shadow: 5px 5px 0px 0px rgba(153, 102, 0, 0.75); }
+  .button--toggle:hover {
+    background: rgba(227, 147, 152, 0.6); }
+  .button--toggle:active {
+    background: rgba(227, 147, 152, 0.6);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75);
+    box-shadow: 0px 0px 0px 0px rgba(153, 102, 0, 0.75); }
+
+.button--toggle-current {
+  background: rgba(227, 147, 152, 0.6); }
 
 /*---Clear------------------------------------*/
 .clear {
