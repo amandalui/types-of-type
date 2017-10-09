@@ -6,6 +6,7 @@
         :options="{ loop: false, animationData }"
         :type-index="typeIndex"
         :lang="lang"
+        :blurring="blurring"
       >
       </expressive-type-animation>
       <img
@@ -28,6 +29,7 @@
     name: 'expressive-type-sub-section',
     props: {
       name: String,
+      blurring: Boolean,
       alt: String,
       lang: String,
       texts: Array,

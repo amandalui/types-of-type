@@ -4,9 +4,10 @@
     <div class="progress-dots-container">
       <div class="cf progress-dots">
         <div
-          v-for="slide in slides"
+          v-for="(index, slide) in slides"
+          @click="goToSlide(index)"
           :class="{ active: slideNum === slide }"
-          class="progress-dot"
+          class="progress-dot pointer"
         >
         </div>
      </div>
@@ -44,6 +45,12 @@
       nextSlide () {
         if (this.playNextTimeout) clearTimeout(this.playNextTimeout)
         this.slideNum = (this.slideNum + 1) % this.slides.length
+        this.autoPlay()
+      },
+      goToSlide (slideNum) {
+        if (this.slideNum === slideNum) return
+        if (this.playNextTimeout) clearTimeout(this.playNextTimeout)
+        this.slideNum = slideNum
         this.autoPlay()
       },
       autoPlay () {

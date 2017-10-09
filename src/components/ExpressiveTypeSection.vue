@@ -11,6 +11,7 @@
         :texts="texts"
         :type-index="typeIndex"
         :bus="bus"
+        :blurring="blurring"
       >
       </expressive-type-sub-section>
       <expressive-type-sub-section
@@ -20,6 +21,7 @@
         :texts="texts"
         :type-index="typeIndex"
         :bus="bus"
+        :blurring="blurring"
       >
       </expressive-type-sub-section>
     </div>
@@ -38,6 +40,7 @@
   export default {
     name: 'expressive-type-section',
     props: {
+      blurring: Boolean,
       name: String,
       en: Object,
       kr: Object,

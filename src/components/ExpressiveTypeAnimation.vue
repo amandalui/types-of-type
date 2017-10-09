@@ -1,6 +1,22 @@
 <template>
-  <div ref="bodymovin"></div>
+  <div :class="{ blurring: isBlurring }" ref="bodymovin"></div>
 </template>
+
+<style scoped>
+  div {
+    transition: 0.3s -webkit-filter linear, 0.3s filter linear;
+  }
+
+  div:not(.blurring) {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+
+  div.blurring {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+</style>
 
 <script>
   import bodymovin from 'bodymovin'
@@ -8,6 +24,7 @@
   export default {
     name: 'expressive-type-animation',
     props: {
+      blurring: Boolean,
       typeIndex: Number,
       lang: String,
       options: {
@@ -34,6 +51,9 @@
     computed: {
       otherLang () {
         return this.lang === 'en' ? 'kr' : 'en'
+      },
+      isBlurring () {
+        return this.isAnimating && this.blurring
       }
     },
     methods: {

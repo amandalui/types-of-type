@@ -28,6 +28,7 @@ sccs -> src/css
 - [x] Amanda to create favicon
 - [x] Amanda to create bookmark icons to show on android / ios
 - [x] Amanda to create page previews for shared links on facebook, etc.
+- [x] Animate route changes
 
 ### *About*
 - [x] Amanda to write better about copy
@@ -46,6 +47,7 @@ First section slideshow (the one that says I am not Korean underneath):
 - [x] Should have a 0.2s fade transition
 - [x] Option to click through
 - [x] Option to click through
+- [x] Option to click dots
 - [ ] Option to swipe through
 
 Last section slideshows (grid with 6 images pa, so, hwa, pal, son, won)
@@ -91,5 +93,5 @@ _Showing how different type styles translate between the two languages_
 - [x] Amanda to export new assets
 - [x] Make refresh button functional
 - [x] Press-in Feedback
-- [ ] Possible to add blur to historical, medieval, and joseon?
+- [x] Add blur to historical, medieval, and joseon?
 - [x] Fix animation exports for historical, medieval, joseon, and others

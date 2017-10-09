@@ -11,6 +11,7 @@
                 :type-index="index"
                 :texts="animation.texts"
 								:is-last="index === Object.keys(animations).length - 1"
+                :blurring="animation.blurring"
               >
               </expressive-type-section>
               <div class="spacer--small clear"></div>
@@ -84,7 +85,8 @@
           },
           kr: {
             name: 'N/A'
-          }
+          },
+          blurring: true
         }]
       }
     },
