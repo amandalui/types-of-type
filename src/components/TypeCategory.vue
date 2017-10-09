@@ -104,7 +104,7 @@
 }
 .show-hover {
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.6s;
 }
 .show-hover:hover,
 .show-hover:focus {
