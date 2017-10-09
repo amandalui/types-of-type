@@ -3,11 +3,19 @@
   background-image: url('../images/index/index-header-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 10% 0 5% 0;
+  padding: 10% 0 5% 0; 
 
   img {
     width: 28%;
     max-width: 480px;
+  }
+
+  @media #{$small} {
+    img {
+      width: 40%;
+      max-width: 480px;
+      padding: 50px 0 20px 0;
+      }
   }
 
 }

@@ -6,8 +6,8 @@
           <img class="nav__logo" src="/static/images/types-of-type-horizontal.svg">
         </router-link>
       </div>
-      <div class="column--one-third center relative">
-        <img class="pointer" @click="toggleMenu" src="/static/images/nav-button.png">
+      <div class="column--one-third center relative ">
+        <img class="pointer nav--button" @click="toggleMenu" src="/static/images/nav-button.png">
         <transition name="drop">
           <div
             class="dropdown"
@@ -19,8 +19,8 @@
           </div>
         </transition>
       </div>
-      <div class="column--one-third right">
-        <router-link @click.native="closeMenu" to="/about">About / Credits</router-link>
+      <div class="column--one-third right nav--top">
+        <router-link @click.native="closeMenu" to="/about">About</router-link>
       </div>
     </nav>
   </div>

@@ -24,7 +24,7 @@
       >      
     </div>
       <img src="/static/images/hangul-blocks/slide-translation.svg" alt="na noon han gook een ee a neeb nee da">
-    <h3 class="spacer--small caps center text--blue">(I am not Korean)</h3>
+    <p class="spacer--small caps center text--blue h3-responsive">(I am not Korean)</p>
   </div>
 </div>
 </template>
@@ -93,6 +93,12 @@
     -moz-transition: background-color 0.6s linear;    /* FF3.7+ */
     -o-transition: background-color 0.6s linear;      /* Opera 10.5 */
     -webkit-transition: background-color 0.6s linear; /* Saf3.2+, Chrome */
+  }
+  @media(max-width: 768px) {
+  .progress-dot {
+    height: 5px;
+    width: 5px;
+  }
   }
 
   .progress-dot:last-of-type {

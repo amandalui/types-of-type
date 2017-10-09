@@ -44,7 +44,7 @@
   }
 
   @media #{$small} {
-    margin: 50px 0 0 -6%;
+    margin: 44px 0 0 -6%;
   }
 }
 
@@ -59,7 +59,7 @@
   }
 
   @media #{$small} {
-    margin: 65px 0 0 -8.4%;
+    margin: 58px 0 0 -8.4%;
   }
 }
 
@@ -70,5 +70,9 @@
 
 .header-section-desc {
   font-family: $serif;
-  font-size: $medium-type;
+  font-size: 23px;
+    
+  @media #{$small} {
+    font-size: 16px;
+  }
 }

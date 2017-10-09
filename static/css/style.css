@@ -517,8 +517,8 @@ a:active {
   vertical-align: middle; }
 
 .img--140px img {
-  width: 100%;
-  max-width: 140px; }
+  max-width: 80%;
+  width: 140px; }
 
 .img--icon {
   width: 20px;
@@ -633,6 +633,10 @@ h3 {
     h3 {
       font-size: 16px; } }
 
+@media (max-width: 768px) {
+  .nav--top {
+    font-size: 12px; } }
+
 .dash-eg {
   font-size: 50px;
   line-height: 1.2; }
@@ -653,6 +657,16 @@ h3 {
   @media (max-width: 768px) {
     .caps {
       letter-spacing: 0.1em; } }
+
+.h3-responsive {
+  font-size: 20px;
+  font-weight: 600; }
+  @media (max-width: 900px) {
+    .h3-responsive {
+      font-size: 16px; } }
+  @media (max-width: 768px) {
+    .h3-responsive {
+      font-size: 10px; } }
 
 /*---Other------------------------------------*/
 .no-break {
@@ -848,6 +862,11 @@ footer {
   .header-index img {
     width: 28%;
     max-width: 480px; }
+  @media (max-width: 768px) {
+    .header-index img {
+      width: 40%;
+      max-width: 480px;
+      padding: 50px 0 20px 0; } }
 
 .header-wrap {
   width: 80%;
@@ -889,7 +908,7 @@ footer {
       margin: 20px 0 0 -5%; } }
   @media (max-width: 768px) {
     .header-section-title {
-      margin: 50px 0 0 -6%; } }
+      margin: 44px 0 0 -6%; } }
 
 .header-section-title-conno {
   position: absolute;
@@ -901,7 +920,7 @@ footer {
       margin: 37px 0 0 -6.8%; } }
   @media (max-width: 768px) {
     .header-section-title-conno {
-      margin: 65px 0 0 -8.4%; } }
+      margin: 58px 0 0 -8.4%; } }
 
 .header-section-number {
   font-size: 20px;
@@ -911,6 +930,9 @@ footer {
 .header-section-desc {
   font-family: "Bitter", Georgia, serif;
   font-size: 23px; }
+  @media (max-width: 768px) {
+    .header-section-desc {
+      font-size: 16px; } }
 
 .intro-index-wrap {
   width: 100%;
@@ -925,6 +947,9 @@ footer {
 .intro-index p {
   font-size: 40px;
   font-weight: 300; }
+  @media (max-width: 768px) {
+    .intro-index p {
+      font-size: 25px; } }
 
 .menu {
   color: #fff;

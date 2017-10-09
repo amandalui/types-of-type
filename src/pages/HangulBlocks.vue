@@ -66,11 +66,11 @@
       <div class="column--single text--blue">
           <div class="column--single">
               <h2 class="center caps">Character Blocks</h2>
-              <div class="serif center--left caption">
-                  <img class="img--middle img--icon" src="/static/images/tap-icon.svg" alt="TAP"> Tap each character block to see how they come together
+              <div class="serif center caption">
+                  <img class="img--middle img--icon" src="/static/images/tap-icon.svg" alt="TAP"> Tap each character block
               </div>
               <div class="clear spacer--small"></div>
-              <div class="serif center--left caption clear">
+              <div class="serif center caption clear">
                   <div class="column--one-third">
                       <img class="img--middle" src="/static/images/hangul-blocks/key--consonant-first.png" alt="First Consonant"> First Consonant <span class="kr-serif">(초성)</span> 
                   </div>

@@ -12,4 +12,8 @@
 
 .intro-index p {
   @include text(40px, $weight: 300);
+    
+  @media #{$small} {
+   font-size: 25px;
+  }
 }
