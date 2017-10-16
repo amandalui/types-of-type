@@ -1,5 +1,5 @@
 <template>
-    <div class="content lightpink show-small ">
+    <div class="content show-small ">
       <transition name="fade">
         <div
           v-if="currentTab === tabs.korean || currentTab === tabs.all"
@@ -9,6 +9,10 @@
             <div>
               <img src="/static/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
             </div>
+            <div 
+              v-if="currentTab === tabs.korean"
+              class="spacer--small"
+            ></div>
           </div>
         </div>
       </transition>
@@ -21,6 +25,7 @@
             <div>
               <img src="/static/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
             </div>
+            <div class="spacer--small"></div>
           </div>
         </div>
       </transition>
@@ -41,7 +46,7 @@
   }
 
   .horizontal-scroll-container {
-    width: 64%;
+    width: 50%;
     margin: 0 auto;
   }
   

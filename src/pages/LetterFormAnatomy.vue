@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <div class="content--first lightpink clear">
+    <div class="content--first mediumpink">
         <div class="column--single spacer--medium">
             <div class="hide-small column--one-fourth">&nbsp;</div>
             <div class="column--half center text--blue">            
@@ -57,15 +57,18 @@
             </div>
             <div class="hide-small column--one-fourth">&nbsp;</div>
         </div>
-      <div class="sticky lightpink" v-sticky="{ zIndex: 1, stickyTop: 0 }">
+      <div class="sticky mediumpink" v-sticky="{ zIndex: 1, stickyTop: 0 }">
         <letter-form-scroll :current-tab="currentTab" :tabs="tabs"></letter-form-scroll>  
       </div>
-      <letter-form-toggle :current-tab="currentTab" :tabs="tabs"></letter-form-toggle>          
-      <div class="clear"></div>
-      <div class="spacer--medium center">
+      <div class="content lightpink">
+        <div class="spacer--medium"></div>
+        <letter-form-toggle :current-tab="currentTab" :tabs="tabs"></letter-form-toggle>          
+        <div class="clear"></div>
+        <div class="spacer--medium center">
           <router-link class="button caps" to="/type-categories">Next Chapter</router-link>
-      </div>  
-      <div class="spacer--small"></div>
+        </div>  
+        <div class="spacer--small"></div>
+      </div>
     </div>
   </div>
 </template>   
