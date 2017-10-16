@@ -26,26 +26,41 @@
         </div>
     </div>
 
-    <div class="content--first lightpink">
-      <div class="column--single spacer--medium">
-          <div class="column--one-fourth">&nbsp;</div>
-          <div class="column--half center text--blue">            
-              <div class="center caption caps column--one-third-static">
-                  <div class="pointer button--toggle">Korean</div>
-              </div>
-              <div class="center caption caps column--one-third-static">
-                  <div class="pointer button--toggle button--toggle-current">All</div>
-              </div>
-              <div class="center caption caps column--one-third-static">
-                  <div class="pointer button--toggle">English</div>
-              </div>
-          </div>
-          <div class="column--one-fourth">&nbsp;</div>
+    <div class="content--first lightpink clear">
+        <div class="column--single spacer--medium">
+            <div class="hide-small column--one-fourth">&nbsp;</div>
+            <div class="column--half center text--blue">            
+                <div class="center caption caps column--one-third-static">
+                  <div
+                     @click="() => setTab(tabs.korean)"
+                    :class="{ pointer: true, 'button--toggle': true, 'button--toggle-current': currentTab === tabs.korean }"
+                  >
+                    Korean
+                  </div>
+                </div>
+                <div class="center caption caps column--one-third-static">
+                    <div
+                      @click="() => setTab(tabs.all)"
+                      :class="{ pointer: true, 'button--toggle': true, 'button--toggle-current': currentTab === tabs.all }"
+                    >
+                      Both
+                    </div>
+                </div>
+                <div class="center caption caps column--one-third-static">
+                    <div
+                      @click="() => setTab(tabs.english)"
+                      :class="{ pointer: true, 'button--toggle': true, 'button--toggle-current': currentTab === tabs.english }"
+                    >
+                      English
+                    </div>
+                </div>
+            </div>
+            <div class="hide-small column--one-fourth">&nbsp;</div>
+        </div>
+      <div class="sticky lightpink" v-sticky="{ zIndex: 1, stickyTop: 0 }">
+        <letter-form-scroll :current-tab="currentTab" :tabs="tabs"></letter-form-scroll>  
       </div>
-      <div v-sticky="{ zIndex: 1, stickyTop: 45 }">
-        <letter-form-scroll></letter-form-scroll>  
-      </div>
-      <letter-form-toggle></letter-form-toggle>          
+      <letter-form-toggle :current-tab="currentTab" :tabs="tabs"></letter-form-toggle>          
       <div class="clear"></div>
       <div class="spacer--medium center">
           <router-link class="button caps" to="/type-categories">Next Chapter</router-link>
@@ -55,13 +70,43 @@
   </div>
 </template>   
 
+<style scoped>
+  .sticky {
+    padding-top: 35px;
+  }
+
+  @media (max-width: 768px) {
+    .hide-small {
+      display: none;
+    }
+  }
+
+</style>
+
 <script>
 import VueSticky from 'vue-sticky'
 import LetterFormToggle from '@/components/LetterFormAnatomyToggle'
 import LetterFormScroll from '@/components/LetterFormAnatomyScroll'
 
+const tabs = {
+  all: 'ALL',
+  english: 'ENGLISH',
+  korean: 'KOREAN',
+}
+
 export default {
   name: 'letter-form-anatomy',
+  data () {
+    return {
+      tabs,
+      currentTab: tabs.all,
+    }
+  },
+  methods: {
+    setTab (tab) {
+      this.currentTab = tab
+    }
+  },
   components: {
     LetterFormToggle,
     LetterFormScroll
