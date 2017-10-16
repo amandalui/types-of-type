@@ -63,75 +63,59 @@
       <div class="column--single img--100 spacer--large text--blue">
           <div class="spacer--small"></div>
           <div data-style="display: flex;" class="column--single dashes--flex">
-              <div class="column--half lightpink spacer--small dashes--flex-item">
+              <div @mouseover="activate('hyphen')" @mouseout="disable('hyphen')" class="column--half lightpink spacer--small dashes--flex-item">
                   <h3 class="caps center">Hyphen</h3>
                   <div class="serif center">
                       Connect Two Words<br />
                   </div>
-                  <!--Show on Page Load-->
-                  <div>
+                  <div v-show="active.hyphen">
                     <img class="spacer--small" src="/static/images/italics-dashes/hyphen.svg" alt="Hyphen">
                     <p class="column--single caption serif">Hyphens are not needed in Korean—even when splitting words from the end of a line to the beginning of the next.</p><br />
                   </div>
-                  <!--End Show on Page Load-->
-                  <!--Show on Hover-->
-                  <!--<div class="column--single spacer--small dash-eg black">
-                    Look at that good-looking, light-headed, T-rex!
-                  </div>-->
-                  <!--End Show on Hover-->
+                  <div v-show="!active.hyphen" class="column--single spacer--small dash-eg black">
+                    Look at that good<span class="emphasis">-</span>looking, light<span class="emphasis">-</span>headed, T<span class="emphasis">-</span>rex!
+                  </div>
                   <div class="spacer--tiny"></div>
               </div>
-              <div class="column--half light spacer--small dashes--flex-item">
+              <div @mouseover="activate('endash')" @mouseout="disable('endash')" class="column--half light spacer--small dashes--flex-item">
                   <h3 class="caps center">En Dash</h3>
                   <div class="serif center">
                       Connect Ranges
                   </div>
-                  <!--Show on Page Load-->
-                  <div>
+                  <div v-show="active.endash">
                     <img class="spacer--small" src="/static/images/italics-dashes/endash.svg" alt="En Dash">
                     <p class="column--single caption serif">En dashes are used in the same way in both languages, replacing the words ‘to’ and ‘from’ when writing values.</p><br />
                   </div>
-                  <!--End Show on Page Load-->
-                  <!--Show on Hover-->
-                  <!--<div class="column--single spacer--small">
-                    <h2>In class from 9AM–6PM please read pages 27–56 of the textbook this Monday–Wednesday.</h2>
-                  </div>-->
-                  <!--End Show on Hover-->
+                  <div v-show="!active.endash" class="column--single spacer--small">
+                    <h2>In class from 9AM<span class="emphasis">–</span>6PM please read pages 27<span class="emphasis">–</span>56 of the textbook this Monday<span class="emphasis">–</span>Wednesday.</h2>
+                  </div>
                   <div class="spacer--tiny"></div>
               </div>
-              <div class="column--half light spacer--small">
+              <div @mouseover="activate('emdash')" @mouseout="disable('emdash')" class="column--half light spacer--small">
                   <h3 class="caps center">Em Dash</h3>
                   <div class="serif center">
                       Connect Phrases
                   </div>
-                  <!--Show on Page Load-->
-                  <div>
+                  <div v-show="active.emdash">
                     <img class="spacer--small" src="/static/images/italics-dashes/emdash.svg" alt="Em Dash">
                     <p class="column--single caption serif">The em dash emphasizes a break in thought, this usage remains the same between English and Korean. It can be used in place of commas.</p><br />
                   </div>
-                  <!--End Show on Page Load-->
-                  <!--Show on Hover-->
-                  <!--<div class="column--single spacer--small">
-                    <h2>She decided—against her will—that she would not eat the entire cake—no matter how delicious—in one sitting.</h2>
-                  </div>-->
-                  <!--End Show on Hover-->
+                  <div v-show="!active.emdash" class="column--single spacer--small">
+                    <h2>She decided<span class="emphasis">—</span>against her will<span class="emphasis">—</span>that she would not eat the entire cake<span class="emphasis">—</span>no matter how delicious<span class="emphasis">—</span>in one sitting.</h2>
+                  </div>
                   <div class="spacer--tiny"></div>
               </div>
-              <div class="column--half lightpink spacer--small">
+              <div @mouseover="activate('tilde')" @mouseout="disable('tilde')" class="column--half lightpink spacer--small">
                   <h3 class="caps center">Tilde</h3>
                   <div class="serif center">
                       Approximately / Accent / Happy
                   </div>
-                  <!--Show on Page Load-->
-                  <div>
+                  <div v-show="active.tilde">
                     <img class="spacer--small" src="/static/images/italics-dashes/tilde.svg" alt="Tilde">
                     <p class="column--single caption serif">Used as an accent overletters and also as a symbol for ‘approximately.’ In Korean it us ised in informal text to mean you are happy. The more tilde’s, the more happiness.</p><br />
                   </div>
-                  <!--End Show on Page Load-->
-                  <!--Show on Hover-->
-                  <!--<div class="column--single spacer--small dash-eg black">Lets break the piñata in ~10 minutes; Thank you~~
-                  </div>-->
-                  <!--End Show on Hover-->
+                  <div v-show="!active.tilde" class="column--single spacer--small dash-eg black">Lets break the piñata in <span class="emphasis">~</span>10 minutes; Thank you<span class="emphasis">~~</span>
+                  </div>
                   <div class="spacer--tiny"></div>
               </div>
           </div>
@@ -145,12 +129,33 @@
   </div>
     <!-- hangul blocks slidershow -->
 </template>
+
+<style scoped>
+  .emphasis {
+    color: #f4af3e
+  }
+</style>
     
 <script>
 export default {
   name: 'italics-dashes',
   data () {
-    return {}
+    return {
+      active: {
+        hyphen: true,
+        endash: true,
+        emdash: true,
+        tilde: true
+      }
+    }
+  },
+  methods: {
+    activate (key) {
+      this.active[key] = false
+    },
+    disable (key) {
+      this.active[key] = true
+    }
   }
 }
 </script>
