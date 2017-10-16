@@ -212,7 +212,7 @@
                   </div>
               </div>
 <!--END VIEW ALL-->
-<!--BEGIN VIEW KOREAN
+<!--BEGIN VIEW KOREAN-->
               <div class="column--half">
                   <div class="column--single">
                           <div class="spacer--small flex-h-center">
@@ -320,8 +320,8 @@
                           </div>
                   </div>
               </div>
-END VIEW KOREAN-->
-<!--BEGIN VIEW ENGLISH
+<!-- END VIEW KOREAN-->
+<!--BEGIN VIEW ENGLISH -->
               <div class="column--half">
                   <div class="column--single">
                           <div class="spacer--small flex-h-center">
@@ -429,7 +429,7 @@ END VIEW KOREAN-->
                           </div>
                   </div>
               </div>
-END VIEW ENGLISH-->
+<!--END VIEW ENGLISH-->
         </div>
       </div>
 </template>

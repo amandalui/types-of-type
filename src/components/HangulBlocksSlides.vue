@@ -12,9 +12,11 @@
         </div>
      </div>
     </div>
-    <div
+    <v-touch
       class="column--single center img--100 relative transition-opacity"
-      @click="nextSlide()"
+      @tap="nextSlide()"
+      @swipe-right="nextSlide()"
+      @swipe-left="prevSlide()"
     >
       <img
         v-for="slide in slides"
@@ -22,7 +24,7 @@
         :src="`/static/images/hangul-blocks/slide-${slide + 1}.svg`"
         alt="Hangul Blocks"
       >      
-    </div>
+    </v-touch>
       <img src="/static/images/hangul-blocks/slide-translation.svg" alt="na noon han gook een ee a neeb nee da">
     <p class="spacer--small caps center text--blue h3-responsive">(I am not Korean)</p>
   </div>
@@ -45,6 +47,11 @@
       nextSlide () {
         if (this.playNextTimeout) clearTimeout(this.playNextTimeout)
         this.slideNum = (this.slideNum + 1) % this.slides.length
+        this.autoPlay()
+      },
+      prevSlide () {
+        if (this.playNextTimeout) clearTimeout(this.playNextTimeout)
+        this.slideNum = this.slideNum > 0 ? this.slideNum - 1 : this.slides.length - 1
         this.autoPlay()
       },
       goToSlide (slideNum) {

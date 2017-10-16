@@ -42,7 +42,9 @@
           </div>
           <div class="column--one-fourth">&nbsp;</div>
       </div>
-      <letter-form-scroll></letter-form-scroll>  
+      <div v-sticky="{ zIndex: 1, stickyTop: 45 }">
+        <letter-form-scroll></letter-form-scroll>  
+      </div>
       <letter-form-toggle></letter-form-toggle>          
       <div class="clear"></div>
       <div class="spacer--medium center">
@@ -54,6 +56,7 @@
 </template>   
 
 <script>
+import VueSticky from 'vue-sticky'
 import LetterFormToggle from '@/components/LetterFormAnatomyToggle'
 import LetterFormScroll from '@/components/LetterFormAnatomyScroll'
 
@@ -62,6 +65,9 @@ export default {
   components: {
     LetterFormToggle,
     LetterFormScroll
+  },
+  directives: {
+    'sticky': VueSticky,
   }
 }
 </script>

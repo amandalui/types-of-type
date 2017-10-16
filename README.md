@@ -48,7 +48,7 @@ First section slideshow (the one that says I am not Korean underneath):
 - [x] Option to click through
 - [x] Option to click through
 - [x] Option to click dots
-- [ ] Option to swipe through
+- [x] Option to swipe through
 
 Last section slideshows (grid with 6 images pa, so, hwa, pal, son, won)
 - [x] Static images, on click play slideshow once through (no loop)
