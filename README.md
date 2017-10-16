@@ -60,7 +60,7 @@ _Charting out the different pieces that make up letters_
 - [x] on mobile, make first two images larger and scroll horizontally (Amanda will try first)
 - [x] Hide horizontal scrollbar
 - [x] enable horizontal scroll with mouse wheel / vertical scroll
-- [ ] Toggle Korean, All, English functionality
+- [x] Toggle Korean, All, English functionality
 - [ ] Freeze first image after scrolling
 
 

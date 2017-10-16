@@ -2,7 +2,11 @@
       <div class="column--single img--140 text--blue">
       <div class="column--single">
 <!--BEGIN VIEW ALL-->
-              <div class="column--half">
+      <transition name="fade">
+              <div
+                v-if="currentTab === tabs.korean || currentTab === tabs.all"
+                class="column--half"
+              >
                   <div class="column--single">
                           <h3 class="bold caps">Korean Anatomy</h3>
                           <div class="spacer--small flex-h-center">
@@ -107,7 +111,12 @@
                   </div>
                   <div class="spacer--medium"></div>
               </div>
-              <div class="column--half">
+      </transition>
+      <transition name="fade">
+              <div
+                v-if="currentTab === tabs.english || currentTab === tabs.all"
+                class="column--half"
+              >
                   <div class="column--single text--blue">
                           <h3 class="bold caps">English Anatomy</h3>
                           <div class="spacer--small flex-h-center">
@@ -211,6 +220,7 @@
                           </div>
                   </div>
               </div>
+      </transition>
 <!--END VIEW ALL-->
 <!--BEGIN VIEW KOREAN
               <div class="column--half">
@@ -439,8 +449,25 @@ END VIEW ENGLISH-->
   
   export default {
     name: 'LetterFormToggle',
+    props: {
+      tabs: Object,
+      currentTab: String,
+    },
     components: {
       LetterFormScroll
     }
   }
 </script>
+
+<style scoped>
+  .fade-enter-active, .fade-leave-active {
+    max-width: 500px;
+    overflow: hidden;
+    transition: opacity .5s, max-width .5s;
+  }
+
+  .fade-enter, .fade-leave-to {
+    max-width: 0px;
+    opacity: 0;
+  }
+</style>

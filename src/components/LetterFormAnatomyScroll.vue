@@ -1,23 +1,45 @@
 <template>
     <div class="content lightpink clear show-small">
-      <div class="horizontal-scroll-container">
-        <div class="horizontal-scroll-wrapper">
-          <div>
-            <img class="spacer--small" src="/static/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
+      <transition name="fade">
+        <div
+          v-if="currentTab === tabs.korean || currentTab === tabs.all"
+          class="horizontal-scroll-container"
+        >
+          <div class="horizontal-scroll-wrapper">
+            <div>
+              <img class="spacer--small" src="/static/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="horizontal-scroll-container">
-        <div class="horizontal-scroll-wrapper">
-          <div>
-            <img class="spacer--small" src="/static/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
+      </transition>
+      <transition name="fade">
+        <div
+          v-if="currentTab === tabs.english || currentTab === tabs.all"
+          class="horizontal-scroll-container"
+        >
+          <div class="horizontal-scroll-wrapper">
+            <div>
+              <img class="spacer--small" src="/static/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
+            </div>
           </div>
         </div>
-      </div>
+      </transition>
     </div>
 </template>
 
 <style scoped>
+  .fade-enter-active, .fade-leave-active {
+    max-height: 500px;
+    overflow: hidden;
+    transition: opacity .5s, max-height .5s;
+  }
+
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+    max-height: 0px;
+    overflow: hidden;
+  }
+
   .horizontal-scroll-container {
     width: 64%;
     margin: 0 auto;
@@ -83,6 +105,10 @@
 
 <script>
   export default {
-    name: 'LetterFormScroll'
+    name: 'LetterFormScroll',
+    props: {
+      tabs: Object,
+      currentTab: String,
+    }
   }
 </script>
