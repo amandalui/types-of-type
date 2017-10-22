@@ -5,7 +5,7 @@
       <div class="faces-display spacer--small">{{ koreanEye.active }}{{ koreanMouth.active }}{{ koreanEye.active }}</div>
       <face-features @change="change" :feature="koreanMouth"></face-features>
     </div>
-    <div class="column--half-br dib center">
+    <div class="column--half-br dib center en-faces">
       <face-features @change="change" :feature="englishEyes"></face-features>
       <div class="faces-display spacer--small">{{ englishEyes.active }} {{ englishMouth.active }}</div>
       <face-features @change="change" :feature="englishMouth"></face-features>

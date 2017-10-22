@@ -68,6 +68,7 @@
               <p>Korean Typographics Association. KaNaDaRa. 4th ed. Vol 1. Seoul: Korean Typographics Association, 2012.</p>
           </div>
           <div class="clear"></div>
+                <p class="spacer--medium center"><router-link class="button caps" to="">Download Press-Kit</router-link></p>
       </div>
     <div class="spacer--medium clear"></div>
   </div>

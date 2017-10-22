@@ -4,6 +4,10 @@
   color: $light;
 }
 
+.text--lightgray {
+  color: $lightgray;
+}
+
 .text--blue {
   color: $darkblue;
 }
@@ -108,12 +112,12 @@ h3 {
 }
 
 .caption {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .caption--max-width {
-  font-size: 12px;
-  max-width: 300px;
+  font-size: 14px;
+  max-width: 370px;
 }
 
 .caps {

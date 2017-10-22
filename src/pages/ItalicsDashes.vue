@@ -39,7 +39,7 @@
                   <p class="center spacer--small"><img src="/static/images/italics-dashes/en-italic.svg" alt="Italic">
                   <br />
                   <span class="text--lightpink caption caps">Typeface</span><br /><span class="caps bold text--blue">Kepler Italic</span></p>
-                  <p class="serif caption text--lightpink column--single spacer--small">Custom italics within a font family are not usually made in Korean. Possibly due to the roughly 11,000 charcters required to represent each character block combination, Korean italics are often simply skewed versions of the original font.</p>
+                  <p class="serif caption text--lightpink column--single spacer--small">Custom italics within a font family are not usually made in Korean. Possibly due to the roughly 11,000 charcters required to represent each character block combination, Korean italics are often simply skewed versions of the original.</p>
               </div>
               <div class="column--half-br">
                   <h2 class="text--lightpink caps center">Script</h2>

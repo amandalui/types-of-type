@@ -32,6 +32,9 @@ sccs -> src/css
 
 ### *About*
 - [x] Amanda to write better about copy
+- [ ] Amanda to make press-kit materials
+- [ ] Isaiah/Nathan make sure Amanda put the kit in the right file location and help update the link
+
 
 ### *1–1 Origins of Type*
 _Primer on how the english and korean alphabets were created, it's very different_
@@ -62,7 +65,7 @@ _Charting out the different pieces that make up letters_
 - [x] enable horizontal scroll with mouse wheel / vertical scroll
 - [x] Toggle Korean, All, English functionality
 - [x] Freeze first image after scrolling
-- [ ] Add fade-in to toggle list content (it only fades out, the top image is ok just want to do this to the bottom part with the lighter pink background)
+- [ ] Add fade-in to toggle list content (it only fades out, the top image is ok just want to do this to the bottom part with the lighter pink background-)
 
 
 ### *1–4 Type Categories*
