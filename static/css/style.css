@@ -1105,7 +1105,8 @@ nav a:visited {
   position: fixed;
   bottom: 30px;
   left: -90px;
-  z-index: 3; }
+  z-index: 3;
+  font-weight: 600; }
   @media (max-width: 768px) {
     .side-nav-left {
       display: none; } }
@@ -1116,7 +1117,8 @@ nav a:visited {
   position: fixed;
   bottom: 30px;
   right: -90px;
-  z-index: 3; }
+  z-index: 3;
+  font-weight: 600; }
   @media (max-width: 768px) {
     .side-nav-right {
       display: none; } }

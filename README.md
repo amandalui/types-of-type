@@ -32,8 +32,8 @@ sccs -> src/css
 
 ### *About*
 - [x] Amanda to write better about copy
-- [ ] Amanda to make press-kit materials
-- [ ] Jeremiah/Nathan make sure Amanda put the kit in the right file location and help update the link
+- [x] Amanda to make press-kit materials
+- [ ] Jeremiah/Nathan make sure Amanda put the kit in the right file location
 
 
 ### *1–1 Origins of Type*
