@@ -96,6 +96,10 @@ h3 {
   }
 }
 
+.weight--400 {
+  font-weight: 400 !important;
+}
+
 .nav--top {
     @media #{$small} {
       font-size: 12px;

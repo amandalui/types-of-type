@@ -4,6 +4,7 @@
   position: fixed;
   bottom: 30px;
   left: -90px;
+  z-index: 3;
 
   @media #{$small} {
     display: none;
@@ -16,6 +17,7 @@
   position: fixed;
   bottom: 30px;
   right: -90px;
+  z-index: 3;
     
   @media #{$small} {
     display: none;
