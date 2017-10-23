@@ -41,7 +41,6 @@ _Primer on how the english and korean alphabets were created, it's very differen
 
 - [x] Fade in on scroll
 
-
 ### *1–2 Hangul Blocks*
 _Intro on how the Korean written language works_
 
@@ -56,7 +55,6 @@ First section slideshow (the one that says I am not Korean underneath):
 Last section slideshows (grid with 6 images pa, so, hwa, pal, son, won)
 - [x] Static images, on click play slideshow once through (no loop)
 
-
 ### *1–3 Letter-form Anatomy*
 _Charting out the different pieces that make up letters_
 
@@ -65,8 +63,7 @@ _Charting out the different pieces that make up letters_
 - [x] enable horizontal scroll with mouse wheel / vertical scroll
 - [x] Toggle Korean, All, English functionality
 - [x] Freeze first image after scrolling
-- [ ] Add fade-in to toggle list content (it only fades out, the top image is ok just want to do this to the bottom part with the lighter pink background-)
-
+- [x] Add fade-in to toggle list content (it only fades out, the top image is ok just want to do this to the bottom part with the lighter pink background-)
 
 ### *1–4 Type Categories*
 _Describing the differences between the sub categories of serif and sans-serif_
@@ -74,21 +71,18 @@ _Describing the differences between the sub categories of serif and sans-serif_
 - [x] Amanda to make hover assets
 - [x] Switch image on hover/tap (images should correlate with what's in static/images/type-categories)
 
-
 ### *2-1 Italics, –, –, —, and \~*
 _The difference between italics, scripts, and the appropriate way to use the different dashes_
 
 - [x] Second section with the four rectangles: Show examples large on hover/tap (Hypen, en dash, em dash tilde section; *Show on Page Load* and *Show on Hover* sections noted)
 - [x] Amanda to put examples on hidden div
-- [ ] Fix font scaling in hover-areas
-
+- [x] Fix font scaling in hover-areas
 
 ### *2-2 Emoticons & Text*
 _Emoticons and abbreviations used online_
 
 - [x] Make a face selections
 - [x] Enable long click for buttons in the Make a Face section
-
 
 ### *2–3 Expressive Type*
 _Showing how different type styles translate between the two languages_

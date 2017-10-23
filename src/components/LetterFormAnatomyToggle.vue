@@ -459,9 +459,16 @@
 </script>
 
 <style scoped>
-  .fade-enter-active, .fade-leave-active {
+  .fade-leave-active {
     overflow: hidden;
+    opacity: 1;
     transition: opacity 0.4s;
+  }
+
+  .fade-enter-active {
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 2s;
   }
 
   .fade-enter, .fade-leave-to {
