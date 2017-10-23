@@ -30,7 +30,7 @@
         <div class="column--single spacer--medium">
             <div class="hide-small column--one-fourth">&nbsp;</div>
             <div class="column--half center text--blue">            
-                <div class="center caption caps column--one-third-static">
+                <div class="center caption caps column--one-third-static top bold">
                   <div
                      @click="() => setTab(tabs.korean)"
                     :class="{ pointer: true, 'button--toggle': true, 'button--toggle-current': currentTab === tabs.korean }"
@@ -38,7 +38,7 @@
                     Korean
                   </div>
                 </div>
-                <div class="center caption caps column--one-third-static">
+                <div class="center caption caps column--one-third-static top bold">
                     <div
                       @click="() => setTab(tabs.all)"
                       :class="{ pointer: true, 'button--toggle': true, 'button--toggle-current': currentTab === tabs.all }"
@@ -46,7 +46,7 @@
                       Both
                     </div>
                 </div>
-                <div class="center caption caps column--one-third-static">
+                <div class="center caption caps column--one-third-static top bold">
                     <div
                       @click="() => setTab(tabs.english)"
                       :class="{ pointer: true, 'button--toggle': true, 'button--toggle-current': currentTab === tabs.english }"
@@ -76,6 +76,7 @@
 <style scoped>
   .sticky {
     padding-top: 35px;
+    z-index: 1;
   }
 
   @media (max-width: 768px) {

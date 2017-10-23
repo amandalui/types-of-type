@@ -19,7 +19,7 @@
           </div>
         </transition>
       </div>
-      <div class="column--one-third right nav--top">
+      <div class="column--one-third right nav--top bold">
         <router-link @click.native="closeMenu" to="/about">About</router-link>
       </div>
     </nav>

@@ -3,11 +3,11 @@
       <div class="about-container clear">
           <h2 class="center caps">About</h2>
           <h1 class="spacer--small">A guide to typography with character.</h1>
-          <h3 class="serif">Hi there!</h3>
-          <h3 class="serif">It all began when I realized I could combine my love for cultural comparisons and graphic design. This took many forms during my studies and has stayed with me since.</h3>
-          <h3 class="serif">Types of Type compares the typography of two different alphabets. I have definitely learned a lot from putting this guide together, and hope you enjoy it as much as I did.</h3>
-          <h3 class="serif">Amanda Lui</h3>
-          <p class="serif about-link">Let's talk!<br /><a href="mailto:hello@amandalui.com">hello@amandalui.com</a></p>
+          <h3 class="serif weight--400">Hi there!</h3>
+          <h3 class="serif weight--400">It all began when I realized I could combine my love for cultural comparisons and graphic design. This took many forms during my studies and has stayed with me since.</h3>
+          <h3 class="serif weight--400">Types of Type compares the typography of two different alphabets. I have definitely learned a lot from putting this guide together, and hope you enjoy it as much as I did.</h3>
+          <h3 class="serif weight--400">Amanda Lui</h3>
+          <p class="serif about-link weight--400">Let's talk!<br /><a href="mailto:hello@amandalui.com">hello@amandalui.com</a></p>
           <div class="spacer--small"></div>
           <div class="column--half spacer--small">
               <p>
@@ -68,7 +68,7 @@
               <p>Korean Typographics Association. KaNaDaRa. 4th ed. Vol 1. Seoul: Korean Typographics Association, 2012.</p>
           </div>
           <div class="clear"></div>
-                <p class="spacer--medium center"><router-link class="button caps" to="">Download Press-Kit</router-link></p>
+                <p class="spacer--medium center"><a href="/static/types-of-type-press-kit.zip" class="button caps">Download Press-Kit</a></p>
       </div>
     <div class="spacer--medium clear"></div>
   </div>

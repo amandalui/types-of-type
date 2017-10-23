@@ -5,6 +5,7 @@ html, body {
     font-family: $sansserif;
     color: $dark;
     text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     margin: 0px;
     background-color: #eee;
     padding: 0px;
@@ -295,4 +296,12 @@ html, body {
 .flex-h-center {
   display: flex;
   align-items: center;
+}
+
+
+/*---Z-index------------------------------------*/
+
+.top {
+  position: relative;
+  z-index: 3;
 }

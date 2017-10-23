@@ -33,7 +33,7 @@ sccs -> src/css
 ### *About*
 - [x] Amanda to write better about copy
 - [ ] Amanda to make press-kit materials
-- [ ] Isaiah/Nathan make sure Amanda put the kit in the right file location and help update the link
+- [ ] Jeremiah/Nathan make sure Amanda put the kit in the right file location and help update the link
 
 
 ### *1–1 Origins of Type*

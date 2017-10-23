@@ -31,7 +31,7 @@
         </span>
         <p class="column--single serif caption--max-width text--darkgreen left spacer--small">
           {{category.korean.description}}
-        </p>
+        </p><div class="spacer--small-mobile"></div>
       </div>
       <div class="column--half-br-fluid center">
         <h3 class="text--light bold">
