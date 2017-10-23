@@ -63,58 +63,59 @@
       <div class="column--single img--100 spacer--large text--blue">
           <div class="spacer--small"></div>
           <div data-style="display: flex;" class="column--single dashes--flex">
-              <div @mouseover="activate('hyphen')" @mouseout="disable('hyphen')" class="column--half lightpink spacer--small dashes--flex-item">
+              <div @mouseover="activate('hyphen')" @mouseout="disable('hyphen')" class="column--half lightpink spacer--small dashes--flex-item variable-height">
                   <h3 class="caps center">Hyphen</h3>
                   <div class="serif center">
-                      Connect Two Words<br />
+                    Connect Two Words<br />
                   </div>
                   <div v-show="active.hyphen">
                     <img class="spacer--small" src="/static/images/italics-dashes/hyphen.svg" alt="Hyphen">
                     <p class="column--single caption serif">Hyphens are not needed in Korean—even when splitting words from the end of a line to the beginning of the next.</p><br />
                   </div>
-                  <div v-show="!active.hyphen" class="column--single spacer--small dash-eg black">
+                  <div v-show="!active.hyphen" class="column--single spacer--small black text-1">
                     Look at that good<span class="emphasis">-</span>looking, light<span class="emphasis">-</span>headed, T<span class="emphasis">-</span>rex!
                   </div>
                   <div class="spacer--tiny"></div>
               </div>
-              <div @mouseover="activate('endash')" @mouseout="disable('endash')" class="column--half light spacer--small dashes--flex-item">
+              <div @mouseover="activate('endash')" @mouseout="disable('endash')" class="column--half light spacer--small dashes--flex-item variable-height">
                   <h3 class="caps center">En Dash</h3>
                   <div class="serif center">
-                      Connect Ranges
+                    Connect Ranges
                   </div>
                   <div v-show="active.endash">
                     <img class="spacer--small" src="/static/images/italics-dashes/endash.svg" alt="En Dash">
                     <p class="column--single caption serif">En dashes are used in the same way in both languages, replacing the words ‘to’ and ‘from’ when writing values.</p><br />
                   </div>
-                  <div v-show="!active.endash" class="column--single spacer--small">
-                    <h2>In class from 9AM<span class="emphasis">–</span>6PM please read pages 27<span class="emphasis">–</span>56 of the textbook this Monday<span class="emphasis">–</span>Wednesday.</h2>
+                  <div v-show="!active.endash" class="black column--single spacer--small text-2">
+                    In class from 9AM<span class="emphasis">–</span>6PM please read pages 27<span class="emphasis">–</span>56 of the textbook this Monday<span class="emphasis">–</span>Wednesday.
                   </div>
                   <div class="spacer--tiny"></div>
               </div>
-              <div @mouseover="activate('emdash')" @mouseout="disable('emdash')" class="column--half light spacer--small">
+              <div @mouseover="activate('emdash')" @mouseout="disable('emdash')" class="column--half white-or-pink spacer--small variable-height">
                   <h3 class="caps center">Em Dash</h3>
                   <div class="serif center">
-                      Connect Phrases
+                    Connect Phrases
                   </div>
                   <div v-show="active.emdash">
                     <img class="spacer--small" src="/static/images/italics-dashes/emdash.svg" alt="Em Dash">
                     <p class="column--single caption serif">The em dash emphasizes a break in thought, this usage remains the same between English and Korean. It can be used in place of commas.</p><br />
                   </div>
-                  <div v-show="!active.emdash" class="column--single spacer--small">
-                    <h2>She decided<span class="emphasis">—</span>against her will<span class="emphasis">—</span>that she would not eat the entire cake<span class="emphasis">—</span>no matter how delicious<span class="emphasis">—</span>in one sitting.</h2>
+                  <div v-show="!active.emdash" class="black column--single spacer--small text-3">
+                    She decided<span class="emphasis">—</span>against her will<span class="emphasis">—</span>that she would not eat the entire cake<span class="emphasis">—</span>no matter how delicious<span class="emphasis">—</span>in one sitting.
                   </div>
                   <div class="spacer--tiny"></div>
               </div>
-              <div @mouseover="activate('tilde')" @mouseout="disable('tilde')" class="column--half lightpink spacer--small">
+              <div @mouseover="activate('tilde')" @mouseout="disable('tilde')" class="column--half pink-or-white spacer--small variable-height">
                   <h3 class="caps center">Tilde</h3>
                   <div class="serif center">
-                      Approximately / Accent / Happy
+                    Approximately / Accent / Happy
                   </div>
                   <div v-show="active.tilde">
                     <img class="spacer--small" src="/static/images/italics-dashes/tilde.svg" alt="Tilde">
                     <p class="column--single caption serif">Used as an accent overletters and also as a symbol for ‘approximately.’ In Korean it us ised in informal text to mean you are happy. The more tilde’s, the more happiness.</p><br />
                   </div>
-                  <div v-show="!active.tilde" class="column--single spacer--small dash-eg black">Lets break the piñata in <span class="emphasis">~</span>10 minutes; Thank you<span class="emphasis">~~</span>
+                  <div v-show="!active.tilde" class="black column--single spacer--small black text-4">
+                    Lets break the piñata in <span class="emphasis">~</span>10 minutes; Thank you<span class="emphasis">~~</span>
                   </div>
                   <div class="spacer--tiny"></div>
               </div>
@@ -134,6 +135,73 @@
   .emphasis {
     color: #f4af3e
   }
+
+  .white-or-pink {
+    background-color: #fff;
+  }
+  .pink-or-white {
+    background-color: #fcdfeb;
+  }
+
+  @media (max-width: 768px) {
+    .white-or-pink {
+      background-color: #fcdfeb;
+    }
+    .pink-or-white {
+      background-color: #fff;
+    }
+  }
+
+  .variable-height {
+    height: 500px;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 768px) {
+    .text-1 {
+      font-size: calc(33px + 4vw);
+    }
+    .text-2 {
+      font-size: calc(23px + 4vw);
+    }
+    .text-3 {
+      font-size: calc(20px + 4vw);
+    }
+    .text-4 {
+      font-size: calc(35px + 4vw);
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1150px) {
+    .text-1 {
+      font-size: calc(30px + 0.03 * (100vw - 768px));
+    }
+    .text-2 {
+      font-size: calc(25px + 0.03 * (100vw - 768px));
+    }
+    .text-3 {
+      font-size: calc(25px + 0.025 * (100vw - 768px));
+    }
+    .text-4 {
+      font-size: calc(35px + 0.025 * (100vw - 768px));
+    }
+  }
+
+  @media screen and (min-width: 1150px) {
+    .text-1 {
+      font-size: 45px;
+    }
+    .text-2 {
+      font-size: 35px;
+    }
+    .text-3 {
+      font-size: 33px;
+    }
+    .text-4 {
+      font-size: 47px;
+    }
+  }
+
 </style>
     
 <script>
