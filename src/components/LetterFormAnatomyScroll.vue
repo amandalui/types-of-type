@@ -9,10 +9,6 @@
             <div>
               <img src="/static/images/letter-form-anatomy/kr-anatomy.svg" alt="Korean Letter-form Anatomy">
             </div>
-            <div 
-              v-if="currentTab === tabs.korean"
-              class="spacer--small"
-            ></div>
           </div>
         </div>
       </transition>
@@ -25,18 +21,26 @@
             <div>
               <img src="/static/images/letter-form-anatomy/en-anatomy.svg" alt="English Letter-form Anatomy">
             </div>
-            <div class="spacer--small"></div>
           </div>
         </div>
       </transition>
+      <div class="spacer--small"></div>
     </div>
 </template>
 
 <style scoped>
-  .fade-enter-active, .fade-leave-active {
+  .fade-leave-active {
     max-height: 500px;
+    opacity: 1;
     overflow: hidden;
     transition: opacity .5s, max-height .5s;
+  }
+
+  .fade-enter-active {
+    max-height: 500px;
+    opacity: 1;
+    overflow: hidden;
+    transition: opacity 1.5s, max-height .5s;
   }
 
   .fade-enter, .fade-leave-to {
