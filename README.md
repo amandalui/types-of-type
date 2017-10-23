@@ -63,7 +63,7 @@ _Charting out the different pieces that make up letters_
 - [x] enable horizontal scroll with mouse wheel / vertical scroll
 - [x] Toggle Korean, All, English functionality
 - [x] Freeze first image after scrolling
-- [ ] Add fade-in to toggle list content (it only fades out, the top image is ok just want to do this to the bottom part with the lighter pink background-)
+- [x] Add fade-in to toggle list content (it only fades out, the top image is ok just want to do this to the bottom part with the lighter pink background-)
 
 ### *1–4 Type Categories*
 _Describing the differences between the sub categories of serif and sans-serif_
