@@ -7,7 +7,7 @@
                 v-if="currentTab === tabs.all"
                 class="column--single"
               >
-                  <div class="column--half">
+                  <div class="column--half-left">
                         <h3 class="bold caps center">Korean Anatomy</h3>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
@@ -109,7 +109,7 @@
                               </div>
                           </div>
                   </div>
-                  <div class="column--half text--blue">
+                  <div class="column--half-right text--blue">
                         <h3 class="bold caps center">English Anatomy</h3>
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
@@ -218,8 +218,8 @@
                 v-if="currentTab === tabs.korean"
               >
                   <div class="column--single">
-                        <h3 class="bold caps">Korean Anatomy</h3>
-                        <div class="column--half">
+                        <h3 class="bold caps center">Korean Anatomy</h3>
+                        <div class="column--half-left">
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
                                   <img src="/static/images/letter-form-anatomy/01-kr-pillars.svg" alt="Pillars">
@@ -275,7 +275,7 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column--half">
+                        <div class="column--half-right">
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
                                   <img src="/static/images/letter-form-anatomy/07-kr-short-column.svg" alt="Short Column">
@@ -331,8 +331,8 @@
                 v-if="currentTab === tabs.english"
               >
                   <div class="column--single text--blue">
-                        <h3 class="bold caps">English Anatomy</h3>
-                        <div class="column--half">
+                        <h3 class="bold caps center">English Anatomy</h3>
+                        <div class="column--half-left">
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
                                   <img src="/static/images/letter-form-anatomy/01-en-counter.svg" alt="Counter">
@@ -388,7 +388,7 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column--half">
+                        <div class="column--half-right">
                           <div class="spacer--small flex-h-center">
                               <div class="column--one-fourth">
                                   <img src="/static/images/letter-form-anatomy/07-en-stem.svg" alt="Stem">
@@ -459,9 +459,16 @@
 </script>
 
 <style scoped>
-  .fade-enter-active, .fade-leave-active {
+  .fade-leave-active {
     overflow: hidden;
+    opacity: 1;
     transition: opacity 0.4s;
+  }
+
+  .fade-enter-active {
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 2s;
   }
 
   .fade-enter, .fade-leave-to {

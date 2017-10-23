@@ -212,6 +212,26 @@ html, body {
   }
 }
 
+.column--half-right {
+  width: 40%;
+  margin: 0 0 0 10%;
+  float: left;
+    
+  @media #{$small} {
+    width: 100%;
+  }
+}
+
+.column--half-left {
+  width: 40%;
+  margin: 0 10% 0 0;
+  float: left;
+    
+  @media #{$small} {
+    width: 100%;
+  }
+}
+
 .column--one-third {
   width: 33.333%;
   float: left;
