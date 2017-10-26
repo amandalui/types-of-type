@@ -7,7 +7,7 @@
     <div class="intro-index-wrap center light spacer--medium">
       <div class="intro-index">
           <h3 class="caps">A guide to typography with character</h3>
-          <p>Introducing the artform of typography  across two langauges, English and Korean.</p>
+          <p>The art form of typography comparing English and Korean.</p>
       </div>
           <p class="caps caption text--lightgray">(No Korean language knowledge needed)</p>
           <p class="spacer--tiny"></p>

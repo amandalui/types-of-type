@@ -117,6 +117,9 @@ h3 {
 
 .caption {
   font-size: 14px;
+  @media #{$small} {
+    font-size: 12px;
+  }
 }
 
 .caption--max-width {
