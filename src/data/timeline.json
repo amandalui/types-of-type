@@ -37,7 +37,7 @@
       "img": "04-phoenician.svg",
       "alt": "Phoenician",
       "caption":
-        "Phoenicians in Egypt developed an alphabet where characters represented sound rather than objects."
+        "Phoenicians in Egypt developed an alphabet where characters represented sounds rather than objects."
     },
     {
       "color": "lightpink",
@@ -67,7 +67,7 @@
       "img": "07-carolingian.svg",
       "alt": "Carolingian",
       "caption":
-        "The King of Italy, Charlemagne, could not handle disorder and hired a man from York to create orderly, legible, type with upper/lower csae letters; it was called Carolingian script."
+        "The King of Italy, Charlemagne, could not handle disorder and hired a man from York to create orderly, legible type with upper/lower csae letters; it was called Carolingian script."
     },
     {
       "side": "left",
@@ -77,7 +77,7 @@
       "img": "08-hangul.svg",
       "alt": "Hangul",
       "caption":
-        "King Sejong created the original Korean letters and released them in his speech Hunmin Jeong-eum (The Proper Sounds for the Education of the People)."
+        "King Sejong created the original Korean letters used today and released them in his speech Hunmin Jeong-eum (The Proper Sounds for the Education of the People)."
     },
     {
       "side": "right",
@@ -107,7 +107,7 @@
       "img": "11-renaissance.svg",
       "alt": "Renaissance",
       "caption":
-        "The French designed a simplified style of type with less influence from the scribe’s handwriting that its predecessors."
+        "The French designed a simplified style of type with less influence from the scribe’s handwriting than its predecessors."
     },
     {
       "side": "left",
@@ -167,7 +167,7 @@
       "img": "17-post-modernist.svg",
       "alt": "Modernist",
       "caption":
-        "Post-modern type emerged as a reaction against the Modernist movement. The invention of the computer allowed for the creation of the unconventional."
+        "Post-modern type emerged as a reaction against the Modernist movement. The invention of the computer influenced the creation of unconventional letters."
     }
   ]
 }

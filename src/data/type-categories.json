@@ -105,13 +105,13 @@
         },
         "typeface": "Nanum Square",
         "description":
-          "The strokes have no contrast between the thicks and thins. The shapes of th eletters are highly influenced by perfectly geometric lines and circles."
+          "The strokes have no contrast between the thicks and thins. The letter shapes are highly influenced by perfectly geometric lines and circles."
       },
       "english": {
         "subCategory": "Sans-Serif / Geometric",
         "typeface": "Futura",
         "description":
-          "The strokes have little to no contrast between thicks and thins. The shapes of the letters are highly influenced by perfectly geometric lines and circles."
+          "The strokes have little to no contrast between thicks and thins. The letter shapes are highly influenced by perfectly geometric lines and circles."
       }
     },
     {

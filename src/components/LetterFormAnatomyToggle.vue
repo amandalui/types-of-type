@@ -24,7 +24,7 @@
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Beak <span class="kr-sans-bold">(부리)</span></div>
-                                  <div class="serif caption--max-width">The top-most accent mark influenced from the first touch of the brush to the paper.</div>
+                                  <div class="serif caption--max-width">The top-most accent mark influenced from when the brush first touches paper.</div>
                               </div>
                           </div>
                           <div class="spacer--small flex-h-center">
@@ -235,7 +235,7 @@
                               </div>
                               <div class="column--three-fourths">
                                   <div class="bold caps no-break">Beak <span class="kr-sans-bold">(부리)</span></div>
-                                  <div class="serif caption--max-width">The top-most accent mark influenced from the first touch of the brush to the paper.</div>
+                                  <div class="serif caption--max-width">The top-most accent mark influenced from when the brush first touches paper.</div>
                               </div>
                           </div>
                           <div class="spacer--small flex-h-center">
