@@ -5,7 +5,7 @@
           <h1 class="spacer--small">A guide to typography with character.</h1>
           <h3 class="serif weight--400">Hi there!</h3>
           <h3 class="serif weight--400">It all began when I realized I could combine my love for cultural comparisons and graphic design. This has taken many forms during my studies and has stayed with me since.</h3>
-          <h3 class="serif weight--400">By comparing of English and Korean, Types of Type shows that there are many similarities across the two languages through the lense of typography. And, the differences between the two are equally telling. I learned a lot from putting this guide together, and hope you enjoy it.</h3>
+          <h3 class="serif weight--400">By comparing English and Korean, Types of Type shows that there are many similarities across the two languages through the lense of typography. And, the differences between the two are equally telling. I learned a lot from putting this guide together, and hope you enjoy it.</h3>
           <h3 class="serif weight--400">Amanda Lui</h3>
           <p class="serif about-link weight--400">Let's talk!<br /><a href="mailto:hello@amandalui.com">hello@amandalui.com</a></p>
           <div class="spacer--small"></div>

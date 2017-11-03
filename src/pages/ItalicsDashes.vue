@@ -112,7 +112,7 @@
                   </div>
                   <div v-show="active.tilde">
                     <img class="spacer--small" src="/static/images/italics-dashes/tilde.svg" alt="Tilde">
-                    <p class="column--single caption serif">Used as an accent overletters and also as a symbol for ‘approximately.’ In Korean it us ised in informal text to mean you are happy. The more tilde’s, the more happiness.</p><br />
+                    <p class="column--single caption serif">Used as an accent over letters and also as a symbol for ‘approximately.’ In Korean it is used in informal text to mean you are happy. The more tilde’s, the more happiness.</p><br />
                   </div>
                   <div v-show="!active.tilde" class="black column--single spacer--small black text-4">
                     Lets break the piñata in <span class="emphasis">~</span>10 minutes; Thank you<span class="emphasis">~~</span>
