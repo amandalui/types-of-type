@@ -8,7 +8,7 @@
           <div class="header-content">
               <span class="header-section-number">2&ndash;1</span>
               <h1>Italics, -, &ndash;, &mdash;, and &tilde;</h1>
-              <p class="header-section-desc">Italics, scripts, and all of those dahses have uniqe purposes.</p>
+              <p class="header-section-desc">Italics, scripts, and all of those dashes have unique purposes.</p>
           </div>
       </div>
     </div>

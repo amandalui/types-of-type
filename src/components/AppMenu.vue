@@ -36,7 +36,7 @@
       <div class="menu__item">
         <router-link @click.native="select" to="italics-dashes">
           <img src="/static/images/menu/menu--dashes.png"><br />
-          <div class="column--three-fourths menu__title">Italcs, -, &ndash;, &mdash;, and &tilde;</div>
+          <div class="column--three-fourths menu__title">Italics, -, &ndash;, &mdash;, and &tilde;</div>
           <div class="column--one-fourth right">2-1</div>
         </router-link>
       </div>
