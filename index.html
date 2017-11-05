@@ -21,6 +21,8 @@
   <meta property="og:image:type" content="image/png" />
   <meta property="og:url" content="http://typesoftype.com">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@amandalui">
+  <meta name="twitter:creator" content="@amandalui">
   <!--  Non-Essential, But Recommended -->
   <meta property="og:site_name" content="Types of Type">
   <meta name="twitter:image:alt" content="Types of Type | A Guide to Typography with Character">
@@ -40,9 +42,9 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43945915-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-  
+
     gtag('config', 'UA-43945915-2');
   </script>
   <!--Sumo Me Analytics-->
@@ -50,22 +52,22 @@
 
   <style>
     .hidden {
-      /* transistion */ 
+      /* transistion */
       transition: opacity, 0.5s;
     }
 
     .hidden.active {
       opacity: 0;
     }
-    
+
     .hidden.inactive {
       opacity: 1;
     }
-  
   </style>
   <script>
     try {
-      Typekit.load({ async: true,
+      Typekit.load({
+        async: true,
         active() {
           document.querySelector('body').classList = "hidden inactive"
         },
