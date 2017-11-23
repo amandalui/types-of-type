@@ -20,6 +20,9 @@ Run `npm install --save` in project directory
 `npm run scss-build`
 sccs -> src/css
 
+### Build Dist
+`npm run build`
+
 ## Todos
 - [x] Load typefaces before showing page content
 - [x] Navigation without page refresh
