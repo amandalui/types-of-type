@@ -24,7 +24,6 @@
           </div>
         </div>
       </transition>
-      <div class="spacer--small"></div>
     </div>
 </template>
 
@@ -56,6 +55,13 @@
   
   .horizontal-scroll-container img {
     width: 100%;
+  }
+  
+  @media (min-width: 1500px) {
+    .horizontal-scroll-container img {
+    width: 70%;
+    padding: 0 15%;
+    }
   }
 
   @media (max-width: 768px) {
