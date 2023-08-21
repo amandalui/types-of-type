@@ -17,8 +17,8 @@
     position: absolute;
     width: 2px;
     background-color: white;
-    top: 145px;
-    bottom: -30px;
+    top: 175px;
+    bottom: calc(10vh - 50px);
     left: 50%;
     margin-left: -1px;
     
@@ -33,6 +33,7 @@
     position: relative;
     width: 50%;
     box-sizing: border-box;
+    max-width: 600px;
     
     @media #{$small} {
       width: 100%;
@@ -49,7 +50,7 @@
     height: 10px;
     right: -5px;
     background-color: white;
-    top: 25px;
+    top: 47px;
     border-radius: 50%;
     z-index: 1;
     
@@ -72,6 +73,11 @@
 /* Place the container to the left */
 .left-timeline {
     left: 0;
+    margin-top: -10vh;
+
+    @media #{$small} {
+      margin-top: 0;
+    }
 }
 
 /* Place the container to the right */
@@ -83,12 +89,27 @@
     }
 }
 
+.timeline .Hieroglyphs, 
+.timeline .Carolingian,
+.timeline .Metal,
+.timeline .Renaissance, 
+.timeline .Realist, 
+.timeline .Modernist,
+.Post
+ {
+  margin-top: -10vh;
+
+  @media #{$small} {
+    margin-top: 0;
+  }
+}
+
 /* Add arrows to the left container (pointing right) */
 .left-timeline::before {
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 42px;
     width: 0;
     z-index: 1;
     right: 30px;
@@ -100,7 +121,7 @@
       right: 15px;
       border: medium solid $lightpink;
       border-width: 10px 0 10px 10px;
-      border-color: transparent transparent transparent $lightpink;
+      border-color: transparent transparent transparent $mediumyellow;
     }
 }
 
@@ -109,7 +130,7 @@
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 42px;
     width: 0;
     z-index: 1;
     left: 30px;
@@ -121,19 +142,42 @@
       left: 15px;
       border: medium solid $yellow;
       border-width: 10px 10px 10px 0;
-      border-color: transparent $yellow transparent transparent;
+      border-color: transparent $mediumpink transparent transparent;
     }
 }
 
 /* The actual content */
 .content-timeline {
-    padding: 20px 30px;
     position: relative;
-    border-radius: 6px;
+    border-radius: 12px;
     background: $light;
+}
+
+.milestone-content {
+  padding: 30px 40px;
 }
 
     .bottom-br {
         border-bottom: 2px solid $darkblue;
         padding: 0 0 5px 0;
     }
+
+.lightpink .milestone-img {
+  background: $lightpink;
+  border-radius: 12px 12px 0 0;
+  padding: 1em 0;
+
+  @media #{$small} {
+    background: $mediumpink;
+  }
+}
+
+.yellow .milestone-img {
+  background: $yellow;
+  border-radius: 12px 12px 0 0;
+  padding: 1em 0;
+
+  @media #{$small} {
+    background: $mediumyellow;
+  }
+}
