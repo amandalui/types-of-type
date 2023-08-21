@@ -21,10 +21,16 @@
     bottom: calc(10vh - 50px);
     left: 50%;
     margin-left: -1px;
+    border-radius: 5px;
+    animation: opac 2s;
     
     @media #{$small} {
       width: 0px;
     }
+}
+
+@keyframes opac {
+  from{opacity:0} to{opacity:1}
 }
 
 /* Container around content */
@@ -53,12 +59,18 @@
     top: 47px;
     border-radius: 50%;
     z-index: 1;
+    transition: 0s linear;
+    animation: animatezoom 0.5s;
     
     @media #{$small} {
       width: 0px;
       height: 0px;
       right: 0px;
     }
+}
+
+@keyframes animatezoom { 
+  from{transform:scale(0)} to{transform:scale(1)}
 }
     
 /* Fix the circle for containers on the right side */

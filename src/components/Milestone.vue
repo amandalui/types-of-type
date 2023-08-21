@@ -71,11 +71,11 @@
     transition: all 1s ease;
   }
   .slide-fade-enter-right {
-    transform: translateX(10px);
+    transform: translateY(20px);
     opacity: 0;
   }
   .slide-fade-enter-left {
-    transform: translateX(-10px);
+    transform: translateY(20px);
     opacity: 0;
   }
 </style>
