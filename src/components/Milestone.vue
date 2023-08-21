@@ -4,13 +4,16 @@
       :class="className"
     >
       <div :class="`content-timeline ${milestone.color}`">
-        <div class="caps bottom-br">
-          <span class="serif">{{ milestone.year }}</span>
-          <span class="bold">{{ milestone.title }}</span>
+        <div class="milestone-img">
+          <img :src="`/static/images/origins-of-type/${milestone.img}`" :alt="`${milestone.alt}`">
         </div>
-        <br />
-        <img :src="`/static/images/origins-of-type/${milestone.img}`" :alt="`${milestone.alt}`">
-        <p class="caption serif">{{ milestone.caption }}</p>
+        <div class="milestone-content">
+          <div class="caps">
+            <span class="bold bottom-br">{{ milestone.year }}</span>
+            <h3 class="bold">{{ milestone.title }}</h3>
+          </div>
+          <p class="serif">{{ milestone.caption }}</p>
+        </div>
       </div>
     </div>
 </template>
@@ -43,6 +46,7 @@
           'container-timeline',
           `${this.milestone.side}-timeline`,
           `slide-fade-enter${this.isActive() ? '-active' : `-${this.milestone.side}`}`,
+          `${this.milestone.title}`,
         ]
       }
     },

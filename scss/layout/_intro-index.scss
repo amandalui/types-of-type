@@ -1,18 +1,59 @@
-.intro-index-wrap {
-  width: 100%;
-  background: $light;
-}
+.hero--wrap {
+  display: flex;
+  align-items: center;
+  background: $yellow;
 
-.intro-index {
-  width: 80%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.intro-index p {
-  @include text(40px, $weight: 300);
-    
   @media #{$small} {
-   font-size: 25px;
+    flex-wrap: wrap;
+  }
+}
+
+.hero--left {
+  width: 50%;
+  background-image: url('../images/index/bg-header.jpg');
+  background-size: cover;
+
+  @media #{$small} {
+    width: 100%;
+  }
+
+  img {
+    width: 60%;
+    padding: 25% 20% 20% 20%;
+    margin: 20px auto auto auto;
+    height: auto;
+  }
+}
+
+.hero--right {
+  width: 50%;
+  background: $yellow;
+
+  @media #{$small} {
+    width: 100%;
+    padding: 10vh 0;
+  }
+
+  p {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 50px 15px 50px;
+
+    @media #{$medium} {
+      padding: 0 50px 10px 50px;
+    }
+  }
+}
+
+.hero--text {
+  font-size: 2.5em;
+  line-height: 140%;
+
+  @media #{$medium} {
+    font-size: 2em;
+  }
+
+  @media #{$small} {
+    font-size: 2em;
   }
 }

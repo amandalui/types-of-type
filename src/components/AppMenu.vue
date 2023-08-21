@@ -1,61 +1,138 @@
 <template>
-  <div class="menu column--single dark">
-    <div class="column--half-static">
-      <h3 class="caps center">The Basics</h3>
+
+  <div class="menu column--single">
+
+    <div class="menu__section_title">The Basics</div>
+
+    <router-link @click.native="select" to="origins-of-type">
       <div class="menu__item">
-        <router-link @click.native="select" to="origins-of-type">
-          <img src="/static/images/menu/menu--origins-of-type.png"><br />
-          <div class="column--three-fourths menu__title">Origins of Type</div>
-          <div class="column--one-fourth right">1-1</div>
-        </router-link>
+        <div class="menu__left">
+          <div class="menu__icon">
+            <img src="/static/images/menu/ic-origins-of-type.png">
+          </div>
+          <div class="menu__title">
+              Origins of Type
+          </div>
+        </div>
+        <div class="menu__arrow">
+          &rarr;
+        </div>
       </div>
+    </router-link>
+
+    <div class="spacer--small clear"></div>
+
+    <router-link @click.native="select" to="hangul-blocks">
       <div class="menu__item">
-        <router-link @click.native="select" to="hangul-blocks">
-          <img src="/static/images/menu/menu--hangul-blocks.png"><br />
-          <div class="column--three-fourths menu__title">Hangul Blocks</div>
-          <div class="column--one-fourth right">1-2</div>
-        </router-link>
+        <div class="menu__left">
+          <div class="menu__icon">
+            <img src="/static/images/menu/ic-hangul-blocks.png">
+          </div>
+          <div class="menu__title">
+              Hangul Blocks
+          </div>
+        </div>
+        <div class="menu__arrow">
+          &rarr;
+        </div>
       </div>
+    </router-link>
+
+    <div class="spacer--small clear"></div>
+
+    <router-link @click.native="select" to="letter-form-anatomy">
       <div class="menu__item">
-        <router-link @click.native="select" to="letter-form-anatomy">
-          <img src="/static/images/menu/menu--letter-form-anatomy.png"><br />
-          <div class="column--three-fourths menu__title">Letter-form Anatomy</div>
-          <div class="column--one-fourth right">1-3</div>
-        </router-link>
+        <div class="menu__left">
+          <div class="menu__icon">
+            <img src="/static/images/menu/ic-letter-form-anatomy.png">
+          </div>
+          <div class="menu__title">
+              Letter-form Anatomy
+          </div>
+        </div>
+        <div class="menu__arrow">
+          &rarr;
+        </div>
       </div>
+    </router-link>
+
+    <div class="spacer--small clear"></div>
+
+    <router-link @click.native="select" to="type-categories">
       <div class="menu__item">
-        <router-link @click.native="select" to="type-categories">
-          <img src="/static/images/menu/menu--type-categories.png"><br />
-          <div class="column--three-fourths menu__title">Type Categories</div>
-          <div class="column--one-fourth right">1-4</div>
-        </router-link>
+        <div class="menu__left">
+          <div class="menu__icon">
+            <img src="/static/images/menu/ic-type-categories.png">
+          </div>
+          <div class="menu__title">
+              Type Categories
+          </div>
+        </div>
+        <div class="menu__arrow">
+          &rarr;
+        </div>
       </div>
-    </div>
-    <div class="column--half-static">
-      <h3 class="caps center">Connotative</h3>
+    </router-link>
+
+    <div class="spacer--small clear"></div>
+
+    <div class="menu__section_title">Connotative</div>
+
+    <router-link @click.native="select" to="italics-dashes">
       <div class="menu__item">
-        <router-link @click.native="select" to="italics-dashes">
-          <img src="/static/images/menu/menu--dashes.png"><br />
-          <div class="column--three-fourths menu__title">Italics, -, &ndash;, &mdash;, and &tilde;</div>
-          <div class="column--one-fourth right">2-1</div>
-        </router-link>
+        <div class="menu__left">
+          <div class="menu__icon">
+            <img src="/static/images/menu/ic-italics-dashes.png">
+          </div>
+          <div class="menu__title">
+            Italics, -, &ndash;, &mdash;, and &tilde;
+          </div>
+        </div>
+        <div class="menu__arrow">
+          &rarr;
+        </div>
       </div>
+    </router-link>
+
+    <div class="spacer--small clear"></div>
+
+    <router-link @click.native="select" to="emoticons-text">
       <div class="menu__item">
-        <router-link @click.native="select" to="emoticons-text">
-          <img src="/static/images/menu/menu--emoticons-abbreviations.png"><br />
-          <div class="column--three-fourths menu__title">Emoticons &amp; Text</div>
-          <div class="column--one-fourth right">2-2</div>
-        </router-link>
+        <div class="menu__left">
+          <div class="menu__icon">
+            <img src="/static/images/menu/ic-emoticons-text.png">
+          </div>
+          <div class="menu__title">
+            Emoticons &amp; Text
+          </div>
+        </div>
+        <div class="menu__arrow">
+          &rarr;
+        </div>
       </div>
+    </router-link>
+
+    <div class="spacer--small clear"></div>
+
+    <router-link @click.native="select" to="expressive-type">
       <div class="menu__item">
-        <router-link @click.native="select" to="expressive-type">
-          <img src="/static/images/menu/menu--expressive-type.png"><br />
-          <div class="column--three-fourths menu__title">Expressive Type</div>
-          <div class="column--one-fourth right">2-3</div>
-        </router-link>
+        <div class="menu__left">
+          <div class="menu__icon">
+            <img src="/static/images/menu/ic-expressive-type.png">
+          </div>
+          <div class="menu__title">
+            Expressive Type
+          </div>
+        </div>
+        <div class="menu__arrow">
+          &rarr;
+        </div>
       </div>
-    </div>
+    </router-link>
+
+    <div class="spacer--small"></div>
   </div>
+
 </template>
 
 <script>
