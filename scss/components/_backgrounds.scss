@@ -47,8 +47,13 @@
 }
 
 .split-bg {
-  background-image: url('../images/origins-of-type/split-bg.svg');
-  background-size: contain;
+  background: linear-gradient(
+    to right,
+    #fcdfeb 0%,
+    #fcdfeb 50%,
+    #ffce00 50%,
+    #ffce00 100%
+    );
 }
 
 .bg--about {
