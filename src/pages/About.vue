@@ -17,11 +17,7 @@
                     <span class="serif">
                     <div class="headshot"><img src="/static/images/about/amanda-lui.png" alt="Amanda"><br /></div>
                     <div class="about-link"><a href="http://amandalui.com" target="_blank">Amanda Lui</a></div>
-                    <span class="caption">Graphic Designer<br />
-                    <div class="social-media">
-                        <a href="http://instagram.com/amandalui/" target="_blank"><img src="/static/images/about/icon-ig.svg" alt="Instagram"></a>
-                        <a href="http://instagram.com/captain.luivanhong/" target="_blank"><img src="/static/images/about/icon-captain.svg" alt="Instagram"></a>
-                    </div>
+                    <span class="caption">Designer<br />
                     </span>
                   </span>
               </p><br />
@@ -31,7 +27,7 @@
                 </span><br />
                 <div class="serif column--half">
                     <div class="headshot"><img src="/static/images/about/jeremiah-montoya.png" alt="Jeremiah"><br /></div>
-                    <div class="about-link"><a href="https://dreaminginmonospace.com/" target="_blank">Jeremiah Montoya</a></div>
+                    <div class="about-link"><a href="https://github.com/thisjeremiah" target="_blank">Jeremiah Montoya</a></div>
                       <span class="caption">Developer</span><br />
                     <div class="social-media">
                         <a href="https://twitter.com/thisjeremiah" target="_blank"><img src="/static/images/about/icon-twitter.svg" alt="Twitter"></a>
@@ -40,7 +36,7 @@
                 </div>
                 <div class="serif column--half">
                      <div class="headshot"><img src="/static/images/about/nathan-specht.png" alt="Nathan"><br /></div>
-                     <div class="about-link"><a href="http://nathanspecht.com/" target="_blank">Nathan Specht</a></div>
+                     <div class="about-link"><a href="https://github.com/nathanspecht" target="_blank">Nathan Specht</a></div>
                      <span class="caption">Developer</span><br />
                     <div class="social-media">
                         <a href="https://github.com/nathanspecht" target="_blank"><img src="/static/images/about/icon-git.svg" alt="Github"></a>
