@@ -17,8 +17,10 @@
                     <span class="serif">
                     <div class="headshot"><img src="/static/images/about/amanda-lui.png" alt="Amanda"><br /></div>
                     <div class="about-link"><a href="http://amandalui.com" target="_blank">Amanda Lui</a></div>
-                    <span class="caption">Designer<br />
-                    </span>
+                    <span class="caption">Designer</span><br />
+                    <div class="social-media">
+                        <a href="https://github.com/amandalui" target="_blank"><img src="/static/images/about/icon-git.svg" alt="Github"></a>
+                    </div><br />
                   </span>
               </p><br />
               <p>
@@ -47,7 +49,7 @@
               <p class="about-link"><span class="bold">Special Thanks</span><br />
                   <span class="serif"><a href="http://romanjaster.com/" target="_blank">Roman Jaster</a></span><br />
                   <span class="serif"><a href="http://soonsol.com/" target="_blank">Soonsol Hong</a></span><br />
-                  <span class="serif"><a href="https://www.instagram.com/elizabethjayna/" target="_blank">Elizabeth Lui</a></span><br />
+                  <span class="serif"><a href="https://elizabethjayna.com/" target="_blank">Elizabeth Lui</a></span><br />
                   <span class="serif"><a href="http://cargocollective.com/herimshin" target="_blank">Herim Shin</a></span><br />
                   <span class="serif">Andrea Juhie Kim</span>
               </p><br />
