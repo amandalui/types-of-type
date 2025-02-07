@@ -32,7 +32,7 @@
                     <div class="about-link"><a href="https://github.com/thisjeremiah" target="_blank">Jeremiah Montoya</a></div>
                       <span class="caption">Developer</span><br />
                     <div class="social-media">
-                        <a href="https://twitter.com/thisjeremiah" target="_blank"><img src="/static/images/about/icon-twitter.svg" alt="Twitter"></a>
+                        <!-- <a href="https://twitter.com/thisjeremiah" target="_blank"><img src="/static/images/about/icon-twitter.svg" alt="Twitter"></a> -->
                         <a href="https://github.com/thisjeremiah" target="_blank"><img src="/static/images/about/icon-git.svg" alt="Github"></a>
                     </div><br />
                 </div>
