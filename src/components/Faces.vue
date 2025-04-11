@@ -42,11 +42,51 @@
         }
       }
     },
+    mounted () {
+      this.autoplayFeatures(4, 350) // 4 times, 300ms interval
+    },
     methods: {
       change (feature, option) {
+        if (!this.autoplayDone) return // disable manual change until autoplay finishes
         this[feature].active = option
+      },
+      autoplayFeatures (times, interval) {
+        let count = 0
+        const eyeFeatures = ['englishEyes', 'koreanEye']
+        const mouthFeatures = ['englishMouth', 'koreanMouth']
+
+        const loop = setInterval(() => {
+          // Update eyes first
+          eyeFeatures.forEach(f => {
+            const feature = this[f]
+            const currentIndex = feature.options.indexOf(feature.active)
+            const nextIndex = (currentIndex + 1) % feature.options.length
+            feature.active = feature.options[nextIndex]
+          })
+
+          // Then update mouths with a slight delay (e.g., 150ms)
+          setTimeout(() => {
+            mouthFeatures.forEach(f => {
+              const feature = this[f]
+              const currentIndex = feature.options.indexOf(feature.active)
+              const nextIndex = (currentIndex + 1) % feature.options.length
+              feature.active = feature.options[nextIndex]
+            })
+          }, 150)
+
+          count++
+          if (count >= times) {
+            clearInterval(loop)
+            this.autoplayDone = true
+          }
+        }, interval)
       }
     },
+    // methods: {
+    //   change (feature, option) {
+    //     this[feature].active = option
+    //   }
+    // },
     components: {
       FaceFeatures
     }
