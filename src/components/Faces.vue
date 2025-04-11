@@ -43,17 +43,19 @@
       }
     },
     mounted () {
-      this.autoplayFeatures(4, 350) // 4 times, 300ms interval
+      this.autoplayFeatures(2, 300) // 2 times, 300ms interval
     },
     methods: {
       change (feature, option) {
         if (!this.autoplayDone) return // disable manual change until autoplay finishes
         this[feature].active = option
       },
-      autoplayFeatures (times, interval) {
-        let count = 0
+      autoplayFeatures (timesPerFeature = 2, interval = 300) {
         const eyeFeatures = ['englishEyes', 'koreanEye']
         const mouthFeatures = ['englishMouth', 'koreanMouth']
+
+        const totalSteps = this.englishEyes.options.length * timesPerFeature
+        let count = 0
 
         const loop = setInterval(() => {
           // Update eyes first
@@ -75,7 +77,7 @@
           }, 150)
 
           count++
-          if (count >= times) {
+          if (count >= totalSteps) {
             clearInterval(loop)
             this.autoplayDone = true
           }
